@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event</title>
+    <link rel="stylesheet" href = "main.css">
+    <link rel="stylesheet" href = "event.css">
+</head>
+<body>
+
+<div class = "bg"></div>
+<div class = "header">
+    <h1> SUCSA </h1>
+</div>
+
+<div class = "container">
+<div class = "nav">
+    <a href = "main.html">主页</a>
+    <a class = "active" href = "event.html">活动</a>
+    <a href = "joinsucsa.html">加入学联</a>
+    <a href = "join2.html">加入校友会</a>
+    <a href = "cooperation.html">合作方</a>
+    <a href = "about.html">关于学联</a>
+    <a href = "contact.html">联系方式</a>
+</div>
+</div>
+
+<div class = "slide-show">
+    <div class = "slides">
+        <div class = "number">1/3</div>
+        <img src = "images/1.jpeg" style="width:100%">
+        <div class = "text"> caption text</div>
+    </div>
+
+    <div class = "slides">
+        <div class = "number">2/3</div>
+        <img src = "images/2.png" style="width:100%">
+        <div class = "text"> caption text</div>
+    </div>
+
+    <div class = "slides">
+        <div class = "number">3/3</div>
+        <img src = "images/3.png" style="width:100%">
+        <div class = "text"> caption text</div>
+    </div>
+
+<!--    <a class = "prev" onclick = "plusSlides(-1)">&#10094;</a>-->
+<!--    <a class = "next" onclick = "plusSlides(1)">&#10095;</a>-->
+</div>
+<br>
+
+<div style="text-align:center">
+    <span class="dot" ></span>
+    <span class="dot" ></span>
+    <span class="dot" ></span>
+</div>
+
+<script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("slides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); //
+    }
+</script>
+
+
+
+
+<div class = "footer">
+    <p> SUCSA </p>
+    <p> phone number :xxxxxxx</p>
+</div>
+
+</body>
+</html>
