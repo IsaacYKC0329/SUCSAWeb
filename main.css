@@ -1,0 +1,126 @@
+/*body{*/
+/*    background-image: url("IMG_1998.JPG");*/
+/*    background-size: cover;*/
+/*    filter: blur(0px);*/
+/*    background-attachment: fixed;*/
+/*}*/
+
+h1{
+    font-family: Lantinghei SC;
+    font-size: 40pt;
+    color: #1D2088;
+
+}
+.container{
+    display: grid;
+
+}
+
+.bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top:0px;
+    background: url("IMG_1998.JPG") no-repeat;
+    background-size: cover;
+    -webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -o-filter: blur(20px);
+    -ms-filter: blur(20px);
+    filter: blur(20px);
+    opacity: 0.8;
+}
+
+.header{
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+h2{
+    font-family:Source Han Sans CN;
+    font-size: 16pt;
+    font-weight: bold;
+    line-height: 19.2;
+    color: #0070B5;
+}
+
+p{
+    font-family: Source Han Sans CN;
+    font-size: 15pt;
+    font-weight: normal; /* regular */
+    line-height: 12;
+}
+/*<p class="sub-heading">xxxxxx</p>*/
+.sub-heading{
+    font-family: Source Han Sans CN;
+    font-size: 16pt;
+    font-weight: bold;
+    border: 1px solid red;
+}
+
+/*正文*/
+/*<p class = "normal-text">*/
+.normal-text{
+    font-family: Source Han Sans CN;
+    font-size: 9pt;
+    font-weight: bold;
+    line-height: 12;
+    color: black;
+}
+.nav{
+    background-color: #0070B5;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 0px;
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.nav a{
+    color: black;
+    text-align: center;
+    padding: 6px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20pt;
+}
+.nav a:hover{
+    background-color: #1D2088;
+    color: white;
+}
+
+.nav a.active{
+    background-color: #0070B5;
+    color: white;
+}
+
+.footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1D2088;
+    color: white;
+    text-align: center;
+
+}
+.footer p{
+    font-size: 5pt;
+}
+/*.footer img{*/
+/*    float: left;*/
+/*    width: 10%;*/
+/*}*/
+
+
+
