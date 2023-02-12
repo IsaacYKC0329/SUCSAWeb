@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <title>加入学联</title>
     <link rel="stylesheet" href = "main.css">
+    <link rel = "stylesheet" href = "navbar.css">
+    <link rel = "icon" type = "image/x-icon" href = "http://www.sucsa.au/wp-content/uploads/2023/02/IMG_3705.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <div class = "bg"></div>
-<div class = "header">
-    <h1> SUCSA </h1>
-</div>
+
 
 <div class = "container">
-<div class = "nav">
+<div class = "nav" id = "topNav">
+    <img src="http://www.sucsa.au/wp-content/uploads/2023/02/23de165460e481ea4d97b1f0837a383-1.png" alt = "logo">
     <a href = "main.html">主页</a>
     <a href = "event.html">活动</a>
     <a class = "active" href = "joinsucsa.html">加入学联</a>
@@ -20,8 +22,22 @@
     <a href = "cooperation.html">合作方</a>
     <a href = "about.html">关于学联</a>
     <a href = "contact.html">联系方式</a>
+    <a href="javascript:void(0);" class="icon" onclick="navFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
 </div>
 </div>
+
+<script>
+    function navFunction() {
+        var x = document.getElementById("topNav");
+        if (x.className === "nav") {
+            x.className += " responsive";
+        } else {
+            x.className = "nav";
+        }
+    }
+</script>
 
 
 
