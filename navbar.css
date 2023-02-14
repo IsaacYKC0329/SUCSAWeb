@@ -1,5 +1,5 @@
 .nav {
-    overflow: hidden;
+    /*overflow: hidden;*/
     background-color: white;
     position: fixed;
     top: 0;
@@ -13,8 +13,8 @@
 }
 
 .nav img {
-    width: 600px;
-    height: 250px;
+    width: 400px;
+    height: 150px;
     margin-right: 50px;
 }
 
@@ -22,12 +22,12 @@
     /*float: right;*/
     /*display: block;*/
     color: black;
-    text-align: right;
-    padding: 10px 4px;
+    text-align: center;
+    padding: 5px 25px;
     text-decoration: none;
     font-size: 25px;
     font-weight: bold;
-    font-family: Source Han Sans CN, serif;
+    font-family: STFangsong, fangsong;
 }
 
 .nav a:hover {
@@ -38,7 +38,7 @@
 
 .nav a.active {
     background-color: white;
-
+    border-bottom: 2px solid #1D2088;
     color: #1D2088;
 }
 
@@ -46,15 +46,73 @@
     display: none;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 800px) {
     .nav a:not(:first-child) {display: none;}
     .nav a.icon {
         float: right;
         display: block;
     }
+    .nav img {
+        width: 250px;
+        height: 100px;
+    }
 }
 
-@media screen and (max-width: 1200px) {
+.dropbtn {
+    background-color: white;
+    color: Black;
+    padding: 16px;
+
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: STFangsong, fangsong;
+    /*border-bottom: 2px solid #1D2088*/
+}
+
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: white;
+    border-bottom: 2px solid #1D2088
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0070B5;
+    min-width: 160px;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: white;
+    text-align: center;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: STFangsong, fangsong;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    color: #1D2088;
+    border-bottom: 2px solid #1D2088;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+@media screen and (max-width: 800px) {
     .nav.responsive {position: relative;}
     .nav.responsive .icon {
         position: absolute;
@@ -66,5 +124,9 @@
         display: block;
         text-align: left;
     }
+    /*.nav .responsive .img {*/
+    /*    width: 40px;*/
+    /*    height: 40px;*/
+    /*}*/
 }
 

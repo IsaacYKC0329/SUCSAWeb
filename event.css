@@ -11,19 +11,17 @@
 
 }
 
-
-
-
-
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .slides {display: none;}
 img {vertical-align: middle;}
 
 .slide-show {
-    max-width: 1000px;
+    max-width: 600px;
+    max-height: 500px;
     position: relative;
     margin: auto;
+    z-index: -1;
 }
 .text {
     color: #f2f2f2;
