@@ -1,0 +1,58 @@
+:root { 
+  --black: #000000;
+  --jacksons-purple: #1d2088;
+  --white: #ffffff;
+ 
+  --font-size-l: 40px;
+  --font-size-m: 20px;
+ 
+  --font-family-microsoft_yahei-bold: "Microsoft YaHei-Bold", Helvetica;
+  --font-family-microsoft_yahei-regular: "Microsoft YaHei-Regular", Helvetica;
+}
+.microsoftyahei-bold-black-40px {
+  color: var(--black);
+  font-family: var(--font-family-microsoft_yahei-bold);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.microsoftyahei-regular-normal-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-microsoft_yahei-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.microsoftyahei-bold-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-microsoft_yahei-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.microsoftyahei-bold-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-microsoft_yahei-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.microsoftyahei-bold-white-40px {
+  color: var(--white);
+  font-family: var(--font-family-microsoft_yahei-bold);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.microsoftyahei-regular-normal-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-microsoft_yahei-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
