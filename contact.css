@@ -71,7 +71,7 @@
     justify-content: center;
 }
 
-.frame {
+.fframe {
     align-items: center;
     display: flex;
     gap: 20px;
@@ -84,7 +84,7 @@
     margin-top: 20%;
 }
 
-.frame1 {
+.fframe1 {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -96,7 +96,7 @@
     width: 100%;
 }
 
-.frame2 {
+.fframe2 {
     align-items: center;
     display: flex;
     gap: 100px;
@@ -105,7 +105,7 @@
     margin-left: 20%;
 }
 
-.frame3 {
+.fframe3 {
     height: 153px;
     gap: 50px;
     min-width: fit-content;
@@ -121,13 +121,13 @@
     position: relative;
 }
 
-.group {
+.ggroup {
     height: 77px;
     min-width: 287px;
     position: relative;
 }
 
-.group1 {
+.ggroup1 {
     height: 260px;
     min-width: 1195px;
     position: relative;
