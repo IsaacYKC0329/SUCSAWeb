@@ -27,6 +27,20 @@
     font-weight: 400;
 }
 
+.microsoftyahei-bold-blue-20px {
+    color: #1D2088;
+    font-family: var(--font-family-microsoft_yahei-regular);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 body {
     font-size: 20pt;
@@ -81,8 +95,68 @@ button {
 }
 
 
-.container{
+.container {
     display: grid;
+}
+
+.frame {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-left: -2.00px;
+    margin-right: -2.00px;
+    padding: 0px 360px;
+    position: relative;
+    width: 1924px;
+}
+
+.group {
+    height: 77px;
+    min-width: 287px;
+    position: relative;
+}
+
+.clicked-group {
+    align-items: flex-start;
+    background-color: var(--white);
+    border: 3px solid;
+    border-color: #1D2088;
+    border-radius: 38.5px;
+    display: flex;
+    height: 77px;
+    min-width: 285px;
+    padding: 12px 0;
+}
+
+.unclicked-group {
+    align-items: flex-start;
+    background-color: #1D2088;
+    border: 3px solid;
+    border-color: var(--white);
+    border-radius: 38.5px;
+    display: flex;
+    height: 77px;
+    min-width: 285px;
+    padding: 12px 0;
+}
+
+.unclicked-text {
+    color: var(--white);
+    font-weight: 700;
+    height: 48px;
+    line-height: normal;
+    margin-left: +3px;
+    width: 285px;
+}
+
+.clicked-text {
+    color: #1D2088;
+    font-weight: 700;
+    height: 48px;
+    line-height: normal;
+    margin-left: +3px;
+    width: 285px;
 }
 
 /*.bg{*/
