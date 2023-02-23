@@ -1,75 +1,210 @@
-.footer{
-    background: #0070B5;
-    padding:10px 0px;
-    font-family: 'Play', sans-serif;
-    text-align:center;
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/63ec999b4cbf29a442bc4dcf.63ec999d5da3fb649b3db873.Z8nxF1Y.hcp.png");
 
+@font-face {
+    font-family: "Microsoft YaHei-Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/msyhbd.ttf") format("truetype");
 }
-.footer img{
-    width: 100px;
-    height: 100px;
-    margin-left: 60px;
-    float: left;
-}
-
-.footer-left{
-
-    vertical-align: top;
-    width: 60%;
+@font-face {
+    font-family: "Microsoft YaHei-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/msyh.ttf") format("truetype");
 }
 
 
+* {
+    box-sizing: border-box;
+}
 
-.footer .row{
-    width:100%;
-    margin:2% 0%;
-    padding:0.5% 0%;
+
+
+.footer {
+    background-color: #1d2088;
+    height: 527px;
+    position: fixed;
+    width: 100%;
+}
+
+.structure {
+    align-items: flex-start;
+    display: flex;
+    gap: 260px;
+    left: 153px;
+    position: absolute;
+    top: 96px;
+    width: fit-content;
+}
+
+.left {
+    height: 249px;
+    min-width: 842px;
+    position: relative;
+}
+
+.left-text {
+    height: 249px;
+    left: 290px;
+    position: absolute;
+    top: 0;
+    width: 550px;
+}
+
+.sucsa-info {
+    left: 0;
+    letter-spacing: 0;
+    line-height: 35.4px;
+    position: absolute;
+    top: 0;
+    width: 550px;
+}
+
+.join-btn {
+    align-items: center;
+    border: 3px solid;
+    border-color: var(--white);
+    border-radius: 32px;
+    display: flex;
+    gap: 10px;
+    left: 0;
+    padding: 14px 29px;
+    position: absolute;
+    top: 195px;
+    width: 182px;
     color: white;
-    font-size:0.8em;
 }
 
-.footer .row a{
-    text-decoration:none;
-    color:white;
-    transition:0.5s;
+/*.join-btn:hover {*/
+/*    background-color: white;*/
+/*    font-color: #1d2088;*/
+
+/*}*/
+.join-btn:hover{
+    background-color: white;
+    /*color: #1d2088;*/
 }
 
-.footer .row a:hover{
-    color: gray;
+
+.btn-text {
+    flex: 1;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -3.00px;
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
-.footer .row ul{
-    width:100%;
+
+
+
+.logo {
+    height: 244px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 244px;
 }
 
-.footer .row ul li{
-    display:inline-block;
-    margin:0px 30px;
+.right {
+    height: 234px;
+    margin-right: -2.00px;
+    min-width: 500.11px;
+    position: relative;
 }
 
-.footer .row a i{
-    font-size:2em;
-    margin:0% 1%;
+.right-text {
+    height: 234px;
+    position: relative;
+    width: 498px;
 }
 
-@media (max-width:1100px){
-    .footer{
-        text-align:left;
-        padding:5%;
+.contact {
+    left: 0;
+    letter-spacing: 0;
+    line-height: 49.0px;
+    position: absolute;
+    top: 0;
+    width: 400px;
+}
+
+.icons {
+    align-items: flex-start;
+    display: flex;
+    gap: 24px;
+    height: 65px;
+    left: 0;
+    min-width: 498px;
+    padding: 0 0.0px;
+    position: relative;
+    top: 169px;
+}
+
+.icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
+    height: 65px;
+    object-fit: cover;
+    width: 63px;
+}
+
+.copyright {
+    left: 620px;
+    letter-spacing: 0;
+    line-height: 35.4px;
+    position: absolute;
+    top: 419px;
+    white-space: nowrap;
+}
+
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+
+    --font-size-m: 20px;
+
+    --font-family-microsoft_yahei-bold: "Microsoft YaHei-Bold", Helvetica;
+    --font-family-microsoft_yahei-regular: "Microsoft YaHei-Regular", Helvetica;
+}
+.microsoftyahei-bold-white-20px {
+    color: var(--white);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.microsoftyahei-regular-normal-white-20px {
+    color: var(--white);
+    font-family: var(--font-family-microsoft_yahei-regular);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+}
+@media screen and (max-width: 992px) {
+    .structure {
+        flex-direction: column;
     }
-    .footer .row ul li{
-        display:block;
-        margin:10px 0px;
-        text-align:left;
-    }
-    .footer .row a i{
-        margin:0% 3%;
-    }
 
-    .footer-left {
-        display: block;
+    .left, .right {
         width: 100%;
-        margin-bottom: 40px;
+        text-align: justify;
+    }
+
+    .contact {
         text-align: center;
     }
+
+    .icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
+        height: 40px;
+        width: 40px;
+    }
+
+    .icons {
+        justify-content: center;
+    }
+
 }
+
