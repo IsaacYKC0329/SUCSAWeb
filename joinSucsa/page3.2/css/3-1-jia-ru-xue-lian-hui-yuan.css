@@ -1,0 +1,520 @@
+/* screen - 3-1-jia-ru-xue-lian-hui-yuan */
+
+.x3-1-jia-ru-xue-lian-hui-yuan {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  min-width: 1920px;
+  position: relative;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .x100 {
+  background-color: var(--white);
+  height: 100px;
+  min-width: 1920px;
+  position: relative;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .group-132 {
+  align-items: flex-start;
+  display: flex;
+  gap: 239px;
+  left: 176px;
+  min-width: 1554px;
+  position: relative;
+  top: 21px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .x20230215020424-1 {
+  height: 59px;
+  margin-top: 0;
+  object-fit: cover;
+  width: 223px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .navbar {
+  align-items: flex-end;
+  align-self: center;
+  display: flex;
+  gap: 102px;
+  height: 27px;
+  margin-top: 0.13px;
+  min-width: 1106px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .navbar-link-text-1 {
+  align-self: flex-start;
+  min-width: 40px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .navbar-link-text-2 {
+  min-width: 40px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .navbar-link-text {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 26px;
+  min-width: 80px;
+  text-align: center;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .navbar-link-text-4 {
+  min-width: 100px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .navbar-link-text-5 {
+  min-width: 60px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .navbar-link-text-6 {
+  cursor: pointer;
+  min-width: 80px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .frame-211 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  position: relative;
+  width: fit-content;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .frame-210 {
+  height: 4166px;
+  min-width: 1920px;
+  position: relative;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 4166px;
+  width: 1920px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .overlap-group {
+  height: 104px;
+  position: relative;
+  width: 856px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .text-8 {
+  color: var(--jacksons-purple);
+  font-family: var(--font-family-microsoft_yahei-bold);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  left: 124px;
+  position: absolute;
+  top: 0;
+  width: 622px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .line-51 {
+  left: 0;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .line-50 {
+  left: 694px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .frame-112 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 50px;
+  padding: 0px 360px;
+  position: relative;
+  width: fit-content;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .group-111 {
+  height: 794px;
+  margin-right: -4.00px;
+  min-width: 1198px;
+  position: relative;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .flex-col-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  min-height: 794px;
+  width: 1194px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .what {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 49px;
+  text-align: center;
+  width: 170px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .sucsa {
+  letter-spacing: 0;
+  line-height: 35.4px;
+  min-height: 439px;
+  width: 1194px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .frame-233 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  height: 206px;
+  position: relative;
+  width: fit-content;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .why {
+  height: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 114px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .text_label {
+  letter-spacing: 0;
+  line-height: 35.4px;
+  position: relative;
+  width: 1194px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .frame-115 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 50px;
+  padding: 0px 360px;
+  position: relative;
+  width: fit-content;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .how {
+  height: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 121px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .group-113 {
+  height: 947.92px;
+  min-width: 1200px;
+  position: relative;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .group-10 {
+  align-items: flex-start;
+  display: flex;
+  height: 80px;
+  left: 426px;
+  min-width: 351px;
+  position: absolute;
+  top: 0;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .overlap-group-1 {
+  align-items: flex-start;
+  background-color: var(--jacksons-purple);
+  display: flex;
+  height: 80px;
+  justify-content: flex-end;
+  min-width: 349px;
+  padding: 11px 0;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .step-1-usu {
+  color: var(--white);
+  font-family: var(--font-family-microsoft_yahei-bold);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 37px;
+  width: 327px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .x2023-oweek-1-1 {
+  align-items: flex-start;
+  background-image: url(../img/2023-oweek----1-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 854px;
+  left: 0;
+  min-width: 1200px;
+  position: absolute;
+  top: 94px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .x2023-oweek {
+  height: 854px;
+  width: 1200px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .group-114 {
+  height: 943.59px;
+  min-width: 1200px;
+  position: relative;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .group-9 {
+  align-items: flex-start;
+  display: flex;
+  height: 75px;
+  left: 397px;
+  min-width: 409px;
+  position: absolute;
+  top: 0;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .overlap-group-2 {
+  align-items: flex-end;
+  background-color: var(--jacksons-purple);
+  display: flex;
+  height: 75px;
+  min-width: 407px;
+  padding: 10.9px 20px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .step-2-sucsa {
+  color: var(--white);
+  font-family: var(--font-family-microsoft_yahei-bold);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 53px;
+  min-width: 366px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .x2023-oweek-2-1 {
+  align-items: flex-start;
+  background-image: url(../img/2023-oweek----2-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 854px;
+  left: 0;
+  min-width: 1200px;
+  position: absolute;
+  top: 90px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .frame-117 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 51px;
+  position: relative;
+  width: fit-content;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .group-116 {
+  height: 54.33px;
+  min-width: 358px;
+  position: relative;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .text-9 {
+  color: #00000033;
+  font-family: var(--font-family-microsoft_yahei-bold);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 356px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .text_label-1 {
+  color: transparent;
+  font-family: var(--font-family-microsoft_yahei-bold);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  height: 856px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: relative;
+  text-align: center;
+  width: 1200px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .group-5 {
+  cursor: pointer;
+  height: 73px;
+  margin-top: 50px;
+  width: 308px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .group-210 {
+  height: 485px;
+  min-width: 1920px;
+  position: relative;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .view {
+  align-items: flex-start;
+  background-color: var(--jacksons-purple);
+  display: flex;
+  flex-direction: column;
+  gap: 68px;
+  height: 485px;
+  padding: 37px 3px;
+  width: 1920px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .frame-128 {
+  align-items: flex-start;
+  display: flex;
+  gap: 87px;
+  margin-top: 59px;
+  padding: 0px 200px;
+  position: relative;
+  width: fit-content;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .group-130 {
+  height: 247px;
+  min-width: 842px;
+  position: relative;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .overlap-group-3 {
+  height: 247px;
+  left: 290px;
+  position: absolute;
+  top: 0;
+  width: 550px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .sucsa-1 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 36.6px;
+  position: absolute;
+  top: 0;
+  width: 550px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .frame-3 {
+  align-items: flex-start;
+  border: 3px solid;
+  border-color: var(--white);
+  border-radius: 32px;
+  display: flex;
+  gap: 10px;
+  left: 0;
+  padding: 14px 29px;
+  position: absolute;
+  top: 195px;
+  width: 182px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .text-10 {
+  flex: 1;
+  margin-top: -3.00px;
+  position: relative;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .frame {
+  height: 244px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 244px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .group-129 {
+  height: 234px;
+  margin-right: -2.00px;
+  min-width: 500.11px;
+  position: relative;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .overlap-group1 {
+  height: 234px;
+  position: relative;
+  width: 498px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .sydneyunicsagmailcom {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 36.6px;
+  position: absolute;
+  top: 0;
+  width: 400px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .span2 {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .group-131 {
+  align-items: flex-start;
+  display: flex;
+  gap: 24px;
+  height: 65px;
+  justify-content: center;
+  left: 0;
+  min-width: 498px;
+  position: absolute;
+  top: 169px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .group-131-item {
+  height: 65px;
+  object-fit: cover;
+  width: 63px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .copyright-2023-by {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 36.6px;
+  margin-left: 1.0px;
+  min-height: 37px;
+  min-width: 679px;
+  white-space: nowrap;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .line {
+  height: 5px;
+  position: absolute;
+  top: 47px;
+  width: 162px;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .navbar-link-text-3 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 26px;
+  text-align: center;
+}
+
+.x3-1-jia-ru-xue-lian-hui-yuan .text {
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+}
