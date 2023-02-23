@@ -13,8 +13,8 @@
 }
 
 .nav img {
-    width: 400px;
-    height: 150px;
+    width: 220px;
+    height: 100px;
     margin-right: 50px;
 }
 
@@ -23,9 +23,9 @@
     /*display: block;*/
     color: black;
     text-align: center;
-    padding: 5px 25px;
+    /*padding: 5px 25px;*/
     text-decoration: none;
-    font-size: 25px;
+    font-size: 16px;
     font-weight: bold;
     font-family: STFangsong, fangsong;
 }
@@ -46,7 +46,7 @@
     display: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .nav a:not(:first-child) {display: none;}
     .nav a.icon {
         float: right;
@@ -61,11 +61,11 @@
 .dropbtn {
     background-color: white;
     color: Black;
-    padding: 16px;
+    /*padding: 16px;*/
 
     border: none;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 16px;
     font-weight: bold;
     font-family: STFangsong, fangsong;
     /*border-bottom: 2px solid #1D2088*/
@@ -87,19 +87,22 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #0070B5;
+    background-color: white;
     min-width: 160px;
     /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
     z-index: 1;
+
+    /*flex-direction: column;*/
 }
 
 
 .dropdown-content a {
-    color: white;
+    color: black;
     text-align: center;
-    padding: 0px 20px;
+    /*padding: 0px 20px;*/
+    padding: 5px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     font-family: STFangsong, fangsong;
 }
@@ -112,7 +115,7 @@
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .nav.responsive {position: relative;}
     .nav.responsive .icon {
         position: absolute;
