@@ -1,0 +1,749 @@
+/* screen - 5-he-zuo-fang */
+
+.x5-he-zuo-fang {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 4641px;
+  width: 1920px;
+}
+
+.x5-he-zuo-fang .x100 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  gap: 239px;
+  height: 100px;
+  min-width: 1920px;
+  padding: 20.1px 176px;
+}
+
+.x5-he-zuo-fang .x20230215020424-1 {
+  align-self: flex-end;
+  height: 59px;
+  object-fit: cover;
+  width: 223px;
+}
+
+.x5-he-zuo-fang .navbar {
+  align-items: flex-end;
+  display: flex;
+  gap: 102px;
+  height: 27px;
+  margin-top: 1.0px;
+  min-width: 1106px;
+}
+
+.x5-he-zuo-fang .navbar-link-text-19 {
+  align-self: flex-start;
+  min-width: 40px;
+}
+
+.x5-he-zuo-fang .navbar-link-text-20 {
+  min-width: 40px;
+}
+
+.x5-he-zuo-fang .navbar-link-text-2 {
+  min-width: 80px;
+}
+
+.x5-he-zuo-fang .navbar-link-text-22 {
+  min-width: 100px;
+}
+
+.x5-he-zuo-fang .navbar-link-text-23 {
+  min-width: 60px;
+}
+
+.x5-he-zuo-fang .navbar-link-text-24 {
+  cursor: pointer;
+  min-width: 80px;
+}
+
+.x5-he-zuo-fang .frame-205 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  margin-top: 100px;
+  overflow: hidden;
+  padding: 0px 0px 100px;
+  position: relative;
+  width: 1920px;
+}
+
+.x5-he-zuo-fang .group-205 {
+  height: 104px;
+  min-width: 719.22px;
+  position: relative;
+}
+
+.x5-he-zuo-fang .overlap-group {
+  height: 104px;
+  position: relative;
+  width: 717px;
+}
+
+.x5-he-zuo-fang .text-1 {
+  left: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 622px;
+}
+
+.x5-he-zuo-fang .line-51 {
+  left: 0;
+}
+
+.x5-he-zuo-fang .line-50 {
+  left: 555px;
+}
+
+.x5-he-zuo-fang .frame-199 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  margin-left: -760.00px;
+  margin-right: -760.00px;
+  padding: 0px 360px;
+  position: relative;
+  width: fit-content;
+}
+
+.x5-he-zuo-fang .frame-198 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  width: fit-content;
+}
+
+.x5-he-zuo-fang .frame-196 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding: 0px 360px;
+  position: relative;
+  width: fit-content;
+}
+
+.x5-he-zuo-fang .group-191 {
+  height: 244px;
+  min-width: 1192px;
+  position: relative;
+}
+
+.x5-he-zuo-fang .flex-col {
+  flex-direction: column;
+  gap: 50px;
+  left: 0;
+  min-height: 244px;
+  position: absolute;
+  top: 0;
+  width: 410px;
+}
+
+.x5-he-zuo-fang .university-of-sydney-union-1 {
+  height: 120px;
+  width: 410px;
+}
+
+.x5-he-zuo-fang .frame-148 {
+  align-items: flex-start;
+  background-color: var(--jacksons-purple);
+  border-radius: 50px;
+  display: flex;
+  gap: 10px;
+  margin-left: 26.01px;
+  padding: 24px 40px;
+  position: relative;
+  width: fit-content;
+}
+
+.x5-he-zuo-fang .text {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.x5-he-zuo-fang .university {
+  left: 518px;
+  letter-spacing: 0;
+  line-height: 35.4px;
+  position: absolute;
+  text-align: justify;
+  top: 0;
+  width: 672px;
+}
+
+.x5-he-zuo-fang .group-192 {
+  height: 242px;
+  min-width: 1197px;
+  position: relative;
+}
+
+.x5-he-zuo-fang .flex-col-1 {
+  min-height: 233px;
+  width: 460px;
+}
+
+.x5-he-zuo-fang .src-logo-1 {
+  height: 109px;
+  width: 460px;
+}
+
+.x5-he-zuo-fang .frame-148-1 {
+  width: fit-content;
+}
+
+.x5-he-zuo-fang .students {
+  left: 518px;
+  letter-spacing: 0;
+  line-height: 35.4px;
+  position: absolute;
+  text-align: justify;
+  top: 0;
+  width: 677px;
+}
+
+.x5-he-zuo-fang .group-194 {
+  height: 271px;
+  min-width: 1200px;
+  position: relative;
+}
+
+.x5-he-zuo-fang .frame-186 {
+  align-items: flex-start;
+  display: flex;
+  gap: 61px;
+  height: 271px;
+  justify-content: flex-end;
+  min-width: 1200px;
+}
+
+.x5-he-zuo-fang .frame-234 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  min-height: 245px;
+  width: 460px;
+}
+
+.x5-he-zuo-fang .supra-logo-1 {
+  height: 128px;
+  margin-right: 0.75px;
+  width: 460px;
+}
+
+.x5-he-zuo-fang .frame-148-2 {
+  margin-right: 0.75px;
+  width: fit-content;
+}
+
+.x5-he-zuo-fang .supra {
+  letter-spacing: 0;
+  line-height: 35.4px;
+  margin-top: -1px;
+  min-height: 271px;
+  text-align: justify;
+  width: 679px;
+}
+
+.x5-he-zuo-fang .group-195 {
+  height: 262px;
+  margin-right: -2.00px;
+  min-width: 1202px;
+  position: relative;
+}
+
+.x5-he-zuo-fang .flex-col-2 {
+  min-height: 256px;
+  width: 381px;
+}
+
+.x5-he-zuo-fang .the-university-of-sydney-vector-logo-1 {
+  height: 134px;
+  object-fit: cover;
+  width: 381px;
+}
+
+.x5-he-zuo-fang .frame-148-3 {
+  margin-left: 79.0px;
+  width: fit-content;
+}
+
+.x5-he-zuo-fang .text-2 {
+  left: 530px;
+  letter-spacing: 0;
+  line-height: 35.4px;
+  position: absolute;
+  top: 0;
+  width: 670px;
+}
+
+.x5-he-zuo-fang .group-197 {
+  height: 175px;
+  margin-right: -4.00px;
+  min-width: 1204px;
+  position: relative;
+}
+
+.x5-he-zuo-fang .flex-col-3 {
+  min-height: 175px;
+  width: 460px;
+}
+
+.x5-he-zuo-fang .text-8 {
+  color: var(--black);
+  font-family: var(--font-family-microsoft_yahei-bold);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 53px;
+  text-align: center;
+  width: 460px;
+}
+
+.x5-he-zuo-fang .frame-148-4 {
+  margin-left: 0.5px;
+  width: 201px;
+}
+
+.x5-he-zuo-fang .frame-198-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding: 0px 360px;
+  position: relative;
+  width: fit-content;
+}
+
+.x5-he-zuo-fang .frame-4 {
+  align-items: flex-start;
+  background-color: var(--jacksons-purple);
+  border-radius: 32px;
+  display: flex;
+  gap: 10px;
+  padding: 14px 29px;
+  position: relative;
+  width: 192px;
+}
+
+.x5-he-zuo-fang .text-11 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+}
+
+.x5-he-zuo-fang .frame-156 {
+  align-items: center;
+  display: flex;
+  gap: 105px;
+  justify-content: center;
+  padding: 0px 360px;
+  position: relative;
+  width: 2000px;
+}
+
+.x5-he-zuo-fang .group-151 {
+  background-color: var(--alto);
+  border-radius: 39.5px;
+  height: 79px;
+  margin-left: -19.00px;
+  min-width: 79px;
+  position: relative;
+}
+
+.x5-he-zuo-fang .vector-1 {
+  left: 22px;
+}
+
+.x5-he-zuo-fang .group-15 {
+  height: 331px;
+  min-width: 222px;
+  position: relative;
+}
+
+.x5-he-zuo-fang .rectangle-6 {
+  height: 220px;
+  width: 220px;
+}
+
+.x5-he-zuo-fang .text-1-1 {
+  left: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 283px;
+}
+
+.x5-he-zuo-fang .group-154 {
+  height: 428px;
+  min-width: 302px;
+  position: relative;
+}
+
+.x5-he-zuo-fang .rectangle-60 {
+  height: 300px;
+  width: 300px;
+}
+
+.x5-he-zuo-fang .text-13 {
+  left: 70px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 380px;
+}
+
+.x5-he-zuo-fang .group-152 {
+  height: 79px;
+  margin-right: -19.00px;
+  min-width: 79px;
+  position: relative;
+}
+
+.x5-he-zuo-fang .overlap-group-1 {
+  border-radius: 39.5px;
+  height: 79px;
+  position: relative;
+  width: 79px;
+}
+
+.x5-he-zuo-fang .ellipse-2 {
+  background-color: var(--alto);
+  border-radius: 39.5px;
+  height: 79px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(180deg);
+  width: 79px;
+}
+
+.x5-he-zuo-fang .vector-2 {
+  left: 26px;
+}
+
+.x5-he-zuo-fang .group-205-1 {
+  height: 104px;
+  min-width: 969.19px;
+  position: relative;
+}
+
+.x5-he-zuo-fang .flex-row {
+  height: 104px;
+  min-width: 967px;
+}
+
+.x5-he-zuo-fang .line-51-1 {
+  height: 5px;
+  margin-bottom: 5.0px;
+  width: 162px;
+}
+
+.x5-he-zuo-fang .text-15 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 12px;
+  min-height: 104px;
+  text-align: center;
+  width: 622px;
+}
+
+.x5-he-zuo-fang .line-50-1 {
+  height: 5px;
+  margin-left: 8px;
+  width: 162px;
+}
+
+.x5-he-zuo-fang .frame-199-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  padding: 0px 360px;
+  position: relative;
+  width: fit-content;
+}
+
+.x5-he-zuo-fang .group-198 {
+  height: 765.4px;
+  min-width: 1274px;
+  position: relative;
+}
+
+.x5-he-zuo-fang .group-156 {
+  align-items: flex-start;
+  display: flex;
+  height: 332px;
+  left: 347px;
+  min-width: 582px;
+  position: absolute;
+  top: 0;
+}
+
+.x5-he-zuo-fang .overlap-group-2 {
+  align-items: flex-start;
+  background-color: var(--alto);
+  border-radius: 30px;
+  display: flex;
+  height: 332px;
+  min-width: 580px;
+  padding: 140px 201px;
+}
+
+.x5-he-zuo-fang .text-16 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 52px;
+  width: 178px;
+}
+
+.x5-he-zuo-fang .overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 114px;
+  height: 332px;
+  left: 0;
+  min-width: 1274px;
+  position: absolute;
+  top: 433px;
+}
+
+.x5-he-zuo-fang .overlap-group-3 {
+  align-items: flex-start;
+  background-color: var(--alto);
+  border-radius: 30px;
+  display: flex;
+  height: 332px;
+  justify-content: flex-end;
+  min-width: 580px;
+  padding: 140px 111.0px;
+}
+
+.x5-he-zuo-fang .text-17 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 52px;
+  width: 357px;
+}
+
+.x5-he-zuo-fang .overlap-group-4 {
+  align-items: flex-start;
+  background-color: var(--alto);
+  border-radius: 30px;
+  display: flex;
+  height: 332px;
+  min-width: 580px;
+  padding: 145px 115px;
+}
+
+.x5-he-zuo-fang .ngo {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 41px;
+  width: 350px;
+}
+
+.x5-he-zuo-fang .view {
+  align-items: flex-start;
+  background-color: var(--jacksons-purple);
+  display: flex;
+  flex-direction: column;
+  gap: 68px;
+  height: 485px;
+  margin-top: 103px;
+  padding: 37px 3px;
+  width: 1920px;
+}
+
+.x5-he-zuo-fang .frame-128 {
+  align-items: flex-start;
+  display: flex;
+  gap: 87px;
+  margin-top: 59px;
+  padding: 0px 200px;
+  position: relative;
+  width: fit-content;
+}
+
+.x5-he-zuo-fang .group-130 {
+  height: 247px;
+  min-width: 842px;
+  position: relative;
+}
+
+.x5-he-zuo-fang .overlap-group-5 {
+  height: 247px;
+  left: 290px;
+  position: absolute;
+  top: 0;
+  width: 550px;
+}
+
+.x5-he-zuo-fang .sucsa {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 36.6px;
+  position: absolute;
+  top: 0;
+  width: 550px;
+}
+
+.x5-he-zuo-fang .frame-3 {
+  align-items: flex-start;
+  border: 3px solid;
+  border-color: var(--white);
+  border-radius: 32px;
+  display: flex;
+  gap: 10px;
+  left: 0;
+  padding: 14px 29px;
+  position: absolute;
+  top: 195px;
+  width: 182px;
+}
+
+.x5-he-zuo-fang .text-18 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -3.00px;
+  position: relative;
+  text-align: center;
+}
+
+.x5-he-zuo-fang .frame {
+  height: 244px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 244px;
+}
+
+.x5-he-zuo-fang .group-129 {
+  height: 234px;
+  margin-right: -2.00px;
+  min-width: 500.11px;
+  position: relative;
+}
+
+.x5-he-zuo-fang .overlap-group1 {
+  height: 234px;
+  position: relative;
+  width: 498px;
+}
+
+.x5-he-zuo-fang .sydneyunicsagmailcom {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 36.6px;
+  position: absolute;
+  top: 0;
+  width: 400px;
+}
+
+.x5-he-zuo-fang .span2 {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+}
+
+.x5-he-zuo-fang .group-131 {
+  align-items: flex-start;
+  display: flex;
+  gap: 24px;
+  height: 65px;
+  left: 0;
+  min-width: 498px;
+  padding: 0 0.0px;
+  position: absolute;
+  top: 169px;
+}
+
+.x5-he-zuo-fang .group-131-item {
+  height: 65px;
+  object-fit: cover;
+  width: 63px;
+}
+
+.x5-he-zuo-fang .copyright-2023-by {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 36.6px;
+  margin-left: 1.0px;
+  min-height: 37px;
+  min-width: 679px;
+  white-space: nowrap;
+}
+
+.x5-he-zuo-fang .flex {
+  align-items: center;
+  display: flex;
+}
+
+.x5-he-zuo-fang .flex-col-4 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.x5-he-zuo-fang .frame-148-5 {
+  align-items: flex-start;
+  background-color: var(--jacksons-purple);
+  border-radius: 50px;
+  display: flex;
+  gap: 10px;
+  padding: 24px 40px;
+  position: relative;
+}
+
+.x5-he-zuo-fang .line {
+  height: 5px;
+  position: absolute;
+  top: 47px;
+  width: 162px;
+}
+
+.x5-he-zuo-fang .navbar-link-text {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 26px;
+  text-align: center;
+}
+
+.x5-he-zuo-fang .rectangle {
+  background-color: var(--alto);
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.x5-he-zuo-fang .vector {
+  height: 42px;
+  position: absolute;
+  top: 18px;
+  width: 31px;
+}

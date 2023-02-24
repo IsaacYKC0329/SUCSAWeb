@@ -1,0 +1,643 @@
+/* screen - 7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi */
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi {
+  align-items: flex-start;
+  background-color: var(--white-2);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  height: 2200px;
+  overflow: hidden;
+  width: 1920px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .x100 {
+  align-items: center;
+  background-color: var(--white-2);
+  display: flex;
+  gap: 239px;
+  height: 100px;
+  min-width: 1920px;
+  padding: 20.1px 176px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .x20230215020424-1 {
+  align-self: flex-end;
+  height: 59px;
+  object-fit: cover;
+  width: 223px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .navbar {
+  align-items: flex-end;
+  display: flex;
+  gap: 102px;
+  height: 27px;
+  margin-top: 1.0px;
+  min-width: 1106px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .navbar-link-text-1 {
+  align-self: flex-start;
+  min-width: 40px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .navbar-link-text-2 {
+  min-width: 40px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .navbar-link-text {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 26px;
+  min-width: 80px;
+  text-align: center;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .navbar-link-text-4 {
+  min-width: 100px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .navbar-link-text-5 {
+  min-width: 60px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .navbar-link-text-6 {
+  cursor: pointer;
+  min-width: 80px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .frame-99 {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-left: -2px;
+  padding: 0px 360px;
+  position: relative;
+  width: 1924px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .group {
+  height: 77px;
+  min-width: 287px;
+  position: relative;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .overlap-group {
+  align-items: flex-end;
+  background-color: var(--jacksons-purple);
+  border-radius: 38.5px;
+  display: flex;
+  height: 77px;
+  min-width: 285px;
+  padding: 14px 0;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .text {
+  height: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  width: 285px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .overlap-group2 {
+  align-items: flex-start;
+  background-color: var(--jacksons-purple);
+  border-radius: 38.5px;
+  display: flex;
+  height: 77px;
+  justify-content: flex-end;
+  min-width: 285px;
+  padding: 15px 0;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .text-10 {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  width: 285px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .overlap-group3 {
+  align-items: flex-start;
+  background-color: var(--white-2);
+  border: 3px solid;
+  border-color: var(--jacksons-purple);
+  border-radius: 38.5px;
+  display: flex;
+  height: 77px;
+  min-width: 285px;
+  padding: 12px 0;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .text-11 {
+  height: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: -3px;
+  text-align: center;
+  width: 285px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .frame-232 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-left: -2px;
+  padding: 0px 360px;
+  position: relative;
+  width: 1922px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .group-180 {
+  height: 54px;
+  min-width: 482px;
+  position: relative;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .overlap-group-1 {
+  height: 54px;
+  position: relative;
+  width: 480px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .text-12 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 480px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .line {
+  height: 5px;
+  left: 0;
+  position: absolute;
+  top: 22px;
+  width: 125px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .line-50 {
+  height: 5px;
+  left: 355px;
+  position: absolute;
+  top: 22px;
+  width: 125px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .frame-165 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  position: relative;
+  width: fit-content;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .group-145 {
+  height: 223px;
+  min-width: 1171.5px;
+  position: relative;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .group-144 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 1172px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .overlap-group-2 {
+  height: 223px;
+  position: relative;
+  width: 1174px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .group-108 {
+  align-items: flex-start;
+  display: flex;
+  gap: 379px;
+  height: 223px;
+  left: 1px;
+  min-width: 1173px;
+  position: absolute;
+  top: 0;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .text-13 {
+  color: var(--black);
+  font-family: var(--font-family-microsoft_yahei-bold);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 109px;
+  text-align: center;
+  width: 566px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .rectangle-214 {
+  height: 223px;
+  width: 226px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .text_label {
+  color: var(--black);
+  cursor: pointer;
+  font-family: var(--font-family-microsoft_yahei-regular);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 35.4px;
+  position: absolute;
+  text-align: center;
+  top: 142px;
+  width: 566px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .frame-166 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  height: 784px;
+  position: relative;
+  width: 1920px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .group-181 {
+  height: 54px;
+  min-width: 568px;
+  position: relative;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .overlap-group-3 {
+  height: 54px;
+  position: relative;
+  width: 566px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .text-14 {
+  left: 52px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 480px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .line-50-1 {
+  height: 5px;
+  left: 441px;
+  position: absolute;
+  top: 22px;
+  width: 125px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .table-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 360px;
+  position: relative;
+  width: 1783px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .table {
+  background-color: var(--white-2);
+  border: 1px solid;
+  border-color: var(--pink-swan);
+  border-radius: 4px;
+  height: 680px;
+  margin-left: -68.50px;
+  margin-right: -68.50px;
+  min-width: 1200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 680px;
+  width: 1200px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .flex-col-item {
+  align-items: flex-start;
+  background-color: #ffffff00;
+  display: flex;
+  position: relative;
+  width: 1200px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .cell {
+  align-items: flex-start;
+  background-color: var(--black-2);
+  border-color: var(--pink-swan);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  flex-direction: column;
+  height: 46px;
+  position: relative;
+  width: 400px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .content-2 {
+  align-items: flex-start;
+  margin-bottom: -9.00px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .text-5 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 35.4px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .cell-5 {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--black-2);
+  justify-content: center;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .content {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  padding: 10px 12px;
+  position: relative;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .text-1 {
+  color: var(--black);
+  flex: 1;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 26.0px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .row {
+  align-items: flex-start;
+  background-color: #ffffff00;
+  display: flex;
+  height: 98px;
+  position: relative;
+  width: 1200px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .cell-1 {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--white);
+  justify-content: center;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .content-1 {
+  align-items: center;
+  justify-content: center;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .text-2 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 26.0px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .cell-2 {
+  align-items: center;
+  background-color: var(--white);
+  height: 98px;
+  justify-content: center;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .text-3 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 26.0px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .cell-6 {
+  align-items: center;
+  background-color: var(--white);
+  height: 72px;
+  justify-content: center;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .row-1 {
+  height: 72px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .cell-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--white);
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .text-4 {
+  color: var(--black);
+  flex: 1;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 15.6px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .row-2 {
+  height: 46px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .cell-4 {
+  align-items: center;
+  background-color: var(--white);
+  height: 150px;
+  justify-content: center;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .view {
+  align-items: flex-start;
+  background-color: var(--jacksons-purple);
+  display: flex;
+  flex-direction: column;
+  gap: 74px;
+  height: 512px;
+  padding: 58px 153px;
+  width: 1920px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .frame-128 {
+  align-items: flex-start;
+  display: flex;
+  gap: 260px;
+  margin-top: 38px;
+  position: relative;
+  width: fit-content;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .group-130 {
+  height: 249px;
+  min-width: 842px;
+  position: relative;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .overlap-group-4 {
+  height: 249px;
+  left: 290px;
+  position: absolute;
+  top: 0;
+  width: 550px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .sucsa {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 35.4px;
+  position: absolute;
+  top: 0;
+  width: 550px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .frame-3 {
+  align-items: flex-start;
+  border: 3px solid;
+  border-color: var(--white-2);
+  border-radius: 32px;
+  display: flex;
+  gap: 10px;
+  left: 0;
+  padding: 14px 29px;
+  position: absolute;
+  top: 195px;
+  width: 182px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .text-15 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -3.00px;
+  position: relative;
+  text-align: center;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .frame {
+  height: 244px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 244px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .group-129 {
+  height: 234px;
+  margin-right: -2.00px;
+  min-width: 500.11px;
+  position: relative;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .overlap-group1 {
+  height: 234px;
+  position: relative;
+  width: 498px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .sydneyunicsagmailcom {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 49.0px;
+  position: absolute;
+  top: 0;
+  width: 400px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .group-131 {
+  align-items: flex-start;
+  display: flex;
+  gap: 24px;
+  height: 65px;
+  left: 0;
+  min-width: 498px;
+  position: absolute;
+  top: 169px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .group-131-item {
+  height: 65px;
+  object-fit: cover;
+  width: 63px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .copyright-2023-by {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 35.4px;
+  min-width: 680px;
+  white-space: nowrap;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .cell-7 {
+  border-color: var(--pink-swan);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 400px;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .content-3 {
+  align-self: stretch;
+  display: flex;
+  padding: 10px 12px;
+  position: relative;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .navbar-link-text-3 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 26px;
+  text-align: center;
+}
+
+.x7-4-lian-xi-wo-men-qi-ta-zhong-yao-lian-xi-fang-shi .row-3 {
+  align-items: flex-start;
+  background-color: #ffffff00;
+  display: flex;
+  position: relative;
+  width: 1200px;
+}
