@@ -4,6 +4,7 @@
     font-weight: 700;
     src: url("fonts/msyhbd.ttf") format("truetype");
 }
+
 @font-face {
     font-family: "Microsoft YaHei-Regular";
     font-style: normal;
@@ -36,12 +37,13 @@
 }
 
 
-body {
-    font-size: 20pt;
-    margin: 0 360px;
-    max-width: 1200px;
-    text-align: center;
-}
+/*body {*/
+/*    font-size: 20pt;*/
+/*    margin-left: 360px;*/
+/*    margin-right: 360px;*/
+/*    max-width: 1200px;*/
+/*    text-align: center;*/
+/*}*/
 
 
 h1 {
