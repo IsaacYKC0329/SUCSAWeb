@@ -2,14 +2,14 @@
     font-family: "Microsoft YaHei-Bold";
     font-style: normal;
     font-weight: 700;
-    src: url("fonts/msyhbd.ttf") format("truetype");
+    src: url("../fonts/msyhbd.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Microsoft YaHei-Regular";
     font-style: normal;
     font-weight: 400;
-    src: url("fonts/msyh.ttf") format("truetype");
+    src: url("../fonts/msyh.ttf") format("truetype");
 }
 
 .microsoftyahei-bold-white-20px {
@@ -37,13 +37,7 @@
 }
 
 
-/*body {*/
-/*    font-size: 20pt;*/
-/*    margin-left: 360px;*/
-/*    margin-right: 360px;*/
-/*    max-width: 1200px;*/
-/*    text-align: center;*/
-/*}*/
+
 
 
 h1 {
