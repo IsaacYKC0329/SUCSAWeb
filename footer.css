@@ -42,6 +42,7 @@ body{
     padding-top: 7rem;
     padding-bottom: 80px;
     background-color: #1D2088;
+
 }
 #footer2{
     background: #1D2088;
@@ -173,7 +174,7 @@ a{
     text-decoration:none;
 }
 
-.join-btn {
+.footer-btn {
     margin-top: 20px;
     align-items: flex-start;
     border: 3px solid;
@@ -192,7 +193,7 @@ a{
     text-decoration: none;
 }
 
-.btn-text {
+.footer-btn-text {
     flex: 1;
     letter-spacing: 0;
     line-height: normal;
@@ -202,11 +203,11 @@ a{
 
 }
 
-.join-btn:hover {
+.footer-btn:hover {
     background-color: var(--white);
 }
 
-.join-btn:hover .btn-text {
+.footer-btn:hover .footer-btn-text {
     color: #1D2088;
 }
 :root {
