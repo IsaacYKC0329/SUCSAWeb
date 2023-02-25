@@ -49,6 +49,14 @@
     font-weight: 700;
 }
 
+.microsoftyahei-bold-white-25px {
+    color: var(--white);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 700;
+}
+
 .microsoftyahei-regular-normal-white-20px {
     color: var(--white);
     font-family: var(--font-family-microsoft_yahei-regular);
@@ -74,17 +82,53 @@
 .fframe {
     align-items: center;
     display: flex;
-    gap: 20px;
+    gap: 50px;
     justify-content: center;
-    margin-left: 15%;
-    margin-right: -2.00px;
-    padding: 50px;
+    margin-left: 4%;
+    /*margin-right: -2.00px;*/
+    /*padding: 50px;*/
     position: relative;
     width: 100%;
-    margin-top: 20%;
-
-    /*z-index: -1;*/
+    margin-top: 10%;
+    margin-bottom: 3%;
+    z-index: -1;
 }
+
+.fframe .contact-btn{
+    margin-top: 20px;
+    align-items: flex-start;
+    border: 3px solid;
+    border-color: var(--jacksons-purple);
+    border-radius: 32px;
+    display: flex;
+    gap: 40px;
+    padding: 8px;
+    background-color: var(--jacksons-purple);
+}
+
+.contact text{
+    color: var(--white);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.contact-btn:hover {
+    background-color: var(--white);
+}
+
+.contact-btn:hover .contact-text {
+    color: var(--jacksons-purple);
+}
+
+/*.fframe a.active .contact-text{*/
+/*    !*background-color: var(--white);*!*/
+/*    color: var(--jacksons-purple);*/
+/*}*/
 
 .fframe a{
     text-decoration: none;
@@ -96,11 +140,10 @@
     flex-direction: column;
     gap: 50px;
     justify-content: center;
-    margin-left: -1.50px;
-    margin-right: -1.50px;
+    margin-left: -5%;
     position: relative;
     width: 100%;
-    /*z-index: -1;*/
+    z-index: -1;
 }
 
 .fframe2 {
@@ -138,48 +181,6 @@
     height: 260px;
     min-width: 1195px;
     position: relative;
-}
-
-.clicked-group {
-    align-items: flex-start;
-    background-color: var(--white);
-    border: 3px solid;
-    border-color: #1D2088;
-    border-radius: 38.5px;
-    display: flex;
-    height: 77px;
-    min-width: 285px;
-    padding: 12px 0;
-}
-
-.unclicked-group {
-    align-items: flex-start;
-    background-color: #1D2088;
-    border: 3px solid;
-    border-color: var(--white);
-    border-radius: 38.5px;
-    display: flex;
-    height: 77px;
-    min-width: 285px;
-    padding: 12px 0;
-}
-
-.unclicked-text {
-    color: var(--white);
-    font-weight: 700;
-    height: 48px;
-    line-height: normal;
-    margin-left: +3px;
-    width: 285px;
-}
-
-.clicked-text {
-    color: #1D2088;
-    font-weight: 700;
-    height: 48px;
-    line-height: normal;
-    margin-left: +3px;
-    width: 285px;
 }
 
 .title-text{

@@ -40,7 +40,7 @@ body{
     padding: 3rem;
     /* padding-top: 5rem; */
     padding-top: 7rem;
-    padding-bottom: 80px;
+    /*padding-bottom: 80px;*/
     background-color: #1D2088;
 
 }
@@ -248,52 +248,52 @@ a{
     font-weight: 700;
 }
 
-@media (max-width: 992px) {
-    .col-md-3 .footer-about {
-        width: 100%;
-        margin-bottom: 10px;
-        font-size: 60%;
-    }
+/*@media (max-width: 992px) {*/
+/*    .col-md-3 .footer-about {*/
+/*        width: 100%;*/
+/*        margin-bottom: 10px;*/
+/*        font-size: 60%;*/
+/*    }*/
 
-    .col-md-3 .img-fluid{
-        width: 50%;
-    }
+/*    .col-md-3 .img-fluid{*/
+/*        width: 50%;*/
+/*    }*/
 
-    .col-md-3 .address h2{
-        width: 100%;
-        margin-bottom: 10px;
-        font-size: 60%;
+/*    .col-md-3 .address h2{*/
+/*        width: 100%;*/
+/*        margin-bottom: 10px;*/
+/*        font-size: 60%;*/
 
 
-    }
+/*    }*/
 
-    /*.col-ma-3 .footer-btn .footer-btn-text{*/
-    /*    font-size: 50%;*/
-    /*}*/
+/*    !*.col-ma-3 .footer-btn .footer-btn-text{*!*/
+/*    !*    font-size: 50%;*!*/
+/*    !*}*!*/
 
-    .col-md-3 .address-links li a{
-        font-size: 60%;
-    }
+/*    .col-md-3 .address-links li a{*/
+/*        font-size: 60%;*/
+/*    }*/
 
-    .col-md-3 .address-links li i:nth-child(1){
-        padding-top: 0px;
-    }
+/*    .col-md-3 .address-links li i:nth-child(1){*/
+/*        padding-top: 0px;*/
+/*    }*/
 
-    .col-md-3 .i .fa-brands{
-        font-size: 60%;
-    }
+/*    .col-md-3 .i .fa-brands{*/
+/*        font-size: 60%;*/
+/*    }*/
 
-    .copy-right-sec{
-        font-size: 50%;
-    }
-    .footer-btn {
-        width: 50%;
-        margin-top: 10px;
-        text-align: center;
-    }
+/*    .copy-right-sec{*/
+/*        font-size: 50%;*/
+/*    }*/
+/*    .footer-btn {*/
+/*        width: 50%;*/
+/*        margin-top: 10px;*/
+/*        text-align: center;*/
+/*    }*/
 
-    .footer-btn-text{
-        font-size: 50%;
-    }
+/*    .footer-btn-text{*/
+/*        font-size: 50%;*/
+/*    }*/
 
-}
+/*}*/
