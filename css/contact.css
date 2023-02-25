@@ -84,13 +84,13 @@
     display: flex;
     gap: 50px;
     justify-content: center;
-    margin-left: 4%;
-    /*margin-right: -2.00px;*/
-    /*padding: 50px;*/
+    margin-left: 2%;
+
     position: relative;
     width: 100%;
     margin-top: 10%;
     margin-bottom: 3%;
+
     z-index: -1;
 }
 
