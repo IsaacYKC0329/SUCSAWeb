@@ -95,6 +95,7 @@
     margin-top: -3.00px;
     position: relative;
     text-align: center;
+    z-index: -1;
 }
 
 .button:hover {
@@ -159,10 +160,8 @@
     max-width: 50%;
     font-size: 20px;
 }
+
 .button3{
     margin-left: 30%;
-}
-
-.end{
     margin-bottom: 5%;
 }
