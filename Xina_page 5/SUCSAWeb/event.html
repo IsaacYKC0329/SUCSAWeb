@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event</title>
+    <link rel="stylesheet" href = "main.css">
+    <link rel="stylesheet" href = "event.css">
+    <link rel = "stylesheet" href = "navbar.css">
+    <link rel = "icon" type = "image/x-icon" href = "http://www.sucsa.au/wp-content/uploads/2023/02/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "stylesheet" href = "footer.css">
+</head>
+<body>
+
+<!--<div class = "bg"></div>-->
+
+
+<div class = "container">
+<div class = "nav" id = "topNav">
+    <img src="http://www.sucsa.au/wp-content/uploads/2023/02/23de165460e481ea4d97b1f0837a383-1.png" alt = "logo">
+    <a href = "main.html">主页</a>
+    <a class = "active" href = "event.html">活动</a>
+    <a href = "joinsucsa.html">加入学联</a>
+    <a href = "join2.html">加入校友会</a>
+    <a href = "cooperation.html">合作方</a>
+    <div class="dropdown">
+        <button onclick="dropdownFunc()" class="dropbtn">关于学联</button>
+        <div id="dropdown" class="dropdown-content">
+            <a href="history.html">学联历史</a>
+            <a href="introduction.html">学联介绍</a>
+            <a href="servicegroup.html">服务群体</a>
+        </div>
+    </div>
+    <a href = "contact.html">联系方式</a>
+    <a href="javascript:void(0);" class="icon" onclick="navFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+</div>
+
+<script>
+    function navFunction() {
+        var x = document.getElementById("topNav");
+        if (x.className === "nav") {
+            x.className += " responsive";
+        } else {
+            x.className = "nav";
+        }
+    }
+    function dropdownFunc() {
+        document.getElementById("dropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+</script>
+
+
+<div class = "head">
+    <h1>最近活动</h1>
+</div>
+
+<div class = "slide-show">
+    <div class = "slides">
+        <div class = "number">1/3</div>
+        <img src = "http://www.sucsa.au/wp-content/uploads/2023/02/悉尼大学中国中心.jpg" style="width:100%">
+        <div class = "text"> caption text</div>
+    </div>
+
+    <div class = "slides">
+        <div class = "number">2/3</div>
+        <img src = "http://www.sucsa.au/wp-content/uploads/2023/02/image-7-edited.png" style="width:100%">
+        <div class = "text"> caption text</div>
+    </div>
+
+    <div class = "slides">
+        <div class = "number">3/3</div>
+        <img src = "http://www.sucsa.au/wp-content/uploads/2023/02/image-8.png" style="width:100%">
+        <div class = "text"> caption text</div>
+    </div>
+
+<!--    <a class = "prev" onclick = "plusSlides(-1)">&#10094;</a>-->
+<!--    <a class = "next" onclick = "plusSlides(1)">&#10095;</a>-->
+</div>
+<br>
+
+<div style="text-align:center">
+    <span class="dot" ></span>
+    <span class="dot" ></span>
+    <span class="dot" ></span>
+</div>
+
+<script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("slides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); //
+    }
+</script>
+
+
+
+<footer>
+    <div class="footer">
+        <div class="structure">
+            <div class="left">
+                <div class="left-text">
+                    <div class="sucsa-info microsoftyahei-regular-normal-white-20px">
+                        悉尼大学中国学生学者联合会（SUCSA）成立于1996年，悉尼大学USU、澳州政府注册，中国驻悉尼总领馆认证，是悉尼大学历史最悠久也是生命力最蓬勃的华人非盈利志愿者社团。学联致力于服务悉尼大学全体华人学生学者，让大家在异国他乡感受到家一样的温暖。
+                    </div>
+                    <a class="join-btn" href="joinsucsa.html">
+                        <div class="btn-text microsoftyahei-bold-white-20px">加入学联</div>
+                    </a>
+                </div>
+                <img class="frame" src="img/frame.svg" alt="Frame" />
+            </div>
+
+            <div class="right">
+                <div class="right-text">
+                    <!--            gmail-->
+                    <div class="contact microsoftyahei-bold-white-20px">
+              <span class="microsoftyahei-bold-white-20px">联系方式<br /></span
+              ><span class="microsoftyahei-regular-normal-white-20px">邮箱：sydneyunicsa@gmail.com<br /></span
+                    ><span class="microsoftyahei-bold-white-20px">关注我们</span>
+                    </div>
+                    <!--            -->
+
+                    <!--            other icon-->
+                    <div class="icons">
+                        <img class="group-131-item" src="img/wechat--1--1@2x.png" alt="wechat (1) 1" />
+                        <img class="group-131-item" src="img/instagram-logo-1@2x.png" alt="icon-instagram" />
+                        <img class="group-131-item" src="img/-------icon-ixintu1-1@2x.png" alt="icon_ixintu1 1" />
+                        <img class="group-131-item" src="img/linkedin-1@2x.png" alt="icon-linkedin" />
+                        <img class="group-131-item" src="img/tiktok-1@2x.png" alt="tiktok 1" />
+                        <img class="group-131-item" src="img/--------------ixintu-1@2x.png" alt="ixintu 1" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="copyright microsoftyahei-regular-normal-white-20px">
+            Copyright © 2023 by SUCSA | All rights reserved. Developed by SUCSA
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>

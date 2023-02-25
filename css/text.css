@@ -1,37 +1,71 @@
-h1{
-    font-family: Lantinghei SC;
-    font-size: 40pt;
-    color: #1D2088;
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/63ec999b4cbf29a442bc4dcf.63ec999d5da3fb649b3db873.Z8nxF1Y.hcp.png");
 
+@font-face {
+    font-family: "Microsoft YaHei-Bold";
+    font-style: normal;
+    font-weight: 350;
+    src: url("../fonts/msyhbd.ttf") format("truetype");
 }
-h2{
-    font-family:Source Han Sans CN;
-    font-size: 16pt;
-    font-weight: bold;
-    line-height: 19.2;
-    color: #0070B5;
-}
-
-p{
-    font-family: Source Han Sans CN;
-    font-size: 9pt;
-    font-weight: normal; /* regular */
-    line-height: 12;
-}
-/*<p class="sub-heading">xxxxxx</p>*/
-.sub-heading{
-    font-family: Source Han Sans CN;
-    font-size: 16pt;
-    font-weight: bold;
-    border: 1px solid red;
+@font-face {
+    font-family: "Microsoft YaHei-Regular";
+    font-style: normal;
+    font-weight: 200;
+    src: url("../fonts/msyh.ttf") format("truetype");
 }
 
-/*正文*/
-/*<p class = "normal-text">*/
-.normal-text{
-    font-family: Source Han Sans CN;
-    font-size: 9pt;
-    font-weight: bold;
-    line-height: 12;
-    color: black;
+
+
+:root {
+    --allports: #006fb530;
+    --black: #000000;
+    --jacksons-purple: #1d2088;
+    --white: #ffffff;
+
+    --font-size-l: 32px;
+    --font-size-m: 20px;
+    --font-size-xl: 40px;
+
+    --font-family-microsoft_yahei-bold: "Microsoft YaHei-Bold", Helvetica;
+    --font-family-microsoft_yahei-regular: "Microsoft YaHei-Regular", Helvetica;
+}
+.microsoftyahei-regular-normal-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-regular);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.microsoftyahei-regular-normal-black-10px {
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-regular);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.microsoftyahei-bold-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.microsoftyahei-bold-black-32px {
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.microsoftyahei-bold-black-15px {
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 700;
 }

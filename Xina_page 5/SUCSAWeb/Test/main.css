@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    height: 100vh;
+    position: relative;
+}
+
+h1{
+    font-family: Lantinghei SC;
+    font-size: 40pt;
+    color: #1D2088;
+
+}
+.container{
+    display: grid;
+}
+
+/*.bg{*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    position: absolute;*/
+/*    left: 0px;*/
+/*    top:0px;*/
+/*    background: url("images/资源 2.png") no-repeat;*/
+/*    background-size: cover;*/
+/*    -webkit-filter: blur(10px);*/
+/*    -moz-filter: blur(10px);*/
+/*    -o-filter: blur(10px);*/
+/*    -ms-filter: blur(10px);*/
+/*    filter: blur(10px);*/
+/*    opacity: 0.8;*/
+/*}*/
+
+.header{
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+h2{
+    font-family: Source Han Sans CN;
+    font-size: 10pt;
+    font-weight: bold;
+    line-height: 19.2;
+    color: #0070B5;
+}
+
+/*p{*/
+/*    font-family: Source Han Sans CN, serif;*/
+/*    font-size: 18pt;*/
+/*    font-weight: normal; !* regular *!*/
+/*    line-height: 12;*/
+/*}*/
+/*<p class="sub-heading">xxxxxx</p>*/
+.sub-heading{
+    font-family: Source Han Sans CN, serif;
+    font-size: 16pt;
+    font-weight: bold;
+    border: 1px solid red;
+}
+
+/*正文*/
+/*<p class = "normal-text">*/
+.normal-text p{
+    font-family: Source Han Sans CN, serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 12;
+    color: black;
+}
+
+
+/*video*/
+.video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+
+
+
+
+
+/*footer*/
+.footer{
+    position: fixed;
+    /*left: 0;*/
+    bottom: 0;
+    width: 100%;
+    background-color: #0070B5;
+    color: white;
+    text-align: center;
+    /*padding: 20px;*/
+
+}
+.footer p{
+    font-size: 10px;
+}
+/*.footer img{*/
+/*    float: left;*/
+/*    width: 10%;*/
+/*}*/
+
+
+
