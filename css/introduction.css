@@ -70,12 +70,13 @@
     font-size: var(--font-size-l);
     font-style: normal;
     font-weight: 700;
-    height: 40px;
-    letter-spacing: 0;
     line-height: normal;
     margin-top: -1.00px;
     width: 100%;
-    text-align: center;
+    text-align: left;
+    margin-left: 20%;
+
+
 }
 
 .intro .content{
@@ -89,13 +90,11 @@
 }
 
 .intro .content a {
-    /*padding: 6px 8px 6px 16px;*/
     text-decoration: none;
-    /*font-size: 25px;*/
-    /*color: #2196F3;*/
     display: block;
-    text-align: center;
+    text-align: left;
     padding: 8px;
+    margin-left: 20%;
 }
 
 /*.intro .content a:hover {*/
@@ -103,7 +102,7 @@
 /*}*/
 
 
-.manage-graph, .depart-intro, .current-manage, .mascot-intro, .web-group-intro h1{
+.manage-graph, .depart-intro, .current-manage, .current-honor ,.mascot-intro, .web-group-intro, .alumini h1{
     color: var(--black);
     font-family: var(--font-family-microsoft_yahei-bold);
     font-size: var(--font-size-xl);
@@ -116,56 +115,12 @@
     margin-bottom: 50px;
 }
 
-
-.manage-graph{
-    width: 50%;
-    margin-left: 7%;
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.depart-intro{
-    width: 50%;
-    margin-left: 3.5%;
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.current-manage{
-    width: 50%;
-    margin-left: 5%;
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.mascot-intro{
-    width: 50%;
-    margin-left: 4%;
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.web-group-intro{
-    width: 50%;
+.detail-intro{
+    text-align: left;
     margin-left: 25%;
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-top:100px;
 }
+
 
 
 .microsoftyahei-bold-white-20px {
