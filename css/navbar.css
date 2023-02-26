@@ -1,3 +1,23 @@
+/* screen - 6-1-guan-yu-xue-lian-xue-lian-li-shi */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/63ec999b4cbf29a442bc4dcf.63ec999d5da3fb649b3db873.Z8nxF1Y.hcp.png");
+
+@font-face {
+    font-family: "Microsoft YaHei-Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/msyhbd.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Microsoft YaHei-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/msyh.ttf") format("truetype");
+}
+
+
+
 .nav {
     /*overflow: hidden;*/
     background-color: white;
@@ -21,13 +41,14 @@
 .nav a {
     /*float: right;*/
     /*display: block;*/
-    color: black;
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-bold);
     text-align: center;
     /*padding: 5px 25px;*/
     text-decoration: none;
-    font-size: 16px;
+    font-size: var(--font-size-m);
     font-weight: bold;
-    font-family: STFangsong, fangsong;
+
 }
 
 .nav a:hover {
@@ -35,6 +56,16 @@
     color: #1D2088;
     border-bottom: 2px solid #1D2088;
 }
+
+.dropdown-content a:hover {
+    color: #1D2088;
+    border-bottom: 2px solid #1D2088;
+}
+
+.dropdown button:hover{
+    color: var(--jacksons-purple);
+}
+
 
 .nav a.active {
     background-color: white;
@@ -65,9 +96,9 @@
 
     border: none;
     cursor: pointer;
-    font-size: 16px;
+    font-size: var(--font-size-m);
     font-weight: bold;
-    font-family: STFangsong, fangsong;
+    font-family: var(--font-family-microsoft_yahei-bold)
     /*border-bottom: 2px solid #1D2088*/
 }
 
@@ -88,7 +119,7 @@
     display: none;
     position: absolute;
     background-color: white;
-    min-width: 160px;
+    /*min-width: 160px;*/
     /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
     z-index: 1;
 
@@ -97,20 +128,19 @@
 
 
 .dropdown-content a {
-    color: black;
+    color: var(--black);
     text-align: center;
-    /*padding: 0px 20px;*/
-    padding: 5px;
+    padding: 0px 5px;
+    /*padding: 5px;*/
     text-decoration: none;
-    font-size: 16px;
+    font-size: var(--font-size-m);
     font-weight: bold;
-    font-family: STFangsong, fangsong;
+    margin-top: 1%;
+
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-    color: #1D2088;
-    border-bottom: 2px solid #1D2088;}
+
+
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
@@ -131,5 +161,58 @@
     /*    width: 40px;*/
     /*    height: 40px;*/
     /*}*/
+}
+
+:root {
+    --allports: #006fb530;
+    --black: #000000;
+    --jacksons-purple: #1d2088;
+    --white: #ffffff;
+
+    --font-size-l: 32px;
+    --font-size-m: 20px;
+    --font-size-xl: 40px;
+
+    --font-family-microsoft_yahei-bold: "Microsoft YaHei-Bold", Helvetica;
+    --font-family-microsoft_yahei-regular: "Microsoft YaHei-Regular", Helvetica;
+}
+.microsoftyahei-regular-normal-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-regular);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.microsoftyahei-regular-normal-black-10px {
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-regular);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.microsoftyahei-bold-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.microsoftyahei-bold-black-32px {
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.microsoftyahei-bold-black-15px {
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 700;
 }
 
