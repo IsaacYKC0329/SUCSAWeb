@@ -163,9 +163,9 @@
     align-items: flex-start;
     border: 3px solid;
     border-color: var(--jacksons-purple);
-    border-radius: 32px;
+    border-radius: 60px;
     display: flex;
-    gap: 40px;
+    gap: 5%;
     padding: 1%;
     background-color: var(--jacksons-purple);
 }
