@@ -27,7 +27,6 @@
 
 .body{
     margin:auto;
-    max-width: 1024px;
 }
 
 .history {
@@ -36,7 +35,7 @@
     border: 1px none;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    /*gap: 50px;*/
     width: 100%;
     position: relative;
     z-index: -1;
