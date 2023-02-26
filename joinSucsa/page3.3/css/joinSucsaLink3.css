@@ -73,34 +73,30 @@
 
 .button {
     margin-top: 20px;
+    background-color: #1D2088;
     /*align-items: flex-start;*/
     border: 3px solid;
-    background-color: #1D2088;
     border-color: var(--blue);
     border-radius: 32px;
-    /*display: flex;*/
-    gap: 40px;
+    display: flex;
     left: 0;
     padding: 14px 29px;
     /*position: absolute;*/
     /*top: 195px;*/
-    width: 360px;
+    width: 182px;
     text-decoration: none;
-    z-index: -1;
-    display: inline-block;
 }
 
 .button-text {
-    display: inline-block;
     color: white;
     font-weight: bold;
     flex: 1;
     letter-spacing: 0;
     line-height: normal;
+    margin-top: -3.00px;
     position: relative;
     text-align: center;
-    margin: auto 0;
-    z-index: 1;
+    text-decoration: none;
 }
 
 .button:hover {
@@ -108,9 +104,10 @@
 }
 
 .button:hover .button-text {
-    color: #1d2088;
+    color: #1D2088;
     z-index: 1;
 }
+
 
 .title1{
     text-align: center;
@@ -121,19 +118,25 @@
     margin-bottom: 50px;
 }
 
+.introduction{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
 .calendar{
-    margin-left: 360px;
-    margin-top: 20px;
     border: 3px solid;
     background-color: #1D2088;
     border-color: var(--blue);
     border-radius: 32px;
-    gap: 40px;
     padding: 14px 29px;
-    width: 300px;
+    width: 280px;
     z-index: -1;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    margin-left: 360px;
 }
+
 .calendar-text{
     text-align: center;
     display: inline-block;
@@ -141,18 +144,51 @@
     font-weight: bold;
     flex: 1;
     letter-spacing: 0;
-    line-height: 1.5;
     position: relative;
-    text-align: center;
     z-index: 1;
 }
 
 .small-text{
+    margin-top: 30px;
     font-size: small;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    text-align: center;
+    display: inline-block;
 }
 
 .big-text{
+    font-size: 24px;
+}
 
+.paragraph{
+    display: table;
+    margin-left: 80px;
+    margin-right: 360px;
+}
+
+.blackTitle{
+    font-size: 32px;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.sentence{
+    max-width: 400px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 2;
+    margin-bottom: 50px;
+}
+
+
+.flow{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.recruit-poster{
+    margin-left: 360px;
+    width: 280px;
 }
