@@ -117,7 +117,6 @@
 }
 
 .fframe contact-btn{
-    margin-top: 20px;
     align-items: flex-start;
     border: 3px solid;
     border-color: var(--jacksons-purple);
@@ -127,6 +126,7 @@
     padding: 8px;
     background-color: var(--jacksons-purple);
     z-index: 1;
+    width: 280px;
 }
 
 .contact text{
@@ -165,7 +165,7 @@
     border-radius: 32px;
     display: flex;
     gap: 40px;
-    padding: 30px;
+    padding: 20px;
     background-color: var(--jacksons-purple);
 }
 
@@ -192,10 +192,11 @@
 .fframe2 {
     align-items: center;
     display: flex;
-    gap: 100px;
+    gap: 300px;
     position: relative;
     width: fit-content;
-    margin-left: 20%;
+    margin-left: 10%;
+    margin-right: 50%;
 }
 
 .fframe3 {
