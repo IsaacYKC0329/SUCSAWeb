@@ -17,22 +17,6 @@
   font-weight: 700;
 }
 
-.microsoftyahei-bold-black-40px {
-  color: var(--black);
-  font-family: var(--font-family-microsoft_yahei-bold);
-  font-size: var(--font-size-l);
-  font-style: normal;
-  font-weight: 700;
-}
-
-.microsoftyahei-regular-normal-black-20px {
-  color: var(--black);
-  font-family: var(--font-family-microsoft_yahei-regular);
-  font-size: var(--font-size-m);
-  font-style: normal;
-  font-weight: 400;
-}
-
 .microsoftyahei-bold-white-20px {
   color: var(--white);
   font-family: var(--font-family-microsoft_yahei-bold);
