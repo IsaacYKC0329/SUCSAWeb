@@ -92,8 +92,8 @@
     display: flex;
     gap: 50px;
     justify-content: center;
-    margin-left: 360px;
-    margin-right: 360px;
+    margin-left: 10%;
+    margin-right: 10%;
 
     position: relative;
     width: 80%;
