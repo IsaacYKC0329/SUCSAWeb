@@ -166,7 +166,7 @@
     border-radius: 32px;
     display: flex;
     gap: 40px;
-    padding: 20px;
+    padding: 1%;
     background-color: var(--jacksons-purple);
 }
 
@@ -193,11 +193,11 @@
 .fframe2 {
     align-items: center;
     display: flex;
-    gap: 300px;
+    gap: 80%;
     position: relative;
     width: fit-content;
     margin-left: 10%;
-    margin-right: 50%;
+    margin-right: 10%;
 }
 
 .fframe3 {
@@ -220,8 +220,10 @@
 
 .fframe5 {
     height: 0;
-    gap: 80px;
-    min-width: fit-content;
+    gap: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: fit-content;
     position: relative;
 }
 
@@ -236,7 +238,7 @@
 
 .pic-frame2{
     height: 260px;
-    margin-left: 55%;
+    margin-left: 75%;
     min-width: 260px;
     object-fit: cover;
     position: relative;
@@ -273,10 +275,11 @@
 
 .ggroup4 {
     height: 320px;
-    min-width: 2000px;
+    min-width: fit-content;
     position: relative;
     padding-top: 50px;
-    padding-left: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .title-text{
