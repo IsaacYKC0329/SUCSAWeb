@@ -73,6 +73,14 @@
     font-weight: 700;
 }
 
+.microsoftyahei-bold-blue-40px {
+    color: var(--jacksons-purple);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 700;
+}
+
 .valign-text-middle {
     display: flex;
     flex-direction: column;
@@ -94,7 +102,21 @@
     z-index: -1;
 }
 
-.fframe .contact-btn{
+.table-frame {
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 3%;
+
+    z-index: -1;
+}
+
+.fframe contact-btn{
     margin-top: 20px;
     align-items: flex-start;
     border: 3px solid;
@@ -125,13 +147,33 @@
     color: var(--jacksons-purple);
 }
 
-/*.fframe a.active .contact-text{*/
-/*    !*background-color: var(--white);*!*/
-/*    color: var(--jacksons-purple);*/
-/*}*/
+.fframe contact-btn.active {
+    background-color: var(--white);
+}
+
+.fframe contact-btn.active .contact-text {
+    color: var(--jacksons-purple);
+}
 
 .fframe a{
     text-decoration: none;
+    margin-top: 20px;
+    align-items: flex-start;
+    border: 3px solid;
+    border-color: var(--jacksons-purple);
+    border-radius: 32px;
+    display: flex;
+    gap: 40px;
+    padding: 8px;
+    background-color: var(--jacksons-purple);
+}
+
+.fframe a.active {
+    background-color: var(--white);
+}
+
+.fframe a.active .contact-text {
+    color: var(--jacksons-purple);
 }
 
 .fframe1 {
@@ -162,10 +204,36 @@
     position: relative;
 }
 
+.fframe4 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-left: 1%;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+}
+
+.fframe5 {
+    height: 0;
+    gap: 80px;
+    min-width: fit-content;
+    position: relative;
+}
+
 .pic-frame{
     height: 260px;
     margin-right: -3.00px;
     margin-left: 50%;
+    min-width: 260px;
+    object-fit: cover;
+    position: relative;
+}
+
+.pic-frame2{
+    height: 260px;
+    margin-left: 55%;
     min-width: 260px;
     object-fit: cover;
     position: relative;
@@ -183,12 +251,45 @@
     position: relative;
 }
 
+.ggroup2 {
+    height: 54px;
+    min-width: 482px;
+    position: relative;
+}
+
+.ggroup3 {
+    align-items: flex-start;
+    display: flex;
+    gap: 379px;
+    height: 223px;
+    left: 1px;
+    min-width: 1173px;
+    position: absolute;
+    top: 0;
+}
+
+.ggroup4 {
+    height: 320px;
+    min-width: 2000px;
+    position: relative;
+    padding-top: 50px;
+    padding-left: 15%;
+}
+
 .title-text{
     letter-spacing: 0;
     text-align: center;
     align-self: flex-start;
     min-width: 300px;
     margin-left: 60%;
+}
+
+.title-text2{
+    letter-spacing: 0;
+    text-align: center;
+    align-self: flex-start;
+    min-width: 400px;
+    padding-left: 20%;
 }
 
 .dscrp-text{
@@ -199,6 +300,45 @@
     position: absolute;
     top: 60px;
     width: 650px;
+}
+
+.dscrp-text2{
+    letter-spacing: 0;
+    text-align: center;
+    left: 0;
+    line-height: 35.4px;
+    position: absolute;
+    top: 60px;
+    width: 650px;
+    margin-right: 20%;
+    padding-top: 80px;
+    padding-right: 100px;
+}
+
+.subtext {
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 480px;
+}
+
+.line {
+    height: 5px;
+    left: 0;
+    position: absolute;
+    top: 22px;
+    width: 125px;
+}
+
+.line2{
+    height: 5px;
+    left: 355px;
+    position: absolute;
+    top: 22px;
+    width: 125px;
 }
 
 .join-btn {
