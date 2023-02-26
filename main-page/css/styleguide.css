@@ -1,0 +1,45 @@
+:root { 
+  --black: #000000;
+  --jacksons-purple: #1d2088;
+  --white: #ffffff;
+ 
+  --font-size-l: 40px;
+  --font-size-m: 20px;
+  --font-size-xl: 80px;
+  --font-size-xxl: 120px;
+ 
+  --font-family-helvetica_now_text_-medium: "Helvetica Now Text -Medium", Helvetica;
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-microsoft_yahei-bold: "Microsoft YaHei-Bold", Helvetica;
+}
+.microsoftyahei-bold-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-microsoft_yahei-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.microsoftyahei-bold-jacksons-purple-80px {
+  color: var(--jacksons-purple);
+  font-family: var(--font-family-microsoft_yahei-bold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-normal-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-black-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 900;
+}
