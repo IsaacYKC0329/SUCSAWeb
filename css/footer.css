@@ -35,11 +35,9 @@ body{
 
 }
 #footer{
-    /*background: #f7f7f7;*/
-    padding: 3rem;
-    /* padding-top: 5rem; */
-    padding-top: 7rem;
-    /*padding-bottom: 80px;*/
+
+    padding: 5% 1% 1%;
+
     background-color: #1D2088;
 
 }
@@ -47,26 +45,16 @@ body{
     background: #1D2088;
     padding: 3rem;
     margin-top: 0px;
-    /* padding-top: 5rem; */
     padding-top: 7rem;
     padding-bottom: 80px;
-    /*background-image: url(../images/cards/v748-toon-111.png);*/
 }
 
 .col-md-3 .footer-about{
-    margin-bottom: 20px;
+    margin-bottom: 5%;
     width: 150%;
 }
-.logo-footer{
-    /* max-width: 300px; */
-}
-.social-links{
-    /* display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center; */
 
-}
+
 .social-links h2{
     padding-bottom: 15px;
     font-size: 20px;
@@ -139,7 +127,7 @@ li{
     margin-top:30px;
 }
 .address img{
-    padding-bottom: 15px;
+    padding-bottom: 5%;
 }
 .address-links li a{
     font-size: 20px;
@@ -162,7 +150,7 @@ li{
 .copy-right-sec{
     padding: 1.8rem;
     background: #1D2088;
-    color: #fff;
+    color: var(--white);
     text-align: center;
 }
 .copy-right-sec a{

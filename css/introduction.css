@@ -103,6 +103,69 @@
 /*}*/
 
 
+.manage-graph, .depart-intro, .current-manage, .mascot-intro, .web-group-intro h1{
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    height: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+.manage-graph{
+    width: 50%;
+    margin-left: 7%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.depart-intro{
+    width: 50%;
+    margin-left: 3.5%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.current-manage{
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mascot-intro{
+    width: 50%;
+    margin-left: 4%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.web-group-intro{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 .microsoftyahei-bold-white-20px {
