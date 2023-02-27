@@ -1,0 +1,233 @@
+:root {
+    --black: #000000;
+    --jacksons-purple: #1d2088;
+    --white: #ffffff;
+
+    --font-size-l: 40px;
+    --font-size-m: 20px;
+
+    --font-family-microsoft_yahei-bold: "Microsoft YaHei-Bold", Helvetica;
+    --font-family-microsoft_yahei-regular: "Microsoft YaHei-Regular", Helvetica;
+}
+.microsoftyahei-bold-black-40px {
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.microsoftyahei-regular-normal-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-regular);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.microsoftyahei-bold-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.microsoftyahei-bold-white-20px {
+    color: var(--white);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.microsoftyahei-bold-white-40px {
+    color: var(--white);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.microsoftyahei-bold-white-25px {
+    color: var(--white);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.microsoftyahei-regular-normal-white-20px {
+    color: var(--white);
+    font-family: var(--font-family-microsoft_yahei-regular);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.microsoftyahei-bold-blue-20px {
+    color: #1D2088;
+    font-family: var(--font-family-microsoft_yahei-regular);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fframe {
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-left: 2%;
+
+    position: relative;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+
+    z-index: -1;
+}
+
+.fframe .contact-btn{
+    margin-top: 20px;
+    align-items: flex-start;
+    border: 3px solid;
+    border-color: var(--jacksons-purple);
+    border-radius: 32px;
+    display: flex;
+    gap: 40px;
+    padding: 8px;
+    background-color: var(--jacksons-purple);
+}
+
+.contact text{
+    color: var(--white);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.contact-btn:hover {
+    background-color: var(--white);
+}
+
+.contact-btn:hover .contact-text {
+    color: var(--jacksons-purple);
+}
+
+/*.fframe a.active .contact-text{*/
+/*    !*background-color: var(--white);*!*/
+/*    color: var(--jacksons-purple);*/
+/*}*/
+
+.fframe a{
+    text-decoration: none;
+}
+
+.fframe1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    margin-left: -5%;
+    position: relative;
+    width: 100%;
+    z-index: -1;
+}
+
+.fframe2 {
+    align-items: center;
+    display: flex;
+    gap: 100px;
+    position: relative;
+    width: fit-content;
+    margin-left: 20%;
+}
+
+.fframe3 {
+    height: 153px;
+    gap: 50px;
+    min-width: fit-content;
+    position: relative;
+}
+
+.pic-frame{
+    height: 260px;
+    margin-right: -3.00px;
+    margin-left: 50%;
+    min-width: 260px;
+    object-fit: cover;
+    position: relative;
+}
+
+.ggroup {
+    height: 77px;
+    min-width: 287px;
+    position: relative;
+}
+
+.ggroup1 {
+    height: 260px;
+    min-width: 1195px;
+    position: relative;
+}
+
+.title-text{
+    letter-spacing: 0;
+    text-align: center;
+    align-self: flex-start;
+    min-width: 300px;
+    margin-left: 60%;
+}
+
+.dscrp-text{
+    letter-spacing: 0;
+    text-align: center;
+    left: 0;
+    line-height: 35.4px;
+    position: absolute;
+    top: 60px;
+    width: 650px;
+}
+
+.join-btn {
+    align-items: flex-start;
+    border: 3px solid;
+    border-color: var(--white);
+    border-radius: 32px;
+    display: flex;
+    gap: 10px;
+    left: 0;
+    padding: 14px 29px;
+    position: absolute;
+    top: 195px;
+    width: 182px;
+}
+
+.btn-text {
+    flex: 1;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -3.00px;
+    position: relative;
+    text-align: center;
+}
+
+.join-btn:hover {
+    background-color: var(--white);
+}
+
+.join-btn:hover .btn-text {
+    color: #1D2088;
+}

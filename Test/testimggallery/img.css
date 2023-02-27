@@ -1,0 +1,33 @@
+/*.img-fluid {*/
+/*    max-height: 300px;*/
+/*    width: auto;*/
+/*    transition: transform 0.5s ease;*/
+/*}*/
+/*.img-fluid.focused {*/
+/*    transform: scale(1.5);*/
+/*}*/
+/*.hidden {*/
+/*    display: none;*/
+/*}*/
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+
+.prev-button, .next-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
