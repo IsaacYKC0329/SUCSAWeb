@@ -129,6 +129,76 @@
     margin-top:100px;
 }
 
+.manage-avatar, .honor-avatar{
+    margin-bottom: 100px;
+}
+.manage-avatar2 {
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: center;*/
+
+}
+
+.manage-avatar1,.manage-avatar3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+
+}
+
+.avatar-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1%;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.avatar-text {
+    /*margin-top: 10px;*/
+    font-size: var(--font-size-ct);
+}
+
+.alumini .text-al{
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-regular);
+    font-size: var(--font-size-nml);
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 50px;
+    width: 40%;
+
+}
+
+.mascot-intro{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.mascot-intro .text-al{
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-regular);
+    font-size: var(--font-size-nml);
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 50px;
+    width: 40%;
+}
+
+.web-group-intro{
+    margin-top: 50%;
+    margin-bottom: 50%;
+
+}
+
+
+
+
 
 
 .microsoftyahei-bold-white-20px {
@@ -167,6 +237,22 @@
 
 .microsoftyahei-bold-blue-16px {
     color: var(--jacksons-purple);
+    font-family: var(--font-family-microsoft_yahei-regular);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.microsoftyahei-bold-black-16px {
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-regular);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.microsoftyahei-regular-normal-black-16px {
+    color: var(--black);
     font-family: var(--font-family-microsoft_yahei-regular);
     font-size: var(--font-size-ct);
     font-style: normal;

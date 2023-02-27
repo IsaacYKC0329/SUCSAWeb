@@ -55,6 +55,6 @@
     color: green;
 }
 
-.container{
-    background-color: #1D2088;
+.middle-image {
+    transform: scale(1.5);
 }
