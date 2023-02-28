@@ -212,8 +212,8 @@
 .fframe5 {
     height: 0;
     gap: 100%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 80px;
+    margin-right: 80px;
     width: fit-content;
     position: relative;
 }
@@ -229,7 +229,8 @@
 
 .pic-frame2{
     height: 260px;
-    margin-left: 70%;
+    margin-left: 950px;
+    margin-right: 50px;
     min-width: 260px;
     object-fit: cover;
     position: relative;
@@ -267,12 +268,16 @@
 }
 
 .ggroup4 {
-    height: 320px;
-    min-width: fit-content;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 500px;
     position: relative;
-    padding-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
+    width: auto ;
+    z-index: -1;
 }
 
 .title-text{
