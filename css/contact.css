@@ -92,10 +92,11 @@
     display: flex;
     gap: 50px;
     justify-content: center;
-    margin-left: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
 
     position: relative;
-    width: 100%;
+    width: 80%;
     margin-top: 10%;
     margin-bottom: 3%;
 
@@ -117,7 +118,6 @@
 }
 
 .fframe contact-btn{
-    margin-top: 20px;
     align-items: flex-start;
     border: 3px solid;
     border-color: var(--jacksons-purple);
@@ -127,6 +127,7 @@
     padding: 8px;
     background-color: var(--jacksons-purple);
     z-index: 1;
+    width: 280px;
 }
 
 .contact text{
@@ -162,10 +163,10 @@
     align-items: flex-start;
     border: 3px solid;
     border-color: var(--jacksons-purple);
-    border-radius: 32px;
+    border-radius: 60px;
     display: flex;
-    gap: 40px;
-    padding: 30px;
+    gap: 5%;
+    padding: 1%;
     background-color: var(--jacksons-purple);
 }
 
@@ -192,10 +193,11 @@
 .fframe2 {
     align-items: center;
     display: flex;
-    gap: 100px;
+    gap: 80%;
     position: relative;
     width: fit-content;
-    margin-left: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .fframe3 {
@@ -218,8 +220,10 @@
 
 .fframe5 {
     height: 0;
-    gap: 80px;
-    min-width: fit-content;
+    gap: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: fit-content;
     position: relative;
 }
 
@@ -234,7 +238,7 @@
 
 .pic-frame2{
     height: 260px;
-    margin-left: 55%;
+    margin-left: 75%;
     min-width: 260px;
     object-fit: cover;
     position: relative;
@@ -271,10 +275,11 @@
 
 .ggroup4 {
     height: 320px;
-    min-width: 2000px;
+    min-width: fit-content;
     position: relative;
     padding-top: 50px;
-    padding-left: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .title-text{
