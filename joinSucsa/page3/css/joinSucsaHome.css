@@ -118,15 +118,18 @@
     margin-bottom: 100px;
 }
 
+.twoposters{
+    width: 100%;
+}
 .poster1{
-    margin-left: 360px;
-    height: 460px;
-    margin-right: 120px;
+    margin-left: 18%;
+    height: 480px;
+    margin-right: 20%;
 }
 
 .poster2{
-    margin-right: 360px;
-    height: 460px;
+    margin-right: 18%;
+    height: 480px;
 }
 
 .script1{
@@ -140,33 +143,33 @@
     line-height: 1.5;
 }
 .twoscripts{
-    margin: 20px 360px;
+    margin: 20px 15%;
     display: flex;
 }
 
 .button1{
-    margin-left: 10%;
-    margin-right: 100px;
+    margin-left: 25%;
+    margin-right: 26%;
 }
 
 .button2{
-    margin-left: 20%;
+    margin-right: 26%;
 }
+
 .twoButtons{
-    margin-left: 360px;
-    margin-right: 360px;
     display: flex;
     margin-bottom: 100px;
 }
 
 .poster3{
-    margin-left: 360px;
-    width: 50%;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
     margin-bottom: 50px;
 }
 .script3{
-    margin-left: 360px;
-    margin-right: 360px;
+    margin-left: 15%;
+    margin-right: 15%;
     line-height: 1.5;
     margin-bottom: 50px;
 }

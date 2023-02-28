@@ -113,12 +113,12 @@
 }
 
 .title1{
-    text-align: center;
     font-size: 40px;
-    font-weight: bold;
+    text-align: center;
     color: #1d2088;
-    margin-top: 150px;
-    margin-bottom: 50px;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 100px;
 }
 
 .blackTitle{
@@ -130,8 +130,8 @@
 }
 
 .Q\&A{
-    margin-left: 360px;
-    margin-right: 360px;
+    margin-left: 15%;
+    margin-right: 15%;
     max-width: 100%;
 }
 
@@ -145,8 +145,8 @@
 }
 
 .answer1{
-    margin-right: 360px;
-    margin-left: 360px;
+    margin-right: 15%;
+    margin-left: 15%;
     line-height: 1.5;
     margin-bottom: 100px;
 }
@@ -162,18 +162,18 @@
 }
 
 .MemberPhoto{
-    margin-right: 360px;
-    margin-left: 360px;
-    max-width: 50%;
+    margin-right: 15%;
+    margin-left: 15%;
+    max-width: 70%;
     margin-bottom: 50px;
 }
 .Group\&Function{
-    margin: 50px 360px 100px;
+    margin: 50px 15% 100px;
 }
 
 .Group{
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     color: #1D2088;
 }
 .Function{

@@ -130,11 +130,11 @@
     border-color: var(--blue);
     border-radius: 32px;
     padding: 14px 29px;
-    width: 280px;
-    z-index: -1;
+    width: 20%;
     display: flex;
     flex-direction: column;
-    margin-left: 360px;
+    margin-left: 15%;
+    z-index: 1;
 }
 
 .calendar-text{
@@ -145,24 +145,28 @@
     flex: 1;
     letter-spacing: 0;
     position: relative;
-    z-index: 1;
+    /*z-index: 1;*/
+    margin-left: 5%;
+    right: 5%;
 }
 
 .small-text{
     margin-top: 30px;
-    font-size: small;
+    font-size: 20px;
     text-align: center;
     display: inline-block;
+    z-index: 1;
 }
 
 .big-text{
-    font-size: 24px;
+    font-size: 32px;
+    z-index: 1;
 }
 
 .paragraph{
     display: table;
-    margin-left: 80px;
-    margin-right: 360px;
+    margin-left: 8%;
+    margin-right: 15%;
 }
 
 .blackTitle{
@@ -174,9 +178,9 @@
 }
 
 .sentence{
-    max-width: 400px;
-    font-size: 12px;
-    font-weight: bold;
+    max-width: 600px;
+    font-size: 20px;
+    font-weight: normal;
     line-height: 2;
     margin-bottom: 50px;
 }
@@ -184,11 +188,12 @@
 
 .flow{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     margin-bottom: 100px;
+    margin-left: 8%;
 }
 
 .recruit-poster{
-    margin-left: 360px;
-    width: 280px;
+    margin-left: -8%;
+    margin-right: 15%;
 }
