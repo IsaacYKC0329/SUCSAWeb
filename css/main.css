@@ -73,7 +73,7 @@ p {
 
 .header {
     font-size: 20pt;
-    font-weight: medium;
+
     margin-bottom: 100px;
     padding: 14px 29px;
 }
@@ -133,7 +133,7 @@ p {
     /*left: 0;*/
     bottom: 0;
     width: 100%;
-
+    z-index: 10;
     color: white;
     text-align: center;
     /*padding: 20px;*/

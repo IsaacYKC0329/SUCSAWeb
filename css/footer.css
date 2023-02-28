@@ -39,6 +39,7 @@ body{
     padding: 5% 1% 1%;
 
     background-color: #1D2088;
+    z-index: 10;
 
 }
 #footer2{
@@ -47,6 +48,7 @@ body{
     margin-top: 0px;
     padding-top: 7rem;
     padding-bottom: 80px;
+    z-index: 10;
 }
 
 .col-md-3 .footer-about{

@@ -94,6 +94,8 @@
     padding: 1%;
     margin-left: 80%;
     /*margin-right: 10%;*/
+    /*z-index: -1;*/
+    margin-top: 5%;
 
 }
 
@@ -103,6 +105,7 @@
     text-align: left;
     padding: 8px;
     margin-left: 10%;
+
 }
 
 /*.intro .content a:hover {*/
@@ -120,17 +123,31 @@
     line-height: normal;
     margin-top: -1.00px;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 5%;
+}
+
+.manage-graph img{
+    width: 60%;
+    margin-left: -4%;
+}
+
+.current-honor{
+    margin-top: 10%;
+}
+
+.depart-intro{
+    margin-top: 35%;
 }
 
 .detail-intro{
     text-align: left;
     margin-left: 15%;
-    margin-top:100px;
+    margin-top:10%;
 }
 
+
 .manage-avatar, .honor-avatar{
-    margin-bottom: 100px;
+    margin-bottom: 10%;
 }
 .manage-avatar2 {
     display: flex;
@@ -154,14 +171,15 @@
 }
 
 .avatar {
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     border-radius: 100%;
 }
 
-.avatar-text {
-    /*margin-top: 10px;*/
+.avatar-text1 {
+
     font-size: var(--font-size-ct);
+    font-family: var(--font-family-microsoft_yahei-bold);
 }
 
 .alumini .text-al{
@@ -192,14 +210,67 @@
 
 .web-group-intro{
     margin-top: 50%;
-    margin-bottom: 50%;
+    margin-bottom: 70%;
 
 }
 
+.text-d{
+    width: 160%;
+}
+
+
+.coordinating, .technical, .design, .editing{
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-regular);
+    font-size: var(--font-size-nml);
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 50px;
+    width: 40%;
+}
+
+.finance-Department, .secretary, .Hr, .marketing, .design-d, .new-media,.entertain,.communicate,.career,.art{
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-regular);
+    font-size: var(--font-size-nml);
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 50px;
+    width: 40%;
+
+}
+
+.depart-intro{
+    margin-bottom: 225%;
+}
+
+.depart-intro h2{
+    margin-top: 5%;
+}
+
+.depart-intro h3{
+    margin-bottom: 5%;
+}
+
+/*.current-manage{*/
+/*    margin-top: 100%;*/
+/*}*/
 
 
 
+.coordinating a, .technical a, .design a, .editing a{
+    text-decoration: none;
+    color: var(--black);
+}
 
+/*.coordinating th, .technical th, .design th, .editing th{*/
+/*    text-decoration: none;*/
+/*    color: var(--black);*/
+/*}*/
+
+
+
+tr:nth-child(odd){background-color: var(--white)}
 
 .microsoftyahei-bold-white-20px {
     color: var(--white);
