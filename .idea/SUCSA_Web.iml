@@ -14,5 +14,11 @@
     <orderEntry type="library" name="bootstrap" level="application" />
     <orderEntry type="library" name="jquery-3.2.1.slim" level="application" />
     <orderEntry type="library" name="popper.js" level="application" />
+    <orderEntry type="library" name="popper.js" level="application" />
+    <orderEntry type="library" name="jquery-3.2.1.slim" level="application" />
+    <orderEntry type="library" name="agilebins" level="application" />
+    <orderEntry type="library" name="abFullDialog" level="application" />
+    <orderEntry type="library" name="jquery-1.8.3" level="application" />
+    <orderEntry type="library" name="jquery.agilebins-v1.0.4" level="application" />
   </component>
 </module>

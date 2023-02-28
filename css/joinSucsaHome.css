@@ -72,7 +72,6 @@
 }
 
 .button {
-    margin-left: 22%;
     margin-top: 20px;
     /*align-items: flex-start;*/
     border: 3px solid;
@@ -86,9 +85,12 @@
     /*top: 195px;*/
     width: 182px;
     text-decoration: none;
+    z-index: -1;
 }
 
 .button-text {
+    color: #1d2088;
+    font-weight: bold;
     flex: 1;
     letter-spacing: 0;
     line-height: normal;
@@ -99,69 +101,81 @@
 }
 
 .button:hover {
-    background-color: var(--blue);
+    background-color: #1d2088;
 }
 
-.button:hover.button-text {
-    color: white;
+.button:hover .button-text {
+    color: #ffffff;
+    z-index: 1;
 }
-
 
 .title1{
     font-size: 40px;
-    color: darkblue;
+    text-align: center;
+    color: #1d2088;
+    font-weight: bold;
     margin-top: 10%;
-}
-.poster1{
-    margin-left: 2%;
-    width: 95%;
-}
-
-.poster2{
-    margin-right: 15%;
-    width: 80%;
+    margin-bottom: 100px;
 }
 
 .twoposters{
-    margin-left: 25%;
-    display: flex;
+    width: 100%;
+}
+.poster1{
+    margin-left: 18%;
+    height: 480px;
+    margin-right: 20%;
+}
+
+.poster2{
+    margin-right: 18%;
+    height: 480px;
 }
 
 .script1{
-    max-width: 30%;
+    max-width: 45%;
+    line-height: 1.5;
 }
 
 .script2{
     margin-left: 10%;
-    max-width: 30%;
+    max-width: 45%;
+    line-height: 1.5;
 }
 .twoscripts{
-    margin-top: 1%;
-    font-size: 20px;
-    margin-left: 25%;
+    margin: 20px 15%;
     display: flex;
 }
 
-.jiaruhuiyuan{
-    margin-left: 27%;
+.button1{
+    margin-left: 25%;
+    margin-right: 26%;
 }
+
+.button2{
+    margin-right: 26%;
+}
+
 .twoButtons{
     display: flex;
+    margin-bottom: 100px;
 }
 
 .poster3{
-    margin-top: 3%;
-    margin-left: 25%;
-    width: 60%;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    margin-bottom: 50px;
 }
 .script3{
-    margin-top: 1%;
-    margin-left: 27%;
-    max-width: 50%;
-    font-size: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 1.5;
+    margin-bottom: 50px;
 }
 
 .button3{
-    margin-left: 30%;
-    margin-bottom: 5%;
+    margin-left: 45%;
+    margin-right: 360px;
+    margin-bottom: 100px;
 }
