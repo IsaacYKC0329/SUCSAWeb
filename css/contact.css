@@ -222,8 +222,8 @@
 .fframe5 {
     height: 0;
     gap: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     width: fit-content;
     position: relative;
 }
@@ -239,7 +239,7 @@
 
 .pic-frame2{
     height: 260px;
-    margin-left: 75%;
+    margin-left: 65%;
     min-width: 260px;
     object-fit: cover;
     position: relative;
@@ -253,7 +253,7 @@
 
 .ggroup1 {
     height: 260px;
-    min-width: fit-contents;
+    min-width: fit-content;
     position: relative;
     margin-left: 15%;
     margin-right: 15%;
