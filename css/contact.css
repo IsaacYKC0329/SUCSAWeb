@@ -187,18 +187,18 @@
     margin-left: 15%;
     margin-right: 15%;
     position: relative;
-    width: fit-content;
+    width: fit-content ;
     z-index: -1;
 }
 
 .fframe2 {
     align-items: center;
     display: flex;
-    gap: 80%;
+    gap: 70%;
     position: relative;
     width: fit-content;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .fframe3 {
@@ -247,7 +247,7 @@
 
 .ggroup {
     height: 77px;
-    min-width: 287px;
+    min-width: fit-content;
     position: relative;
 }
 
