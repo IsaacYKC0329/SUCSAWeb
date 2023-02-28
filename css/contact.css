@@ -184,9 +184,10 @@
     flex-direction: column;
     gap: 50px;
     justify-content: center;
-    margin-left: -5%;
+    margin-left: 15%;
+    margin-right: 15%;
     position: relative;
-    width: 100%;
+    width: fit-content;
     z-index: -1;
 }
 
@@ -252,8 +253,10 @@
 
 .ggroup1 {
     height: 260px;
-    min-width: 1195px;
+    min-width: fit-contents;
     position: relative;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .ggroup2 {
