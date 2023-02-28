@@ -12,7 +12,7 @@
 .microsoftyahei-bold-black-40px {
     color: var(--black);
     font-family: var(--font-family-microsoft_yahei-bold);
-    font-size: var(--font-size-l);
+    font-size: var(--font-size-m);
     font-style: normal;
     font-weight: 700;
 }
@@ -20,7 +20,7 @@
 .microsoftyahei-regular-normal-black-20px {
     color: var(--black);
     font-family: var(--font-family-microsoft_yahei-regular);
-    font-size: var(--font-size-m);
+    font-size: var(--font-size-s);
     font-style: normal;
     font-weight: 400;
 }
@@ -52,7 +52,7 @@
 .microsoftyahei-bold-white-25px {
     color: var(--white);
     font-family: var(--font-family-microsoft_yahei-bold);
-    font-size: var(--font-size-l);
+    font-size: var(--font-size-m);
     font-style: normal;
     font-weight: 700;
 }
@@ -90,7 +90,7 @@
 .fframe {
     align-items: center;
     display: flex;
-    gap: 2%;
+    gap: 5%;
     justify-content: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -130,16 +130,7 @@
     width: 280px;
 }
 
-.contact text{
-    color: var(--white);
-    font-family: var(--font-family-microsoft_yahei-bold);
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0em;
-    text-align: left;
-}
+
 
 .contact-btn:hover {
     background-color: var(--white);
@@ -159,7 +150,6 @@
 
 .fframe a{
     text-decoration: none;
-    margin-top: 20px;
     align-items: flex-start;
     border: 3px solid;
     border-color: var(--jacksons-purple);
@@ -194,10 +184,10 @@
 .fframe2 {
     align-items: center;
     display: flex;
-    gap: 70%;
+    gap: 50%;
     position: relative;
     width: fit-content;
-    margin-left: 15%;
+    margin-left: 10%;
     margin-right: 15%;
 }
 
@@ -231,7 +221,7 @@
 .pic-frame{
     height: 260px;
     margin-right: -3.00px;
-    margin-left: 50%;
+    margin-left: 30%;
     min-width: 260px;
     object-fit: cover;
     position: relative;
@@ -239,7 +229,7 @@
 
 .pic-frame2{
     height: 260px;
-    margin-left: 65%;
+    margin-left: 70%;
     min-width: 260px;
     object-fit: cover;
     position: relative;
@@ -317,11 +307,8 @@
     left: 0;
     line-height: 35.4px;
     position: absolute;
-    top: 60px;
     width: 650px;
-    margin-right: 20%;
     padding-top: 80px;
-    padding-right: 100px;
 }
 
 .subtext {
