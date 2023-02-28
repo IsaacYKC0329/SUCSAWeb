@@ -126,6 +126,13 @@
     margin-bottom: 5%;
 }
 
+/*.alumini{*/
+/*    display: flex;*/
+/*    !*justify-content: space-between;*!*/
+/*}*/
+
+
+
 .manage-graph img{
     width: 60%;
     margin-left: -4%;
@@ -136,13 +143,19 @@
 }
 
 .depart-intro{
-    margin-top: 35%;
+    margin-top: 40%;
 }
 
 .detail-intro{
     text-align: left;
     margin-left: 15%;
     margin-top:10%;
+}
+
+.web-group-intro{
+    text-align: left;
+    margin-left: 15%;
+    /*margin-top:5%;*/
 }
 
 
@@ -198,10 +211,37 @@
     margin-bottom: 100px;
 }
 
+
+
 .mascot-intro .text-al{
     color: var(--black);
     font-family: var(--font-family-microsoft_yahei-regular);
     font-size: var(--font-size-nml);
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 50px;
+    width: 40%;
+    clear: both;
+}
+
+.alumini-logo img{
+    float: right;
+    width: 30%;
+    margin-right: 30%;
+    margin-top: -30%
+}
+
+.mascot-logo img{
+    float: right;
+    width: 20%;
+    margin-right: 30%;
+    /*margin-top: -30%;*/
+}
+
+.mascot-intro a{
+    color: var(--jacksons-purple);
+    font-family: var(--font-family-microsoft_yahei-regular);
+    font-size: var(--font-size-ct);
     font-style: normal;
     font-weight: 400;
     margin-top: 50px;
