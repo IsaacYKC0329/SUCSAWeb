@@ -32,18 +32,14 @@
 }
 
 .intro{
-    /*background-color: var(--allports);*/
-    /*height: 100vh;*/
     width: 55%;
-    margin-left: 15%;
-    /*margin-right: 15%;*/
-    margin-top: 10%;
+    margin-left: 200px;
+    margin-top: 150px;
+    margin-right: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .intro h1{
@@ -57,6 +53,7 @@
     margin-top: -1.00px;
     width: 100%;
     margin-bottom: 50px;
+    margin-left: 80%;
 }
 
 .intro text{
@@ -67,13 +64,12 @@
     font-weight: 400;
     margin-top: 50px;
     width: 100%;
-
 }
 
 .content h2{
     color: var(--black);
     font-family: var(--font-family-microsoft_yahei-bold);
-    font-size: var(--font-size-l);
+    font-size: var(--font-size-ct);
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -81,99 +77,107 @@
     width: 100%;
     text-align: left;
     margin-left: 10%;
-
-
 }
 
 .content{
     width: 15%;
     position: fixed;
-    /*z-index: 1;*/
     background: #eee;
     overflow-x: hidden;
     padding: 1%;
     margin-left: 80%;
-    /*margin-right: 10%;*/
-    /*z-index: -1;*/
     margin-top: 5%;
-
 }
 
 .content a {
     text-decoration: none;
     display: block;
     text-align: left;
-    padding: 8px;
+    padding: 3px;
     margin-left: 10%;
+    font-size: var(--font-size-ct);
 
 }
 
-/*.intro .content a:hover {*/
-/*    !*border-bottom: 2px solid var(--jacksons-purple);*!*/
-/*}*/
+/*manage-graph start*/
+.manage-graph{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
 
+.manage-graph img{
+    width: 70%;
+    /*margin-top: 10%;*/
+}
 
-.manage-graph, .depart-intro, .current-manage, .current-honor ,.mascot-intro, .web-group-intro, .alumini h1{
+.manage-graph h1{
     color: var(--black);
     font-family: var(--font-family-microsoft_yahei-bold);
     font-size: var(--font-size-xl);
     font-weight: 700;
-    height: 40px;
     letter-spacing: 0;
     line-height: normal;
-    margin-top: -1.00px;
-    width: 100%;
+}
+/*manage-graph end*/
+
+/*depart-intro start*/
+.depart-intro{
+    margin-top: 5%;
+    margin-left: 15%;
     margin-bottom: 5%;
 }
 
-/*.alumini{*/
-/*    display: flex;*/
-/*    !*justify-content: space-between;*!*/
-/*}*/
-
-
-
-.manage-graph img{
-    width: 60%;
-    margin-left: -4%;
+.depart-intro h1{
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
 }
 
-.current-honor{
-    margin-top: 10%;
+.depart-intro h2{
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-l);
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
-.depart-intro{
-    margin-top: 40%;
-}
 
-.detail-intro{
-    text-align: left;
+.finance-Department .text-d, .secretary .text-d, .Hr .text-d, .marketing .text-d, .design-d .text-d, .new-media .text-d, .entertain .text-d,
+.communicate .text-d, .career .text-d, .art .text-d{
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-regular);
+    font-size: var(--font-size-nml);
+    font-style: normal;
+    font-weight: 400;
+    width: 65%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+/*depart-intro end*/
+
+/*current-manage start*/
+.current-manage{
     margin-left: 15%;
-    margin-top:10%;
 }
 
-.web-group-intro{
-    text-align: left;
-    padding-left: 15%;
-    /*margin-top:5%;*/
-}
-
-
-.manage-avatar, .honor-avatar{
-    margin-bottom: 10%;
-}
 .manage-avatar2 {
     display: flex;
     flex-wrap: wrap;
-    /*justify-content: center;*/
-
+    gap: 2%;
 }
 
 .manage-avatar1,.manage-avatar3 {
     display: flex;
     flex-wrap: wrap;
     margin-left: 5%;
-
+    gap: 2%;
 }
 
 .avatar-item {
@@ -182,7 +186,6 @@
     align-items: center;
     margin: 1%;
 }
-
 .avatar {
     width: 120px;
     height: 120px;
@@ -190,10 +193,62 @@
 }
 
 .avatar-text1 {
-
     font-size: var(--font-size-ct);
     font-family: var(--font-family-microsoft_yahei-bold);
+
 }
+
+.current-manage h1{
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/*current-manage end*/
+
+/*curren-honor start*/
+.current-honor{
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.current-honor h1{
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/*current-honor end*/
+
+/*alumini start*/
+.alumini{
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.alumini h1{
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 
 .alumini .text-al{
     color: var(--black);
@@ -201,17 +256,37 @@
     font-size: var(--font-size-nml);
     font-style: normal;
     font-weight: 400;
-    margin-top: 50px;
     width: 40%;
-
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
+.alumini-logo img{
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    /*margin-left: 5%;*/
+    width: 30%;
+    margin-right: 30%;
+}
+/*alumini end*/
+
+/*mascot start*/
 .mascot-intro{
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-
+.mascot-logo img{
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    width: 20%;
+    margin-right: 40%;
+}
 
 .mascot-intro .text-al{
     color: var(--black);
@@ -219,45 +294,31 @@
     font-size: var(--font-size-nml);
     font-style: normal;
     font-weight: 400;
-    margin-top: 50px;
     width: 40%;
-    clear: both;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
-.alumini-logo img{
-    float: right;
-    width: 30%;
-    margin-right: 30%;
-    margin-top: -30%
-}
+/*mascot end*/
 
-.mascot-logo img{
-    float: right;
-    width: 20%;
-    margin-right: 30%;
-    /*margin-top: -30%;*/
-}
-
-.mascot-intro a{
-    color: var(--jacksons-purple);
-    font-family: var(--font-family-microsoft_yahei-regular);
-    font-size: var(--font-size-ct);
-    font-style: normal;
-    font-weight: 400;
-    margin-top: 50px;
-    width: 40%;
-}
+/*web-group start*/
 
 .web-group-intro{
-    margin-top: 50%;
-    margin-bottom: 70%;
-
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-.text-d{
-    width: 160%;
+.web-group-intro h1{
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
-
 
 .coordinating, .technical, .design, .editing{
     color: var(--black);
@@ -269,48 +330,17 @@
     width: 40%;
 }
 
-.finance-Department, .secretary, .Hr, .marketing, .design-d, .new-media,.entertain,.communicate,.career,.art{
-    color: var(--black);
-    font-family: var(--font-family-microsoft_yahei-regular);
-    font-size: var(--font-size-nml);
-    font-style: normal;
-    font-weight: 400;
-    margin-top: 50px;
-    width: 40%;
-
-}
-
-.depart-intro{
-    margin-bottom: 225%;
-}
-
-.depart-intro h2{
-    margin-top: 5%;
-}
-
-.depart-intro h3{
-    margin-bottom: 5%;
-}
-
-/*.current-manage{*/
-/*    margin-top: 100%;*/
-/*}*/
-
-
-
 .coordinating a, .technical a, .design a, .editing a{
     text-decoration: none;
     color: var(--black);
 }
 
-/*.coordinating th, .technical th, .design th, .editing th{*/
-/*    text-decoration: none;*/
-/*    color: var(--black);*/
-/*}*/
-
-
-
 tr:nth-child(odd){background-color: var(--white)}
+
+/*web-group end*/
+
+
+
 
 .microsoftyahei-bold-white-20px {
     color: var(--white);
@@ -369,4 +399,3 @@ tr:nth-child(odd){background-color: var(--white)}
     font-style: normal;
     font-weight: 400;
 }
-
