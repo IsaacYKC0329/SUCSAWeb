@@ -174,10 +174,10 @@
     flex-direction: column;
     gap: 50px;
     justify-content: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 0px;
+    margin-right: 500px;
     position: relative;
-    width: fit-content ;
+    width: auto ;
     z-index: -1;
 }
 
@@ -271,8 +271,8 @@
     min-width: fit-content;
     position: relative;
     padding-top: 50px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .title-text{
@@ -288,7 +288,7 @@
     text-align: center;
     align-self: flex-start;
     min-width: 400px;
-    padding-left: 20%;
+    padding-left: 100px;
 }
 
 .dscrp-text{
