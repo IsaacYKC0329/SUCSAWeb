@@ -26,10 +26,13 @@
     --font-size-l: 32px;
     --font-size-m: 20px;
     --font-size-xl: 40px;
+    --font-size-nml: 20px;
+    --font-size-ct: 16px;
 
     --font-family-microsoft_yahei-bold: "Microsoft YaHei-Bold", Helvetica;
     --font-family-microsoft_yahei-regular: "Microsoft YaHei-Regular", Helvetica;
 }
+
 
 .microsoftyahei-regular-normal-black-20px {
     color: var(--black);

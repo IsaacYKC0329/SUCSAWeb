@@ -38,12 +38,7 @@ img {vertical-align: middle;}
 
 }
 
-.slide-show .header-title-left, .slide-show .header-title-right {
-    border: 4px solid var(--jacksons-purple);
-    /*width: 40%;*/
-    /*margin: 0 20px;*/
 
-}
 .text {
     color: #f2f2f2;
     font-size: 15px;

@@ -73,9 +73,9 @@
 
 
 <div class = "slide-show">
-    <hr class="header-title-left">
-    <h1>最新活动</h1>
-    <hr class="header-title-right">
+
+    <h1>—— 最新活动 ——</h1>
+
     <div class = "slides">
         <img src = "http://www.sucsa.au/wp-content/uploads/2023/02/悉尼大学中国中心.jpg" style="width:100%">
 
@@ -124,56 +124,7 @@
     }
 </script>
 
-<div class="gallery-container">
-    <div class="gallery-image">
-        <img id="img-1" src="img/2微信小程序.jpg" alt="Image 1" class="active">
-        <img id="img-2" src="img/3FM电台微信公众号.JPG" alt="Image 2">
-        <img id="img-3" src="img/1学联微信公众号.JPG" alt="Image 3">
-    </div>
-    <div class="gallery-controls">
-        <button id="prev" class="control-btn prev-btn"> < </button>
-        <button id="next" class="control-btn next-btn"> > </button>
-    </div>
-</div>
 
-<script>
-    const images = document.querySelectorAll(".gallery-image img");
-    const prevBtn = document.getElementById("prev");
-    const nextBtn = document.getElementById("next");
-
-    let currentIndex = 0;
-    const maxIndex = images.length - 1;
-
-    function showImage(index) {
-        images.forEach((image) => {
-            image.classList.remove("active");
-        });
-        images[index].classList.add("active");
-    }
-
-    function handlePrevClick() {
-        if (currentIndex > 0) {
-            currentIndex--;
-        } else {
-            currentIndex = maxIndex;
-        }
-        showImage(currentIndex);
-    }
-
-    function handleNextClick() {
-        if (currentIndex < maxIndex) {
-            currentIndex++;
-        } else {
-            currentIndex = 0;
-        }
-        showImage(currentIndex);
-    }
-
-    prevBtn.addEventListener("click", handlePrevClick);
-    nextBtn.addEventListener("click", handleNextClick);
-
-    showImage(currentIndex);
-</script>
 
 <footer id="footer">
     <div class="container">
