@@ -107,7 +107,7 @@
     background-color: #1d2088;
 }
 
-.button:hover .button-text {
+.button-join:hover .button-text-join {
     color: #ffffff;
     z-index: 1;
 }

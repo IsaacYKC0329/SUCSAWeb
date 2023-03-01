@@ -19,7 +19,6 @@
 
 
 .nav {
-    /*overflow: hidden;*/
     background-color: white;
     position: fixed;
     top: 0;
@@ -40,20 +39,17 @@
 }
 
 .nav a {
-    /*float: right;*/
-    /*display: block;*/
     color: var(--black);
     font-family: var(--font-family-microsoft_yahei-bold);
     text-align: center;
-    /*padding: 5px 25px;*/
     text-decoration: none;
     font-size: var(--font-size-m);
     font-weight: bold;
+    /*text-decoration: none;*/
 
 }
 
 .nav a:hover {
-
     color: #1D2088;
     border-bottom: 2px solid #1D2088;
 }
