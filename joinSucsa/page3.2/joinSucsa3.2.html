@@ -31,8 +31,8 @@
     .carousel ul {
       overflow: auto;
       display: flex;
-      height: 600px;
-      max-height: 600px;
+      height: 540px;
+      max-height: 540px;
       scroll-snap-type: x mandatory;
       scroll-snap-points-y: repeat;
       scroll-snap-align: center;
@@ -80,15 +80,22 @@
       height: 300px;
       width: 180px;
       /*了解更多位置*/
-      margin-right: -15px;
-      margin-left: -15px;
-      margin-bottom: -70px;
+      margin: -25px -15px -70px;
     }
 
-    .carousel ul li div a {color: white; display: inline-block; padding: 8px 15px;
-      font-size: 13px; text-decoration: none; border-radius: 4px; margin-top: 17px; background: black;}
+    .carousel ul li div a {color: white; display: inline-block; padding: 8px 13px;
+      font-size: 13px; text-decoration: none; border-radius: 30px; border: white;
+      margin-top: 35px; background: #1D2088; margin-left: 65px; margin-right: -30px;} /*了解更多背景*/
 
-    .carousel ol {position: absolute; bottom: 15px; display: flex; justify-content: center; left: 50%; transform: translateX(-50%); z-index: 9;}
+    .carousel div b{
+      color: black;
+      font-weight: bold;
+      font-size: 20px;
+      z-index: 8;
+    }
+
+    .carousel ol {position: absolute; bottom: 15px; display: flex;
+      justify-content: center; left: 50%; transform: translateX(-50%); z-index: 9;}
 
     .carousel ol li a {display: block; height: 10px; width: 10px;
       border: 1px solid black; background: transparent; border-radius: 100%;
@@ -108,11 +115,11 @@
     }
 
     /* DEMO CSS 插入图片*/
-    .carousel ul li:nth-child(1) > div > div {background-image: url(img/2022S2Poster.png); border-radius:20px;}
-    .carousel ul li:nth-child(2) > div > div {background-image: url(img/2022S1Poster.png); border-radius:20px;}
-    .carousel ul li:nth-child(3) > div > div {background-image: url(img/2021S2Poster.jpeg); border-radius:20px;}
-    .carousel ul li:nth-child(4) > div > div {background-image: url(img/2021S1Poster.png); border-radius:20px;}
-    .carousel ul li:nth-child(5) > div > div {background-image: url(img/2020Poster.jpeg); border-radius:20px;}
+    .carousel ul li:nth-child(1) > div > div {background-image: url(img/22S2Poster.png); border-radius:20px;}
+    .carousel ul li:nth-child(2) > div > div {background-image: url(img/22S1Poster.png); border-radius:20px;}
+    .carousel ul li:nth-child(3) > div > div {background-image: url(img/21S2Poster.png); border-radius:20px;}
+    .carousel ul li:nth-child(4) > div > div {background-image: url(img/21S1Poster.png); border-radius:20px;}
+    .carousel ul li:nth-child(5) > div > div {background-image: url(img/20S2Poster.png); border-radius:20px;}
 
     p, h2 {margin: 15px auto; padding: 0 15px; max-width: 800px;}
     h2 {margin-top: 30px;}
@@ -165,7 +172,8 @@
       <br>点击下方了解详细部门介绍。
     </div>
     <div class="button">
-      <a class="button-text microsoftyahei-bold-white-20px"  href="../../introduction.html">了解部门</a>
+      <a class="button-text microsoftyahei-bold-white-20px"
+         href="../../introduction.html">了解部门</a>
     </div>
   </div>
 
@@ -190,24 +198,55 @@
     <div class="sentence microsoftyahei-regular-normal-black-20px" style="margin-bottom: -5px">通过初步简历筛选后，各部门部长会联系简历合格的同学进行面试</div>
     <div class="sentence microsoftyahei-regular-normal-black-20px">具体面试形式由各部门部长决定</div>
 
-    <div class="button">
-      <a class="button-text microsoftyahei-bold-white-20px"  href="../page3/joinSucsa3.0.html">我要报名</a>
-    </div>
+<!--    <div class="button">-->
+<!--      <a class="button-text microsoftyahei-bold-white-20px"  href="../page3/joinSucsa3.0.html">我要报名</a>-->
+<!--    </div>-->
   </div>
 
 </div>
 
-<div class="blackTitle" style="text-align: center">往期招新回顾</div>
+<div class="blackTitle" style="text-align: center;">往期招新回顾</div>
 
-<div class="carousel" duration="7000">
+<div class="carousel" duration="1000">
   <ul tabindex="0">
-    <li id="c1_slide1"><div><div></div><a href="https://mp.weixin.qq.com/s/RDQxpgXUkjycBIMzcfELDA">了解更多</a></div></li>
-    <li id="c1_slide2"><div><div></div><a href="https://mp.weixin.qq.com/s/PeOmu_tFf9Gc33KPRYtRvg">了解更多</a></div></li>
-    <li id="c1_slide3"><div><div></div><a href="https://mp.weixin.qq.com/s/w3UqDD86UhJ7BLORWj2iHg">了解更多</a></div></li>
-    <li id="c1_slide4"><div><div></div><a href="https://mp.weixin.qq.com/s/1diFY9OC6Vn9PsdlJU7OjQ">了解更多</a></div></li>
-    <li id="c1_slide5"><div><div></div><a href="https://mp.weixin.qq.com/s/YAHmM4B3esfrZ40n33nV8A">了解更多</a></div></li>
-
+    <li id="c1_slide1"><div>
+      <div>
+        <br>
+        <div class="poster-small-intro" style="color: white">2022年</div>
+        <div class="poster-big-intro" style="color: white">第二学期</div>
+      </div>
+      <a href="https://mp.weixin.qq.com/s/RDQxpgXUkjycBIMzcfELDA">了解更多</a>
+    </div></li>
+    <li id="c1_slide2"><div>
+      <div>
+        <br>
+        <div class="poster-small-intro" style="color: black">2022年</div>
+        <div class="poster-big-intro" style="color: black">第一学期</div>
+      </div>
+      <a href="https://mp.weixin.qq.com/s/PeOmu_tFf9Gc33KPRYtRvg">了解更多</a></div></li>
+    <li id="c1_slide3"><div>
+      <div>
+        <br>
+        <div class="poster-small-intro" style="color: black">2021年</div>
+        <div class="poster-big-intro"  style="color: black">第二学期</div>
+      </div>
+      <a href="https://mp.weixin.qq.com/s/w3UqDD86UhJ7BLORWj2iHg">了解更多</a></div></li>
+    <li id="c1_slide4"><div>
+      <div>
+        <br>
+        <div class="poster-small-intro" style="color: white">2021年</div>
+        <div class="poster-big-intro" style="color: white">第一学期</div>
+      </div>
+      <a href="https://mp.weixin.qq.com/s/1diFY9OC6Vn9PsdlJU7OjQ">了解更多</a></div></li>
+    <li id="c1_slide5"><div>
+      <div>
+        <br>
+        <div class="poster-small-intro" style="color: black">2020年</div>
+        <div class="poster-big-intro" style="color: black">第二学期</div>
+      </div>
+      <a href="https://mp.weixin.qq.com/s/YAHmM4B3esfrZ40n33nV8A">了解更多</a></div></li>
   </ul>
+
   <ol>
     <li><a href="#c1_slide1"></a></li>
     <li><a href="#c1_slide2"></a></li>
