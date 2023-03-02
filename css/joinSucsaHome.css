@@ -26,13 +26,10 @@
     --font-size-l: 32px;
     --font-size-m: 20px;
     --font-size-xl: 40px;
-    --font-size-nml: 20px;
-    --font-size-ct: 16px;
 
     --font-family-microsoft_yahei-bold: "Microsoft YaHei-Bold", Helvetica;
     --font-family-microsoft_yahei-regular: "Microsoft YaHei-Regular", Helvetica;
 }
-
 
 .microsoftyahei-regular-normal-black-20px {
     color: var(--black);
@@ -107,7 +104,7 @@
     background-color: #1d2088;
 }
 
-.button-join:hover .button-text-join {
+.button:hover .button-text {
     color: #ffffff;
     z-index: 1;
 }
@@ -115,10 +112,13 @@
 .title1{
     font-size: 40px;
     text-align: center;
-    color: #1d2088;
+
     font-weight: bold;
     margin-top: 10%;
     margin-bottom: 100px;
+    color: var(--jacksons-purple);
+    font-family: var(--font-family-microsoft_yahei-bold);
+
 }
 
 .twoposters{

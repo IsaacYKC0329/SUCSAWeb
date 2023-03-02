@@ -1,26 +1,132 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>加入会员</title>
+  <title>学联干事招新</title>
   <link rel="stylesheet" href = "css/main.css">
   <link rel = "stylesheet" href = "css/navbar.css">
   <link rel = "icon" type = "image/x-icon" href = "https://drive.google.com/file/d/1mW6PpC86DeX7rhTdgBxC2DQ3G9CDZ85c/view?usp=share_link">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel = "stylesheet" type = "text/css" href = "css/footer.css">
+  <link rel = "stylesheet" href = "css/footer.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-  <link rel="stylesheet" href="css/joinSucsaLink2.css">
-  <link rel="stylesheet" href="css/joinfunction.css">
-  <link type="text/css" rel="stylesheet" href="https://repo.bfw.wiki/bfwrepo/css/agilebins.css">
-  <link type="text/css" rel="stylesheet" href="https://repo.bfw.wiki/bfwrepo/css/abFullDialog.css">
-  <script type="text/javascript" src="https://repo.bfw.wiki/bfwrepo/js/jquery-1.8.3.js"></script>
-  <script type="text/javascript" src="https://repo.bfw.wiki/bfwrepo/js/jquery.agilebins-v1.0.4.min.js"></script>
-</head>
-<body>
+  <link rel="stylesheet" href = "css/joinSucsaLink2.css">
 
+  <style>
+    /* RESET CSS */
+    * {margin: 0; padding: 0;}
+
+    /* CAROUSEL CSS */
+    .carousel {position: relative;}
+    .carousel::after {  /*边框*/
+      content: "";
+      position: absolute;
+      left: 0;/*位置*/
+      top: 0;
+      box-shadow: inset 0px 0px 50px 20px white; /*边框颜色 厚度*/
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+    .carousel ul {
+      overflow: auto;
+      display: flex;
+      height: 540px;
+      max-height: 540px;
+      scroll-snap-type: x mandatory;
+      scroll-snap-points-y: repeat;
+      scroll-snap-align: center;
+      scroll-behavior: smooth;
+      background: white;
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+
+    .carousel ul::-webkit-scrollbar {display: none ; /* Hide scrollbar for Chrome, Safari and Opera */}
+    .carousel ul li {
+      width: 100%;
+      min-width: 100%;
+      list-style: none;
+      scroll-snap-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: black;
+      font-weight: bold;
+      font-size: 25px;
+      text-align: center;
+      margin-right: calc(-100% + 300px);
+      transition: transform 0.2s linear;
+      opacity: 0.3;
+      line-height: 1;
+      position: relative;
+      bottom: 15px;
+      min-height: 100%;
+    }
+
+    .carousel ul li.selected {opacity: 1; z-index: 9;}
+    .carousel ul li.selected > div {transform: scale(1.6);}
+    .carousel ul li > div {
+      z-index: 9;
+      margin: 0 auto;
+      max-width: 170px;
+      background: white;
+      transition: all 0.2s linear;
+      transform: scale(0.95);
+      padding: 20px 15px;
+    }
+    .carousel ul li > div > div {/*图片大小*/
+      background:  center center / cover no-repeat;
+      height: 300px;
+      width: 180px;
+      /*了解更多位置*/
+      margin: -25px -15px -70px;
+    }
+
+    .carousel ul li div a {color: white; display: inline-block; padding: 8px 13px;
+      font-size: 13px; text-decoration: none; border-radius: 30px; border: white;
+      margin-top: 35px; background: #1D2088; margin-left: 65px; margin-right: -30px;} /*了解更多背景*/
+
+    .carousel div b{
+      color: black;
+      font-weight: bold;
+      font-size: 20px;
+      z-index: 8;
+    }
+
+    .carousel ol {position: absolute; bottom: 15px; display: flex;
+      justify-content: center; left: 50%; transform: translateX(-50%); z-index: 9;}
+
+    .carousel ol li a {display: block; height: 10px; width: 10px;
+      border: 1px solid black; background: transparent; border-radius: 100%;
+      margin-right: 10px;}
+
+    .carousel ol li.selected a {background: black;}
+
+    .carousel .prev, .carousel .next {user-select:none; cursor: pointer; font-size: 50px;
+      color: #1D2088; position: absolute; left: 0; padding: 15px; top: 50%;
+      transform: translateY(-50%); z-index: 9;}
+
+    .carousel .next {left: auto; right: 0;} /*左右键位置*/
+
+    /* RESPONSIVE CSS */
+    @media only screen and (max-width: 600px) {
+      .carousel ul li div {display: none;}
+    }
+
+    /* DEMO CSS 插入图片*/
+    .carousel ul li:nth-child(1) > div > div {background-image: url(img/22S2Poster.png); border-radius:20px;}
+    .carousel ul li:nth-child(2) > div > div {background-image: url(img/22S1Poster.png); border-radius:20px;}
+    .carousel ul li:nth-child(3) > div > div {background-image: url(img/21S2Poster.png); border-radius:20px;}
+    .carousel ul li:nth-child(4) > div > div {background-image: url(img/21S1Poster.png); border-radius:20px;}
+    .carousel ul li:nth-child(5) > div > div {background-image: url(img/20S2Poster.png); border-radius:20px;}
+
+    p, h2 {margin: 15px auto; padding: 0 15px; max-width: 800px;}
+    h2 {margin-top: 30px;}
+  </style>
+</head>
+<body style="background-color: white">
+<div class = "bg"></div>
 
 
 <div class = "container">
@@ -28,14 +134,15 @@
     <img src="http://www.sucsa.au/wp-content/uploads/2023/02/23de165460e481ea4d97b1f0837a383-1.png" alt = "logo">
     <a href = "main.html">主页</a>
     <a href = "event.html">活动</a>
-    <a href = "joinSucsa3.0.html">加入学联</a>
-    <a class = "active" href = "joinSucsa3.2.html">加入校友会</a>
+    <a class = "active" href = "joinSucsa3.0.html">加入学联</a>
+    <a href = "join2.html">加入校友会</a>
     <a href = "cooperation.html">合作方</a>
     <div class="dropdown">
       <button onclick="dropdownFunc()" class="dropbtn">关于学联</button>
       <div id="dropdown" class="dropdown-content">
         <a href="history.html">学联历史</a>
         <a href="introduction.html">学联介绍</a>
+
       </div>
     </div>
     <a href = "contact.html">联系方式</a>
@@ -44,11 +151,13 @@
     </a>
   </div>
 </div>
+
+
 <h1 class = "title1">—— 学联干事招新 ——</h1>
 
 <div class = "introduction">
 
-  <div class="calendar">
+  <div class="calendar" style="width: 35%">
     <div class="calendar-text small-text">本次招新已开始一天</div>
     <div class="calendar-text big-text">2023年2月13日</div>
     <div class="calendar-text big-text" >至</div>
@@ -63,7 +172,8 @@
       <br>点击下方了解详细部门介绍。
     </div>
     <div class="button">
-      <a class="button-text microsoftyahei-bold-white-20px"  href="joinSucsa3.0.html">了解部门</a>
+      <a class="button-text microsoftyahei-bold-white-20px"
+         href="introduction.html">了解部门</a>
     </div>
   </div>
 
@@ -88,25 +198,55 @@
     <div class="sentence microsoftyahei-regular-normal-black-20px" style="margin-bottom: -5px">通过初步简历筛选后，各部门部长会联系简历合格的同学进行面试</div>
     <div class="sentence microsoftyahei-regular-normal-black-20px">具体面试形式由各部门部长决定</div>
 
-    <div class="button">
-      <a class="button-text microsoftyahei-bold-white-20px"  href="joinSucsa3.0.html">我要报名</a>
-    </div>
+<!--    <div class="button">-->
+<!--      <a class="button-text microsoftyahei-bold-white-20px"  href="../page3/joinSucsa3.0.html">我要报名</a>-->
+<!--    </div>-->
   </div>
 
 </div>
 
-<div class="blackTitle" style="text-align: center">往期招新回顾</div>
+<div class="blackTitle" style="text-align: center;">往期招新回顾</div>
 
-
-<div class="carousel" duration="7000">
+<div class="carousel" duration="1000">
   <ul tabindex="0">
-    <li id="c1_slide1"><div><div></div><a href="https://mp.weixin.qq.com/s/RDQxpgXUkjycBIMzcfELDA">了解更多</a></div></li>
-    <li id="c1_slide2"><div><div></div><a href="https://mp.weixin.qq.com/s/PeOmu_tFf9Gc33KPRYtRvg">了解更多</a></div></li>
-    <li id="c1_slide3"><div><div></div><a href="https://mp.weixin.qq.com/s/w3UqDD86UhJ7BLORWj2iHg">了解更多</a></div></li>
-    <li id="c1_slide4"><div><div></div><a href="https://mp.weixin.qq.com/s/1diFY9OC6Vn9PsdlJU7OjQ">了解更多</a></div></li>
-    <li id="c1_slide5"><div><div></div><a href="https://mp.weixin.qq.com/s/YAHmM4B3esfrZ40n33nV8A">了解更多</a></div></li>
-
+    <li id="c1_slide1"><div>
+      <div>
+        <br>
+        <div class="poster-small-intro" style="color: white">2022年</div>
+        <div class="poster-big-intro" style="color: white">第二学期</div>
+      </div>
+      <a href="https://mp.weixin.qq.com/s/RDQxpgXUkjycBIMzcfELDA">了解更多</a>
+    </div></li>
+    <li id="c1_slide2"><div>
+      <div>
+        <br>
+        <div class="poster-small-intro" style="color: black">2022年</div>
+        <div class="poster-big-intro" style="color: black">第一学期</div>
+      </div>
+      <a href="https://mp.weixin.qq.com/s/PeOmu_tFf9Gc33KPRYtRvg">了解更多</a></div></li>
+    <li id="c1_slide3"><div>
+      <div>
+        <br>
+        <div class="poster-small-intro" style="color: black">2021年</div>
+        <div class="poster-big-intro"  style="color: black">第二学期</div>
+      </div>
+      <a href="https://mp.weixin.qq.com/s/w3UqDD86UhJ7BLORWj2iHg">了解更多</a></div></li>
+    <li id="c1_slide4"><div>
+      <div>
+        <br>
+        <div class="poster-small-intro" style="color: white">2021年</div>
+        <div class="poster-big-intro" style="color: white">第一学期</div>
+      </div>
+      <a href="https://mp.weixin.qq.com/s/1diFY9OC6Vn9PsdlJU7OjQ">了解更多</a></div></li>
+    <li id="c1_slide5"><div>
+      <div>
+        <br>
+        <div class="poster-small-intro" style="color: black">2020年</div>
+        <div class="poster-big-intro" style="color: black">第二学期</div>
+      </div>
+      <a href="https://mp.weixin.qq.com/s/YAHmM4B3esfrZ40n33nV8A">了解更多</a></div></li>
   </ul>
+
   <ol>
     <li><a href="#c1_slide1"></a></li>
     <li><a href="#c1_slide2"></a></li>
@@ -117,6 +257,8 @@
   <div class="prev">&lsaquo;</div>
   <div class="next">&rsaquo;</div>
 </div>
+
+<div style="margin-top: 20px"></div>
 
 <script>
   function navFunction() {
@@ -145,6 +287,7 @@
       }
     }
   }
+
 
   document.addEventListener('DOMContentLoaded', function () {
 
@@ -251,6 +394,7 @@
 
 
 
+
   /**
    * Debounce functions for better performance
    * (c) 2021 Chris Ferdinandi, MIT License, https://gomakethings.com
@@ -279,6 +423,7 @@
 
 
 
+
 <footer id="footer">
   <div class="container">
     <div class="row">
@@ -286,7 +431,7 @@
         <img src="img/frame.svg" alt="" class="img-fluid logo-footer">
 
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3" style="line-height: 1.5">
         <div class="footer-about microsoftyahei-regular-normal-white-20px">
           悉尼大学中国学生学者联合会（SUCSA）成立于1996年，悉尼大学USU、澳州政府注册，中国驻悉尼总领馆认证，是悉尼大学历史最悠久也是生命力最蓬勃的华人非盈利志愿者社团。学联致力于服务悉尼大学全体华人学生学者，让大家在异国他乡感受到家一样的温暖。
         </div>
@@ -306,12 +451,12 @@
             <li><a class = "microsoftyahei-regular-normal-white-20px"><i class="fa-solid fa-envelope "></i> sydneyunicsa@gmail.com</a></li>
           </div>
           <h2 class = "microsoftyahei-bold-white-20px">关注我们</h2>
-          <li style="display:inline-block; padding-right: 10px;"><a href = "contact.html" class = "microsoftyahei-regular-normal-white-20px"><i class = "fa-brands fa fa-weixin" style="font-size: 40px;"></i></a></li>
+          <li style="display:inline-block; padding-right: 10px;"><a href = "#" class = "microsoftyahei-regular-normal-white-20px"><i class = "fa-brands fa fa-weixin" style="font-size: 40px;"></i></a></li>
           <li style="display:inline-block; padding-right: 10px;"><a href = "https://instagram.com/usydsucsa?igshid=YmMyMTA2M2Y=" class = "microsoftyahei-regular-normal-white-20px"><i class = "fa-brands fa-instagram" style="font-size: 40px;"></i></a></li>
           <li style="display:inline-block; padding-right: 10px;"><a href = "https://www.linkedin.com/company/sucsa/" class = "microsoftyahei-regular-normal-white-20px"><i class = "fa-brands fa fa-linkedin" style="font-size: 40px;"></i></a></li>
           <li style="display:inline-block; padding-right: 10px;"><a href = "https://m.weibo.cn/u/2264262765?uid=2264262765&luicode=10000011&lfid=100103type%3D1%26q%3D%E6%82%89%E5%B0%BC%E5%A4%A7%E5%AD%A6%E4%B8%AD%E5%9B%BD%E5%AD%A6%E7%94%9F%E5%AD%A6%E8%80%85%E8%81%94%E5%90%88%E4%BC%9A" class = "microsoftyahei-regular-normal-white-20px"><i class = "fa-brands fa fa-weibo" style="font-size: 40px;"></i></a></li>
-          <li style="display:inline-block; padding-right: 10px;"><a href = "https://v.douyin.com/SJ9jjgR/" class = "microsoftyahei-regular-normal-white-20px"><i class = "fa-brands fa-tiktok" style="font-size: 40px;"></i></a></li>
-          <li style="display:inline-block; padding-right: 10px;"><a href = "https://www.xiaohongshu.com/user/profile/5ebe58a8000000000101d766?xhsshare=CopyLink&appuid=5eb51bbe00000000010071eb&apptime=1677242668" class = "microsoftyahei-regular-normal-white-20px"><i class = "fa-brands fa fa-little-red-book" style="font-size: 40px";><img src="img/-------icon-ixintu1-1@2x.png" class="xhs"></i></a></li>
+          <li style="display:inline-block; padding-right: 10px;"><a href = "#" class = "microsoftyahei-regular-normal-white-20px"><i class = "fa-brands fa-tiktok" style="font-size: 40px;"></i></a></li>
+          <li style="display:inline-block; padding-right: 10px;"><a href = "https://www.xiaohongshu.com/user/profile/5ebe58a8000000000101d766?xhsshare=CopyLink&appuid=5eb51bbe00000000010071eb&apptime=1677242668" class = "microsoftyahei-regular-normal-white-20px"><i class = "fa-brands fa fa-little-red-book" style="font-size: 40px";><img src="../../img/-------icon-ixintu1-1@2x.png" class="xhs"></i></a></li>
         </div>
       </div>
 
@@ -321,8 +466,9 @@
 
 <section id="copy-right">
   <div class="copy-right-sec"><i class="fa-solid fa-copyright"></i>
-    <a>Copyright © 2023 by SUCSA | All rights reserved. Developed by SUCSA</a>
+    Copyright © 2023 by SUCSA | All rights reserved. Developed by SUCSA</a>
   </div>
 </section>
+
 </body>
 </html>

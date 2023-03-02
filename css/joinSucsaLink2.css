@@ -110,12 +110,15 @@
 
 
 .title1{
-    text-align: center;
     font-size: 40px;
+    text-align: center;
+
     font-weight: bold;
-    color: #1d2088;
-    margin-top: 150px;
-    margin-bottom: 50px;
+    margin-top: 10%;
+    margin-bottom: 100px;
+    color: var(--jacksons-purple);
+    font-family: var(--font-family-microsoft_yahei-bold);
+
 }
 
 .introduction{
@@ -151,6 +154,7 @@
 }
 
 .small-text{
+
     margin-top: 30px;
     font-size: 20px;
     text-align: center;
@@ -196,4 +200,20 @@
 .recruit-poster{
     margin-left: -8%;
     margin-right: 15%;
+}
+
+.poster-small-intro{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: black;
+    text-align: left;
+    font-size: 13px;
+}
+
+.poster-big-intro{
+    margin-top: 5px;
+    margin-left: 20px;
+    color: black;
+    text-align: left;
+    font-size: 20px;
 }
