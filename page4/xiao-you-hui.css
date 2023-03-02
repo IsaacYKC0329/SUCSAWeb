@@ -1,0 +1,51 @@
+.main{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+}
+.title{
+    color: #1D2088;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.upper{
+    display: flex;
+    flex-direction: row;
+}
+
+.word{
+    width: 70%;
+    margin-right: 30px;
+}
+.picture{
+    margin-top: 15%;
+    width: 40%;
+    height: 55%;
+}
+
+.map{
+    display: flex;
+    flex-direction: column;
+}
+
+.small-title{
+    margin-top: 10%;
+}
+
+.title-word{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.map-track{
+    margin-left: -32%;
+    margin-top: -23%;
+    width: 180%;
+    z-index: 5;
+}
+
