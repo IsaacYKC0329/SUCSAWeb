@@ -27,7 +27,7 @@
     height: 55%;
 }
 
-.map{
+.bottom{
     display: flex;
     flex-direction: column;
 }
@@ -42,10 +42,48 @@
     text-align: center;
 }
 
-.map-track{
-    margin-left: -32%;
-    margin-top: -23%;
-    width: 180%;
+.map{
     z-index: 5;
+    width: 2400px;
+    margin-left: -620px;
+    margin-top: -300px;
+}
+
+.white-text {
+    font-size: 32px;
+    color: white;
+    display:inline-block;
+    margin: -10px 360px 10px;
+    line-height: 2;
+    background-color: #1D2088;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.function{
+    display: flex;
+    flex-direction: column;
+}
+
+.bei-jing{
+    width: 15%;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: left;
+    position: absolute;
+    left: 50%;
+    top:150%;
+    visibility: hidden;
+}
+
+.shanxi{
+    width: 15%;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: left;
+    position: absolute;
+    left: 50%;
+    top:160%;
+    visibility: hidden;
 }
 
