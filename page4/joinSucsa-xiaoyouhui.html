@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href = "css/joinSucsaHome.css">
     <link rel="stylesheet" href = "xiao-you-hui.css">
-    <link rel="stylesheet" href = "mouseTrack.js">
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
 </head>
 
 <body>
@@ -53,7 +54,7 @@
 
             <br><br>学联校友会会员目前仅针对已毕业校友开放，所有已毕业校友均可免费注册成为校友会会员。成为会员可以参加校友会活动，加入校友会行业社群。
         </div>
-        <img src="/../../img/校友会.png" alt= "alumini" class="picture">
+        <img src="/../../img/校友会.png" alt= "alumni logo" class="picture">
     </div>
     <div class = "bottom">
         <div class="small-title">
@@ -65,6 +66,7 @@
             <img src="鸡.svg" alt="中华人民共和国地图" class="map" id="chicken">
         </div>
         <div class="function">
+
             <div id = "beijing" class="bei-jing white-text">
                 <ul style="text-align: center">北京校友会
                 <li style="text-align: left">微信公众号：USYDAlumni</li>
@@ -81,15 +83,51 @@
                 </ul>
             </div>
 
+            <div id = "chengdu" class="chengdu white-text">
+                <ul style="text-align: center">成都校友会
+                    <li style="text-align: left">微信公众号：</li>
+                    <li style="text-align: left">联系方式：</li>
+                </ul>
+            </div>
+
         </div>
         <div id="listener" class="white-text microsoftyahei-bold-black-32px" style="position: absolute"></div>
-        <div id = "margin" style="margin-bottom: 100%"></div>
     </div>
+    <div class="charts">
 
+        <div class="two-pies">
+            <div class="edu-pie">
+                <div class="pie-title">学历</div>
+                <div id="edu" style="width: 550px; height: 400px;"></div>
+                <div class="chart-text" id = "edu-text"></div>
+            </div>
+
+            <div class="faculty-pie">
+                <div class="pie-title">院系</div>
+                <div id="faculty" style="width: 550px; height: 400px;"></div>
+                <div class="chart-text" id = "faculty-text"></div>
+            </div>
+        </div>
+
+        <div class="two-pies">
+            <div class="industry-pie">
+                <div class="pie-title">行业</div>
+                <div id="industry" style="width: 550px; height: 400px;"></div>
+                <div class="chart-text" id = "industry-text"></div>
+            </div>
+
+            <div class="function-pie">
+                <div class="pie-title">职能</div>
+                <div id="function" style="width: 550px; height: 400px;"></div>
+                <div class="chart-text" id = "function-text"></div>
+            </div>
+        </div>
+
+
+    </div>
 </div>
 
-
-
+<script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
 <script>
     function navFunction() {
         var x = document.getElementById("topNav");
@@ -119,7 +157,7 @@
     }
 </script>
 <script src="mouseTrack.js"></script>
-
+<script src="PieChart.js"></script>
 
 
 <footer id="footer">

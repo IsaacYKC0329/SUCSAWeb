@@ -86,3 +86,45 @@
     visibility: hidden;
 }
 
+.chengdu{
+    width: 15%;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: left;
+    position: absolute;
+    left: 50%;
+    top:160%;
+    visibility: hidden;
+}
+
+.charts{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.pie-title{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #1D2088;
+    margin-bottom: -10px;
+}
+
+.two-pies{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.chart-text{
+    font-size: 20px;
+    color: white;
+    background-color: #1D2088;
+    border-radius: 10px;
+    width: 50%;
+    line-height: 2.5;
+    position: relative;
+    text-align: left;
+}
+
