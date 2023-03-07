@@ -195,14 +195,11 @@ th, td {
     position: relative;
     text-align: center;
     z-index: -1;
-
 }
 
 .report a{
     text-decoration: none;
 }
-
-
 
 .report-btn1:hover {
     background-color: var(--jacksons-purple);

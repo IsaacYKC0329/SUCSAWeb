@@ -1,0 +1,295 @@
+@font-face {
+    font-family: "Microsoft YaHei-Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/msyhbd.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Microsoft YaHei-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/msyh.ttf") format("truetype");
+}
+
+:root {
+    --allports: #006fb530;
+    --black: #000000;
+    --jacksons-purple: #1d2088;
+    --white: #ffffff;
+
+    --font-size-l: 32px;
+    --font-size-m: 20px;
+    --font-size-xl: 40px;
+    --font-size-s: 15px;
+
+    --font-family-microsoft_yahei-bold: "Microsoft YaHei-Bold", Helvetica;
+    --font-family-microsoft_yahei-regular: "Microsoft YaHei-Regular", Helvetica;
+}
+
+.microsoftyahei-bold-white-15px {
+    color: var(--white);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.microsoftyahei-bold-blue-40px{
+    color: var(--jacksons-purple);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+.welcome{
+    height: 894px;
+    width: 100%;
+    background-image: url(../img/dsc-5214-1.png);
+    display: table;
+}
+
+
+.img__box{
+    display:table-cell;
+    vertical-align:middle;
+    text-align: center;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.intro{
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.prop__video{
+    text-align: center;
+}
+
+.events{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.entrance{
+    margin-top: 20%;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+}
+
+.nice__events{
+    letter-spacing: 10px;
+}
+
+.montage{
+    margin-left: 8%;
+}
+
+.tr__pic{
+    margin-left: 10%;
+}
+
+.br__pic{
+    margin-top: 18%;
+    margin-left: 10%;
+}
+
+.bl__pic{
+    margin-top: 18%;
+}
+
+.masks{
+    background-color:#ffffff;
+    height: 70px;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.pics{
+    height: 280px;
+    width: 360px;
+    cursor: pointer;
+    border-radius: 30px;
+    position: relative;
+    background-size: 100% 100%;
+}
+
+.phrases{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.button {
+    margin-top: 20px;
+    background-color: #1D2088;
+    /*align-items: flex-start;*/
+    border: 3px solid;
+    border-color: var(--blue);
+    border-radius: 32px;
+    display: flex;
+    left: 0;
+    padding: 14px 29px;
+    /*position: absolute;*/
+    /*top: 195px;*/
+    width: 180px;
+    text-decoration: none;
+}
+
+.button-text {
+    color: white;
+    font-weight: bold;
+    flex: 1;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -3.00px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+.join__page{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.join__title{
+    text-align: center;
+}
+
+.join__options{
+    margin-bottom: 100px;
+}
+
+.holders{
+    margin-top: 50px;
+    width: 480px;
+    height: 280px;
+    background-size: 100% 100%;
+}
+
+.r__holder{
+    margin-left: 110px;
+}
+
+.l__iholder{
+    background-color: #d9d9d9;
+    height: 50px;
+    width: 480px;
+    display: flex;
+}
+
+.r__iholder{
+    background-color: #d9d9d9;
+    height: 50px;
+    width: 480px;
+    margin-left: 110px;
+    display: flex;
+}
+
+.join__group{
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.iholder .join__group:hover{
+    border-bottom: 5px solid #1d2088;
+}
+
+.arrow{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.student__book{
+    display: flex;
+}
+
+.left__dec{
+    width: 310px;
+    height: 540px;
+    box-shadow: 5px 0px 5px #000000;
+}
+
+.main__content{
+    width: 670px;
+    height: 540px;
+}
+
+.right__dec{
+    width: 960px;
+    height: 540px;
+    background-size: 100% 100%;
+    box-shadow: -5px 0px 5px #000000;
+}
+
+.text__holder{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+
+.content__text{
+    margin-top: 50px;
+}
+
+.purple__mask{
+    height: 100%;
+    width: 100%;
+    background-color: #1D2088;
+    opacity: 0.5;
+}
+
+.read__btn{
+    margin-left: 40%;
+    margin-right: 30%;
+    transform: translateY(-640%);
+}
+
+.book__name{
+    margin-left: 280px;
+    transform: translateY(-500%);
+}
+
+.inclusive__holder{
+    width: 100%;
+
+}
+
+
+
+.main-btn{
+    border: 3px solid;
+    border-color: var(--white);
+    border-radius: 32px;
+    margin-top: -20%;
+    display: flex;
+    padding: 0% 10%;
+}
+
+.inclusive__holder a{
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+.main-btn:hover {
+    background-color: var(--white);
+}
+
+.main-btn:hover .main-btn-text {
+    color: #1d2088;
+    z-index: 1;
+}

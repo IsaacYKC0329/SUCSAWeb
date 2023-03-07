@@ -5,11 +5,14 @@
     <title>加入校友会</title>
     <link rel="stylesheet" href = "css/main.css">
     <link rel = "stylesheet" href = "css/navbar.css">
-    <link rel = "icon" type = "image/x-icon" href = "https://drive.google.com/file/d/1mW6PpC86DeX7rhTdgBxC2DQ3G9CDZ85c/view?usp=share_link">
+    <link rel = "icon" type = "image/x-icon" href = "favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel = "stylesheet" type = "text/css" href = "css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href = "css/xiao-you-hui.css">
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
 </head>
 <body>
 
@@ -25,7 +28,7 @@
     <a href = "event.html">活动</a>
     <a href = "joinSucsa3.0.html">加入学联</a>
     <a class = "active" href = "joinSucsa3.2.html">加入校友会</a>
-    <a href = "cooperation.html">合作方</a>
+    <a href = "cooperation1.html">合作方</a>
     <div class="dropdown">
         <button onclick="dropdownFunc()" class="dropbtn">关于学联</button>
         <div id="dropdown" class="dropdown-content">
@@ -41,6 +44,175 @@
 </div>
 </div>
 
+<div class="main">
+    <div class = "title">—— 校友会 ——</div>
+    <div class = "upper microsoftyahei-bold-black-20px">
+        <div class="word">悉尼大学中国学联校友会（简称学联校友会）是由悉尼大学中国学生学者联合会（简称悉大学联）延伸成立的校友会组织。
+            <br><br>学联校友会旨在为悉尼大学海内外新老毕业校友，悉大学联毕业会员，干事，提供优质校友服务。学联校友会以行业为导向，以事业发展为目的定期举办公益活动。学联校友会希望成为集具价值，信任感和归属感的校友社区，为校友提供有活力的校友交流和其他多元交流机会。探索大学校友NGO组织长期可持续发展与校友组织支持校友发展相结合的创新模式。
+
+            <br><br>海内存知已，天涯若比邻。南半球美丽的蓝花楹已然成为你我最难忘的回忆，希望未来我们也能一起携手并进！
+
+            <br><br>学联校友会会员目前仅针对已毕业校友开放，所有已毕业校友均可免费注册成为校友会会员。成为会员可以参加校友会活动，加入校友会行业社群。
+        </div>
+        <img src="img/校友会.png" alt= "alumni logo" class="picture">
+    </div>
+    <div class = "bottom">
+        <div class="small-title">
+            <div class="title-word">学联校友会&USYD各地Alumni携手服务全国校友群体！</div>
+            <div class="title-word">总人数</div>
+            <div class="title-word" style="color: #1D2088; font-size: 23px">2000+ </div>
+        </div>
+        <div>
+            <img src="css/鸡.svg" alt="中华人民共和国地图" class="map" id="chicken">
+        </div>
+        <div class="function">
+
+            <div id = "beijing" class="bei-jing white-text">
+                <ul style="text-align: center">北京校友会
+                    <li style="text-align: left">微信公众号：USYDAlumni</li>
+                    <li style="text-align: left">联系方式：hanswooo</li>
+                </ul>
+            </div>
+
+            <div id = "shanxi" class="shanxi white-text">
+                <ul style="text-align: center">山西校友会
+                    <li style="text-align: left">联系人：王颖琦 Yolanda</li>
+                    <li style="text-align: left">微信号：Cassiopeia_mmmm</li>
+                    <li style="text-align: left">联系人：焦桐 Nicolas</li>
+                    <li style="text-align: left">微信号：qwe304515324</li>
+                </ul>
+            </div>
+
+            <div id = "chengdu" class="chengdu white-text">
+                <ul style="text-align: center">成都校友会
+                    <li style="text-align: left">微信公众号：USYDAlumniCD</li>
+                    <li style="text-align: left">联系方式：aiseeyou</li>
+                </ul>
+            </div>
+
+            <div id = "shanghai" class="shanghai white-text">
+                <ul style="text-align: center">上海校友会
+                    <li style="text-align: left">微信公众号：USYDAlumni上海</li>
+                    <li style="text-align: left">联系人：秘书长echo XIE</li>
+                    <li style="text-align: left">微信号：15821320212</li>
+                </ul>
+            </div>
+
+            <div id = "guangzhou" class="guangzhou white-text">
+                <ul style="text-align: center">广州校友会
+                    <li style="text-align: left">微信公众号：USYDAlumniGZ</li>
+                    <li style="text-align: left">联系：gloriahcn</li>
+                </ul>
+            </div>
+
+            <div id = "shenzhen" class="shenzhen white-text">
+                <ul style="text-align: center">深圳校友会
+                    <li style="text-align: left">微信公众号：暂无</li>
+                    <li style="text-align: left">联系：179841792</li>
+                </ul>
+            </div>
+
+            <div id = "ningbo" class="ningbo white-text">
+                <ul style="text-align: center">宁波校友会
+                    <li style="text-align: left">微信公众号：USYDAlumniNB</li>
+                    <li style="text-align: left">联系：kidkid88</li>
+                </ul>
+            </div>
+
+            <div id = "wuhan" class="wuhan white-text">
+                <ul style="text-align: center">武汉校友会
+                    <li style="text-align: left">微信号：497529180</li>
+                </ul>
+            </div>
+
+            <div id = "hangzhou" class="hangzhou white-text">
+                <ul style="text-align: center">杭州校友会
+                    <li style="text-align: left">小红书号：4193105678</li>
+                    <li style="text-align: left">微博：悉尼大学杭州校友会</li>
+                    <li style="text-align: left">邮箱：zzha3800@gmail.com </li>
+                    <li style="text-align: left">微信号：lsqlllllsb </li>
+                    <li style="text-align: left">电话：+86 13805714657 </li>
+                    <li style="text-align: left">电话：+61 476060648 </li>
+                </ul>
+            </div>
+
+            <div id = "shenyang" class="shenyang white-text">
+                <ul style="text-align: center">沈阳校友会
+                    <li style="text-align: left">联系人：李慕涵 Moony Li</li>
+                    <li style="text-align: left">微信号：13897944638</li>
+                    <li style="text-align: left">电话：+86 13897944638</li>
+                </ul>
+            </div>
+
+            <div id = "xian" class="xian white-text">
+                <ul style="text-align: center">西安校友会
+                    <li style="text-align: left">联系人：王杨 Hannah</li>
+                    <li style="text-align: left">微信号：13891897900</li>
+                    <li style="text-align: left">电话：+86 13891897900</li>
+                </ul>
+            </div>
+
+            <div id = "fujian" class="fujian white-text">
+                <ul style="text-align: center">福建校友会
+                    <li style="text-align: left">联系人：陈湫 Tim</li>
+                    <li style="text-align: left">电话：+86 15710098688</li>
+                </ul>
+            </div>
+
+            <div id = "hubei" class="hubei white-text">
+                <ul style="text-align: center">湖北校友会
+                    <li style="text-align: left">联系人：李竞 Phoebe Li</li>
+                    <li style="text-align: left">微信号：420220233</li>
+                    <li style="text-align: left">电话：+86 15717159589</li>
+                </ul>
+            </div>
+
+            <div id = "xianggang" class="xianggang white-text">
+                <ul style="text-align: center">香港校友会
+                    <li style="text-align: left">联系人：林福美 Anne Lin</li>
+                    <li style="text-align: left">微信号：anne079144</li>
+                </ul>
+            </div>
+
+        </div>
+        <div id="listener" class="white-text microsoftyahei-bold-black-32px" style="position: absolute"></div>
+    </div>
+    <div class="charts">
+
+        <div class="two-pies">
+            <div class="edu-pie">
+                <div class="pie-title">学历</div>
+                <div id="edu" style="width: 550px; height: 400px;"></div>
+                <div class="chart-text" id = "edu-text"></div>
+            </div>
+
+            <div class="faculty-pie">
+                <div class="pie-title">院系</div>
+                <div id="faculty" style="width: 550px; height: 400px;"></div>
+                <div class="chart-text" id = "faculty-text"></div>
+            </div>
+        </div>
+
+
+        <div class="two-pies" style="margin-top: -100px">
+            <div class="industry-pie">
+                <div class="pie-title">行业</div>
+                <div id="industry" style="width: 550px; height: 400px;"></div>
+                <div class="chart-text" id = "industry-text"></div>
+            </div>
+
+            <div class="function-pie">
+                <div class="pie-title">职能</div>
+                <div id="function" style="width: 550px; height: 400px;"></div>
+                <div class="chart-text" id = "function-text"></div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
 <script>
     function navFunction() {
         var x = document.getElementById("topNav");
@@ -50,6 +222,7 @@
             x.className = "nav";
         }
     }
+
     function dropdownFunc() {
         document.getElementById("dropdown").classList.toggle("show");
     }
@@ -68,6 +241,9 @@
         }
     }
 </script>
+
+<script src="css/mouseTrack.js"></script>
+<script src="css/PieChart.js"></script>
 
 <footer id="footer">
     <div class="container">

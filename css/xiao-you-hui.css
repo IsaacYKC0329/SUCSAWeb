@@ -1,0 +1,254 @@
+.main{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+}
+.title{
+    color: #1D2088;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.upper{
+    display: flex;
+    flex-direction: row;
+}
+
+.word{
+    width: 70%;
+    margin-right: 30px;
+}
+.picture{
+    margin-top: 15%;
+    width: 40%;
+    height: 55%;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+.small-title{
+    margin-top: 10%;
+}
+
+.title-word{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.map{
+    z-index: 5;
+    width: 1000px;
+    margin-top: -100px;
+}
+
+.white-text {
+    font-size: 32px;
+    color: white;
+    display:inline-block;
+    margin: -10px 360px 10px;
+    line-height: 2;
+    background-color: #1D2088;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.function{
+    display: flex;
+    flex-direction: column;
+}
+
+.bei-jing{
+    width: 15%;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: left;
+    position: absolute;
+    left: 50%;
+    top:150%;
+    visibility: hidden;
+}
+
+.shanxi{
+    width: 15%;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: left;
+    position: absolute;
+    left: 50%;
+    top:160%;
+    visibility: hidden;
+}
+
+.chengdu{
+    width: 15%;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: left;
+    position: absolute;
+    left: 8%;
+    top:185%;
+    visibility: hidden;
+}
+
+.guangzhou{
+    width: 15%;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: left;
+    position: absolute;
+    left: 50%;
+    top:180%;
+    visibility: hidden;
+}
+
+.shenzhen{
+    width: 15%;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: left;
+    position: absolute;
+    left: 45%;
+    top: 185%;
+    visibility: hidden;
+}
+
+
+.ningbo{
+    width: 15%;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: left;
+    position: absolute;
+    left: 50%;
+    top:180%;
+    visibility: hidden;
+}
+
+.wuhan{
+    width: 15%;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: left;
+    position: absolute;
+    left: 50%;
+    top:170%;
+    visibility: hidden;
+}
+
+.hangzhou{
+    width: 15%;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: left;
+    position: absolute;
+    left: 50%;
+    top:170%;
+    visibility: hidden;
+}
+
+.shenyang{
+    width: 15%;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: left;
+    position: absolute;
+    left: 50%;
+    top:150%;
+    visibility: hidden;
+}
+
+.xian{
+    width: 15%;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: left;
+    position: absolute;
+    left: 18%;
+    top:125%;
+    visibility: hidden;
+}
+
+.fujian{
+    width: 15%;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: left;
+    position: absolute;
+    left: 50%;
+    top:195%;
+    visibility: hidden;
+}
+
+.hubei{
+    width: 15%;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: left;
+    position: absolute;
+    left: 50%;
+    top:150%;
+    visibility: hidden;
+}
+
+.xianggang{
+    width: 15%;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: left;
+    position: absolute;
+    left: 45%;
+    top: 200%;
+    visibility: hidden;
+}
+
+.shanghai{
+    width: 15%;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: left;
+    position: absolute;
+    left: 50%;
+    top:175%;
+    visibility: hidden;
+}
+
+
+
+.charts{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.pie-title{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #1D2088;
+    margin-bottom: -10px;
+}
+
+.two-pies{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.chart-text{
+    font-size: 20px;
+    color: white;
+    background-color: #1D2088;
+    border-radius: 10px;
+    width: 15%;
+    line-height: 3;
+    position: absolute;
+    text-align: center;
+}
+

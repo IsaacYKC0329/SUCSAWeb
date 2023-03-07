@@ -1,0 +1,345 @@
+@font-face {
+    font-family: "Microsoft YaHei-Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/msyhbd.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Microsoft YaHei-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/msyh.ttf") format("truetype");
+}
+
+:root {
+    --allports: #006fb530;
+    --black: #000000;
+    --jacksons-purple: #1d2088;
+    --white: #ffffff;
+
+    --font-size-l: 32px;
+    --font-size-m: 20px;
+    --font-size-xl: 40px;
+    --font-size-s: 15px;
+    --font-size-ms: 25px;
+
+    --font-family-microsoft_yahei-bold: "Microsoft YaHei-Bold", Helvetica;
+    --font-family-microsoft_yahei-regular: "Microsoft YaHei-Regular", Helvetica;
+}
+
+.microsoftyahei-bold-black-25px {
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-ms);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.microsoftyahei-bold-blue-40px{
+    color: var(--jacksons-purple);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.title1{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    color: var(--jacksons-purple);
+    font-family: var(--font-family-microsoft_yahei-bold);
+
+}
+
+/*official1 box*/
+
+.of1-contain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+
+.of1-contain .of1-text{
+    width: 40%;
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-s);
+}
+
+.official1 img{
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+.official1 .of1-btn{
+    align-items: flex-start;
+    border: 3px solid;
+    border-color: var(--jacksons-purple);
+    border-radius: 32px;
+    display: flex;
+    gap: 40px;
+    padding: 15px;
+    background-color: var(--jacksons-purple);
+    z-index: 1;
+    width: 33%;
+    margin-left: 25%;
+}
+.official1 a{
+    text-decoration: none;
+    align-items: flex-start;
+    border: 3px solid;
+    border-radius: 60px;
+    display: flex;
+    gap: 5%;
+    /*padding: 1%;*/
+    color: var(--white);
+}
+
+.official1 .of1-btn:hover{
+    background-color: var(--white);
+}
+
+.official1 .of1-btn:hover .of1-btn-text{
+    color: var(--jacksons-purple);
+}
+
+
+
+/*official2 box*/
+
+.of2-contain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.of2-contain .of1-text{
+    width: 45%;
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-s);
+}
+
+.official2 img{
+    width: 80%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+}
+
+.official2 .of2-btn{
+    align-items: flex-start;
+    border: 3px solid;
+    border-color: var(--jacksons-purple);
+    border-radius: 32px;
+    display: flex;
+    gap: 40px;
+    padding: 15px;
+    background-color: var(--jacksons-purple);
+    z-index: 1;
+    width: 29%;
+    margin-left: 35%;
+}
+.official2 a{
+    text-decoration: none;
+    align-items: flex-start;
+    border: 3px solid;
+    border-radius: 60px;
+    display: flex;
+    gap: 5%;
+    padding: 1%;
+    color: var(--white);
+}
+
+.official2 .of2-btn:hover{
+    background-color: var(--white);
+}
+
+.official2 .of2-btn:hover .of2-btn-text{
+    color: var(--jacksons-purple);
+}
+
+/*official3 box*/
+
+.of3-contain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.official3 img{
+    width: 80%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+}
+.of3-contain .of1-text{
+    width: 45%;
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-s);
+}
+
+.official3 .of1-btn{
+    align-items: flex-start;
+    border: 3px solid;
+    border-color: var(--jacksons-purple);
+    border-radius: 32px;
+    display: flex;
+    gap: 40px;
+    padding: 15px;
+    background-color: var(--jacksons-purple);
+    z-index: 1;
+    width: 29%;
+    margin-left: 35%;
+}
+.official3 a{
+    text-decoration: none;
+    align-items: flex-start;
+    border: 3px solid;
+    border-radius: 60px;
+    display: flex;
+    gap: 5%;
+    padding: 1%;
+    color: var(--white);
+}
+
+.official3 .of1-btn:hover{
+    background-color: var(--white);
+}
+
+.official3 .of1-btn:hover .of1-btn-text{
+    color: var(--jacksons-purple);
+}
+
+/*official4 box*/
+
+.official1 .of4-btn{
+    align-items: flex-start;
+    border: 3px solid;
+    border-color: var(--jacksons-purple);
+    border-radius: 32px;
+    display: flex;
+    gap: 40px;
+    padding: 15px;
+    background-color: var(--jacksons-purple);
+    z-index: 1;
+    width: 35%;
+    margin-left: 23%;
+}
+.official1 a{
+    text-decoration: none;
+    align-items: flex-start;
+    border: 3px solid;
+    border-radius: 60px;
+    display: flex;
+    gap: 5%;
+    padding: 1%;
+    color: var(--white);
+}
+
+.official1 .of4-btn:hover{
+    background-color: var(--white);
+}
+
+.official1 .of4-btn:hover .of4-btn-text{
+    color: var(--jacksons-purple);
+}
+
+
+/*official5 box*/
+
+.official1 .of5-btn{
+    align-items: flex-start;
+    border: 3px solid;
+    border-color: var(--jacksons-purple);
+    border-radius: 32px;
+    display: flex;
+    gap: 40px;
+    padding: 15px;
+    background-color: var(--jacksons-purple);
+    z-index: 1;
+    width: 37%;
+    margin-left: 22%;
+}
+.official1 a{
+    text-decoration: none;
+    align-items: flex-start;
+    border: 3px solid;
+    border-radius: 60px;
+    display: flex;
+    gap: 5%;
+    padding: 1%;
+    color: var(--white);
+}
+
+.official1 .of5-btn:hover{
+    background-color: var(--white);
+}
+
+.official1 .of5-btn:hover .of5-btn-text{
+    color: var(--jacksons-purple);
+}
+
+
+/*商业组织 box*/
+
+.coop-btn{
+    align-items: flex-start;
+    border: 3px solid;
+    border-color: var(--jacksons-purple);
+    border-radius: 32px;
+    display: flex;
+    gap: 40px;
+    padding: 15px;
+    background-color: var(--jacksons-purple);
+    z-index: 1;
+    width: 37%;
+    /*margin-left: 22%;*/
+
+}
+
+.coop-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.coop-btn:hover{
+    background-color: var(--white);
+}
+
+.coop-btn:hover .coop-btn-text{
+    color: var(--jacksons-purple);
+}
+
+
+/*第三方公益box*/
+
+.img1{
+    margin-bottom: 5%;
+}
+.img1 img{
+    width: 20%;
+    margin-left: 40%;
+}
+
+.img2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 27%;
+    margin-bottom: 10%;
+}
+
+.img2 img{
+    width: 70%;
+
+}

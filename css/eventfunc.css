@@ -100,7 +100,7 @@
     .carousel ul li div {display: none;}
 }
 
-/* DEMO CSS 插入图片*/
+/* 往期活动 插入图片*/
 .carousel ul li:nth-child(1) > div > div {background-image: url(../img/rectangle-87.png); border-radius: 20px;}
 .carousel ul li:nth-child(2) > div > div {background-image: url(../img/-----20230215162425-1.png); border-radius: 20px;}
 .carousel ul li:nth-child(3) > div > div {background-image: url(../img/rectangle-88.png); border-radius: 20px;}

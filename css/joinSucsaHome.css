@@ -73,7 +73,6 @@
 
 .button {
     margin-top: 20px;
-    /*align-items: flex-start;*/
     border: 3px solid;
     border-color: var(--blue);
     border-radius: 32px;
@@ -81,8 +80,6 @@
     gap: 40px;
     left: 0;
     padding: 14px 29px;
-    /*position: absolute;*/
-    /*top: 195px;*/
     width: 182px;
     text-decoration: none;
     z-index: -1;

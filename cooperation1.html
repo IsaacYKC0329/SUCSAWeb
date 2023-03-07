@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>官方组织</title>
+  <link rel = "stylesheet" href = "css/main.css">
+  <link rel = "stylesheet" href = "css/navbar.css">
+  <link rel = "icon" type = "image/x-icon" href = "favicon.ico">
+  <link rel = "stylesheet" href = "css/footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="css/cooperation1.css">
+  <link rel="stylesheet" href="css/coopfunc.css">
+</head>
+<body>
+
+<div class = "container">
+
+  <div class = "nav" id = "topNav">
+    <div class="navlogo">
+      <img src="img/-----20230215020424-1@2x.png" alt = "logo">
+    </div>
+    <a href = "main.html">主页</a>
+    <a href = "event.html">活动</a>
+    <a href = "joinSucsa3.0.html">加入学联</a>
+    <a href = "join2.html">加入校友会</a>
+    <a href = "cooperation1.html"  class = "active">合作方</a>
+    <div class="dropdown">
+      <button onclick="dropdownFunc()" class="dropbtn">关于学联</button>
+      <div id="dropdown" class="dropdown-content">
+        <a href="history.html">学联历史</a>
+        <a href="introduction.html">学联介绍</a>
+      </div>
+    </div>
+    <a href = "contact.html">联系方式</a>
+    <a href="javascript:void(0);" class="icon" onclick="navFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<script>
+  function navFunction() {
+    var x = document.getElementById("topNav");
+    if (x.className === "nav") {
+      x.className += " responsive";
+    } else {
+      x.className = "nav";
+    }
+  }
+
+  function dropdownFunc() {
+    document.getElementById("dropdown").classList.toggle("show");
+  }
+
+
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+</script>
+
+<div class="title1 microsoftyahei-bold-blue-40px">—— 官方组织 ——</div>
+
+<div class = "of1-contain">
+  <div class = "official1">
+    <img src="img/university-of-sydney-union 1.png">
+    <a class="of1-btn" href="https://usu.edu.au/">
+      <div class="of1-btn-text">点击进入官网</div>
+    </a>
+  </div>
+  <div class = "of1-text">
+    悉尼大学学生工会 (University of Sydney Union) 成立于1874年，
+    是一个为尊重学生的多元讨论而设立的社团，是澳大利亚最大的、独立的学生组织。
+    USU以非盈利为荣，提供广泛的服务、活动、项目、设施和机会，帮助每个学生充分利用他们在大学的时间。
+    除了支持200多个学生社团外，USU还负责在讲座和考试之外提供许多有趣的活动项目，
+    包括大型节日、派对、演出和大量以学生为中心的活动，
+    以及学生志愿者计划、学生领导和带薪工作机会。
+    USU还通过校内的咖啡馆、商店和官网提供餐饮和正版学校周边商品。
+  </div>
+</div>
+
+<div class = "of2-contain">
+  <div class = "official2">
+    <img src="img/SRC logo 1.png">
+    <a class="of2-btn" href="https://srcusyd.net.au/">
+      <div class="of2-btn-text">点击进入官网</div>
+    </a>
+  </div>
+  <div class = "of1-text">
+    悉尼大学本科学生代表会（Students’Representative Council）自1929年以来由学生为学生管理，
+    是悉尼大学本科生的最高代表机构，以维护和促进悉尼大学学生的利益为宗旨。
+    SRC有着为学生权利而奋斗的悠久历史。SRC主张自由、公平和资助的教育，
+    普遍的学生会主义和一个没有歧视和压迫的社会。SRC的工作人员提供必要的服务，
+    如SRC个案工作者帮助（学术、Centrelink和租房咨询），以及免费法律服务。
+    这些服务是为悉尼大学的本科生免费提供的。SRC还设出版刊物Honi Soit，这是全澳唯一的学生周报。
+  </div>
+</div>
+
+<div class = "of3-contain">
+  <div class = "official3">
+    <img src="img/SUPRA logo 1.png">
+    <a class="of1-btn" href="https://supra.net.au/">
+      <div class="of1-btn-text">点击进入官网</div>
+    </a>
+  </div>
+  <div class = "of1-text">
+    SUPRA是悉尼大学的研究生协会。研会由学生代表及专业工作人员组成，
+    旨在维护学生权益，代表学生立场，支持学生发展，服务悉大全体硕博学生。
+    SUPRA悉大研会提供免费、专业且保密的一对一个案咨询服务。
+    经验丰富，通晓悉大政策和学生事务的个案咨询师，
+    将协助学生应对学业和生活中遇到的各类问题和困难。
+    SUPRA还聘请了资深法律援助律师，为大家提供法律事务咨询、法庭代理和转介服务。
+    与此同时，研会还致力于构建多元包容的硕博学生社群，组织和筹办丰富多彩的校园活动。
+  </div>
+</div>
+
+<div class = "of1-contain">
+  <div class = "official1">
+    <img src="img/the-university-of-sydney-vector-logo 1.png">
+    <a class="of4-btn" href="https://sydneyuniversity.cn/">
+      <div class="of4-btn-text">点击进入官网</div>
+    </a>
+  </div>
+  <div class = "of1-text">
+    悉尼大学中国中心（以下简称“中国中心”）是悉尼大学在澳洲本土之外设立的第一个教育和研究中心。
+    中国中心位于苏州工业园区的独墅湖科教创新区，
+    是一个跨学科和跨文化的研究和教育孵化器，
+    旨在促进和加强澳大利亚与中国研究人员、学者、学生及校友之间的交流。
+    依托悉尼大学世界一流的研究资源和基础设施，中国中心致力于促进中澳之间的研究创新、
+    学术交流和产业合作。通过在健康、环境与可持续发展，以及科技和商业等方面的努力，
+    中心将积极为中国教育、卓越研究和知识创造的可持续发展做出贡献。
+  </div>
+</div>
+
+<div class = "of1-contain">
+  <div class = "official1">
+    <img src="img/中国驻悉尼总领事馆.png">
+    <a class="of5-btn" href="http://sydney.china-consulate.gov.cn/">
+      <div class="of5-btn-text">点击进入官网</div>
+    </a>
+  </div>
+  <div class = "of1-text">
+    中国于1979年3月19日在悉尼设立总领事馆，领区为新南威尔士州。
+    新州位于澳大利亚东南部，是澳历史最悠久、人口最多、经济最发达的州。
+    新州在发展对华关系方面长期走在澳各州区前列。
+    近年来，中国连续多年保持新州最大贸易伙伴地位，
+    新州吸引了近半数中国对澳投资、约六成中国游客和超过三成中国留学生。
+  </div>
+</div>
+
+<!--商业组织slide-->
+
+<div class = "title1 microsoftyahei-bold-blue-40px">—— 商业组织 ——</div>
+
+<div class="carousel" duration="1000">
+  <ul tabindex="0">
+    <li id="c1_slide1"><div>
+      <div>
+        <br>
+<!--        <div class="poster-small-intro" style="color: white">2022.11.28</div>-->
+<!--        <div class="poster-big-intro" style="color: white">此刻音乐节</div>-->
+      </div>
+
+    </div></li>
+    <li id="c1_slide2"><div>
+      <div>
+        <br>
+<!--        <div class="poster-small-intro" style="color: white">2023.2.15 - 17</div>-->
+<!--        <div class="poster-big-intro" style="color: white">O-week 迎新周</div>-->
+      </div>
+      </div></li>
+    <li id="c1_slide3"><div>
+      <div>
+        <br>
+<!--        <div class="poster-small-intro" style="color: white">2023 1.21 - 23</div>-->
+<!--        <div class="poster-big-intro"  style="color: white">第二学期</div>-->
+      </div>
+      </div></li>
+    <li id="c1_slide4"><div>
+      <div>
+        <br>
+        <!--        <div class="poster-small-intro" style="color: white">2023 1.21 - 23</div>-->
+        <!--        <div class="poster-big-intro"  style="color: white">第二学期</div>-->
+      </div>
+    </div></li>
+
+    <li id="c1_slide5"><div>
+      <div>
+        <br>
+        <!--        <div class="poster-small-intro" style="color: white">2023 1.21 - 23</div>-->
+        <!--        <div class="poster-big-intro"  style="color: white">第二学期</div>-->
+      </div>
+    </div></li>
+
+    <li id="c1_slide6"><div>
+      <div>
+        <br>
+        <!--        <div class="poster-small-intro" style="color: white">2023 1.21 - 23</div>-->
+        <!--        <div class="poster-big-intro"  style="color: white">第二学期</div>-->
+      </div>
+    </div></li>
+    <li id="c1_slide7"><div>
+      <div>
+        <br>
+        <!--        <div class="poster-small-intro" style="color: white">2023 1.21 - 23</div>-->
+        <!--        <div class="poster-big-intro"  style="color: white">第二学期</div>-->
+      </div>
+    </div></li>
+
+  </ul>
+
+  <ol>
+    <li><a href="#c1_slide1"></a></li>
+    <li><a href="#c1_slide2"></a></li>
+    <li><a href="#c1_slide3"></a></li>
+    <li><a href="#c1_slide4"></a></li>
+    <li><a href="#c1_slide5"></a></li>
+    <li><a href="#c1_slide6"></a></li>
+    <li><a href="#c1_slide7"></a></li>
+
+  </ol>
+  <div class="prev">&lsaquo;</div>
+  <div class="next">&rsaquo;</div>
+</div>
+
+
+<div class = "coop-btn">
+    <a href="business_coop.html">
+        <div class="coop-btn-text">点击查看更多</div>
+    </a>
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+
+    const carousels = document.querySelectorAll('.carousel');
+    carousels.forEach(function (carousel) {
+
+      const ele = carousel.querySelector('ul');
+      const amountvisible = Math.round(ele.offsetWidth / ele.querySelector('li:nth-child(1)').offsetWidth);
+      const bullets = carousel.querySelectorAll('ol li');
+      const slides = carousel.querySelectorAll('ul li');
+      const nextarrow = carousel.querySelector('.next');
+      const prevarrow = carousel.querySelector('.prev');
+
+      // Initialize the carousel
+      nextarrow.style.display = 'block';
+      prevarrow.style.display = 'block';
+      ele.scrollLeft = 0;
+      bullets[0].classList.add('selected');
+      slides[0].classList.add('selected');
+      if (amountvisible > 1) {
+        var removeels = carousel.querySelectorAll('ol li:nth-last-child(-n + ' + (amountvisible - 1) + ')');
+        removeels.forEach(function (removeel) {
+          removeel.remove();
+        });
+      }
+
+      const setSelected = function () {
+        bullets.forEach(function (bullet) {
+          bullet.classList.remove('selected');
+        });
+        slides.forEach(function (slide) {
+          slide.classList.remove('selected');
+        });
+        const scrolllength = carousel.querySelector('ul li:nth-child(2)').offsetLeft - carousel.querySelector('ul li:nth-child(1)').offsetLeft;
+        const nthchild = Math.round(ele.scrollLeft / scrolllength + 1);
+        carousel.querySelector('ol li:nth-child(' + nthchild + ')').classList.add('selected');
+        carousel.querySelector('ul li:nth-child(' + nthchild + ')').classList.add('selected');
+        if (carousel.parentElement.parentElement.querySelector('.dynamictitle')) {
+          const title = carousel.querySelector('ul li:nth-child(' + nthchild + ') img').getAttribute('title');
+          if (title) carousel.parentElement.parentElement.querySelector('.dynamictitle').innerHTML = title;
+        }
+      };
+
+      const scrollTo = function (event) {
+        event.preventDefault();
+        ele.scrollLeft = ele.querySelector(this.getAttribute('href')).offsetLeft;
+      };
+
+      const nextSlide = function () {
+        if (!carousel.querySelector('ol li:last-child').classList.contains('selected')) {
+          carousel.querySelector('ol li.selected').nextElementSibling.querySelector('a').click();
+        } else {
+          carousel.querySelector('ol li:first-child a').click();
+        }
+      };
+
+      const prevSlide = function () {
+        if (!carousel.querySelector('ol li:first-child').classList.contains('selected')) {
+          carousel.querySelector('ol li.selected').previousElementSibling.querySelector('a').click();
+        } else {
+          carousel.querySelector('ol li:last-child a').click();
+        }
+      };
+
+      const setInteracted = function () {
+        ele.classList.add('interacted');
+      };
+
+      // Attach the handlers
+      ele.addEventListener("scroll", debounce(setSelected));
+      ele.addEventListener("touchstart", setInteracted);
+      ele.addEventListener('keydown', function (e) {
+        if (e.key == 'ArrowLeft') ele.classList.add('interacted');
+        if (e.key == 'ArrowRight') ele.classList.add('interacted');
+      });
+
+      nextarrow.addEventListener("click", nextSlide);
+      nextarrow.addEventListener("mousedown", setInteracted);
+      nextarrow.addEventListener("touchstart", setInteracted);
+
+      prevarrow.addEventListener("click", prevSlide);
+      prevarrow.addEventListener("mousedown", setInteracted);
+      prevarrow.addEventListener("touchstart", setInteracted);
+
+      bullets.forEach(function (bullet) {
+        bullet.querySelector('a').addEventListener('click', scrollTo);
+        bullet.addEventListener("mousedown", setInteracted);
+        bullet.addEventListener("touchstart", setInteracted);
+      });
+
+      //setInterval for autoplay
+      if (carousel.getAttribute('duration')) {
+        setInterval(function () {
+          if (ele != document.querySelector(".carousel:hover ul") && ele.classList.contains('interacted') == false) {
+            nextarrow.click();
+          }
+        }, carousel.getAttribute('duration'));
+      }
+
+
+    }); //end foreach
+
+  }); //end onload
+
+
+
+
+  /**
+   * Debounce functions for better performance
+   * (c) 2021 Chris Ferdinandi, MIT License, https://gomakethings.com
+   * @param  {Function} fn The function to debounce
+   */
+  function debounce(fn) {
+    // Setup a timer
+    let timeout;
+    // Return a function to run debounced
+    return function () {
+      // Setup the arguments
+      let context = this;
+      let args = arguments;
+      // If there's a timer, cancel it
+      if (timeout) {
+        window.cancelAnimationFrame(timeout);
+      }
+      // Setup the new requestAnimationFrame()
+      timeout = window.requestAnimationFrame(function () {
+        fn.apply(context, args);
+      });
+    };
+  }
+
+</script>
+
+<!--第三方公益slide-->
+
+<div class = "title1 microsoftyahei-bold-blue-40px" >—— 第三方公益组织 ——</div>
+
+<div class = "img1">
+  <a href = "public_csa.html">
+    <img src = "img/Group 156.png">
+  </a>
+</div>
+
+<div class = "img2">
+  <a href = "public_school.html">
+<img src = "img/Group 162.png">
+  </a>
+  <a href = "public_ngo.html">
+  <img src="img/Group 160.png">
+  </a>
+
+</div>
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <img src="img/frame.svg" alt="" class="img-fluid logo-footer">
+
+      </div>
+      <div class="col-md-3">
+        <div class="footer-about microsoftyahei-regular-normal-white-20px">
+          悉尼大学中国学生学者联合会（SUCSA）成立于1996年，悉尼大学USU、澳州政府注册，中国驻悉尼总领馆认证，是悉尼大学历史最悠久也是生命力最蓬勃的华人非盈利志愿者社团。学联致力于服务悉尼大学全体华人学生学者，让大家在异国他乡感受到家一样的温暖。
+        </div>
+        <a class="footer-btn" href="joinSucsa3.0.html">
+          <div class="footer-btn-text microsoftyahei-bold-white-15px">加入学联</div>
+        </a>
+      </div>
+
+      <div class="col-md-3">
+
+      </div>
+
+      <div class="col-md-3">
+        <div class="address">
+          <h2 class = "microsoftyahei-bold-white-20px">联系方式</h2>
+          <div class="address-links">
+            <li><a class = "microsoftyahei-regular-normal-white-20px"><i class="fa-solid fa-envelope "></i> sydneyunicsa@gmail.com</a></li>
+          </div>
+          <h2 class = "microsoftyahei-bold-white-20px">关注我们</h2>
+          <li style="display:inline-block; padding-right: 10px;"><a href = "#" class = "microsoftyahei-regular-normal-white-20px"><i class = "fa-brands fa fa-weixin" style="font-size: 40px;"></i></a></li>
+          <li style="display:inline-block; padding-right: 10px;"><a href = "https://instagram.com/usydsucsa?igshid=YmMyMTA2M2Y=" class = "microsoftyahei-regular-normal-white-20px"><i class = "fa-brands fa-instagram" style="font-size: 40px;"></i></a></li>
+          <li style="display:inline-block; padding-right: 10px;"><a href = "https://www.linkedin.com/company/sucsa/" class = "microsoftyahei-regular-normal-white-20px"><i class = "fa-brands fa fa-linkedin" style="font-size: 40px;"></i></a></li>
+          <li style="display:inline-block; padding-right: 10px;"><a href = "https://m.weibo.cn/u/2264262765?uid=2264262765&luicode=10000011&lfid=100103type%3D1%26q%3D%E6%82%89%E5%B0%BC%E5%A4%A7%E5%AD%A6%E4%B8%AD%E5%9B%BD%E5%AD%A6%E7%94%9F%E5%AD%A6%E8%80%85%E8%81%94%E5%90%88%E4%BC%9A" class = "microsoftyahei-regular-normal-white-20px"><i class = "fa-brands fa fa-weibo" style="font-size: 40px;"></i></a></li>
+          <li style="display:inline-block; padding-right: 10px;"><a href = "https://v.douyin.com/SJ9jjgR/" class = "microsoftyahei-regular-normal-white-20px"><i class = "fa-brands fa-tiktok" style="font-size: 40px;"></i></a></li>
+          <li style="display:inline-block; padding-right: 10px;"><a href = "https://www.xiaohongshu.com/user/profile/5ebe58a8000000000101d766?xhsshare=CopyLink&appuid=5eb51bbe00000000010071eb&apptime=1677242668" class = "microsoftyahei-regular-normal-white-20px"><i class = "fa-brands fa fa-little-red-book" style="font-size: 40px";><img src="img/-------icon-ixintu1-1@2x.png" class="xhs"></i></a></li>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+<section id="copy-right">
+  <div class="copy-right-sec"><i class="fa-solid fa-copyright"></i>
+    <a>Copyright © 2023 by SUCSA | All rights reserved. Developed by SUCSA</a>
+  </div>
+</section>
+
+</body>
+</html>

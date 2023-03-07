@@ -20,5 +20,7 @@
     <orderEntry type="library" name="abFullDialog" level="application" />
     <orderEntry type="library" name="jquery-1.8.3" level="application" />
     <orderEntry type="library" name="jquery.agilebins-v1.0.4" level="application" />
+    <orderEntry type="library" name="highcharts" level="application" />
+    <orderEntry type="library" name="echarts" level="application" />
   </component>
 </module>

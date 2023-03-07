@@ -31,12 +31,43 @@
 .microsoftyahei-bold-blue-20px {
     color: #1D2088;
     font-family: var(--font-family-microsoft_yahei-regular);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.microsoftyahei-bold-blue-40px {
+    color: #1D2088;
+    font-family: var(--font-family-microsoft_yahei-regular);
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
 }
 
 
+.welcome-font {
+    color: var(--white);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: 80pt;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.microsoftyahei-bold-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.book-font {
+    color: var(--white);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+}
 
 
 
@@ -90,21 +121,6 @@ p {
 }
 
 
-/*.bg{*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    position: absolute;*/
-/*    left: 0px;*/
-/*    top:0px;*/
-/*    background: url("images/资源 2.png") no-repeat;*/
-/*    background-size: cover;*/
-/*    -webkit-filter: blur(10px);*/
-/*    -moz-filter: blur(10px);*/
-/*    -o-filter: blur(10px);*/
-/*    -ms-filter: blur(10px);*/
-/*    filter: blur(10px);*/
-/*    opacity: 0.8;*/
-/*}*/
 
 
 
@@ -142,10 +158,6 @@ p {
 .footer p{
     font-size: 10px;
 }
-/*.footer img{*/
-/*    float: left;*/
-/*    width: 10%;*/
-/*}*/
 
 
 

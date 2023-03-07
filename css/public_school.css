@@ -1,0 +1,38 @@
+.head {
+    font-size:40px;
+    color:#0047AB;
+    font-weight:bold;
+    text-align:center;
+}.subhead{
+     font-size:20px;
+     color:#000000;
+     font-weight:bold;
+     text-align:center;
+ }.body_img{
+      text-align:center;
+      padding:20px 20px 20px 20px;
+  }.body_img2{
+       margin-left:23%;
+       padding:20px 20px 20px 20px;
+   }.body_text1{
+        text-align:center;
+        font-size:20px;
+        word-spacing:100px;
+    }.body_text2{
+         text-align:center;
+         font-size:20px;
+         word-spacing:110px;
+     }.body_text3{
+          margin-left:23%;
+          font-size:20px;
+          word-spacing:70px;
+      }.body_text4{
+           margin-top:100px;
+           text-align:center;
+           font-size:20px;
+       }.body_text5{
+            margin-left:46.5%;}
+        .box{
+            margin-bottom: 10%;
+        }
+

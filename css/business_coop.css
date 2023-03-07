@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "Microsoft YaHei-Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/msyhbd.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Microsoft YaHei-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/msyh.ttf") format("truetype");
+}
+
+:root {
+    --allports: #006fb530;
+    --black: #000000;
+    --jacksons-purple: #1d2088;
+    --white: #ffffff;
+
+    --font-size-l: 32px;
+    --font-size-m: 20px;
+    --font-size-xl: 40px;
+    --font-size-s: 15px;
+    --font-size-ms: 25px;
+
+    --font-family-microsoft_yahei-bold: "Microsoft YaHei-Bold", Helvetica;
+    --font-family-microsoft_yahei-regular: "Microsoft YaHei-Regular", Helvetica;
+}
+
+.microsoftyahei-bold-black-25px {
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-ms);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.microsoftyahei-bold-blue-40px{
+    color: var(--jacksons-purple);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.head {
+    font-size:40px;
+    color:#0047AB;
+    font-weight:bold;
+    text-align:center;
+}
+.body_img{
+    text-align:center;
+    padding:20px 20px 20px 20px;
+}
+.body_text1{
+    text-align:center;
+    font-size:20px;
+    word-spacing:120px;
+}.body_text2{
+     text-align:center;
+     font-size:20px;
+     word-spacing:80px;
+ }
+.body_text3{
+      text-align:center;
+      font-size:20px;
+      word-spacing:70px;
+  }
+.body_text4{
+       margin-top:100px;
+    /*margin-right: 5%;*/
+       text-align:center;
+       font-size:20px;
+   }
+.body_text5{
+        margin-left:46.5%;
+    }
+/*.body_button{*/
+/*         margin-left: 41.5%;*/
+/*         margin-top: 20px;*/
+/*         align-items: center;*/
+/*         justify-content: center;*/
+/*         border: 3px solid;*/
+/*         border-color: blue;*/
+/*         border-radius: 32px;*/
+/*         display: flex;*/
+/*         gap: 40px;*/
+/*         left: 0;*/
+/*         padding: 14px 29px;*/
+/*         !*position: absolute*!;*/
+/*         !*top: 195px;*!*/
+/*         width: 182px;*/
+/*     }*/
+/*.body_button_text{*/
+/*          flex: 1;*/
+/*          letter-spacing: 0;*/
+/*          line-height: normal;*/
+/*          margin-top: -3.00px;*/
+/*          text-align:center;*/
+/*      }*/
+/*.body_button:hover{*/
+/*           background-color: blue;*/
+/*       }*/
+/*.body_button:hover .body_button_text{*/
+/*            color: #1D2088;*/
+/*        }*/
+
+
+.title1{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    color: var(--jacksons-purple);
+    font-family: var(--font-family-microsoft_yahei-bold);
+
+}
+
+.title2{
+    text-align: center;
+    font-weight: bold;
+    /*margin-top: 10%;*/
+    margin-bottom: 2%;
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-bold);
+
+}
+
+
+.button {
+    margin-top: 20px;
+    background-color: #1D2088;
+    /*align-items: flex-start;*/
+    border: 3px solid;
+    border-color: var(--blue);
+    border-radius: 32px;
+    display: flex;
+    /*left: 0;*/
+    padding: 1%;
+    margin-left: 42%;
+    width: 15%;
+    text-decoration: none;
+    margin-bottom: 2%;
+}
+
+.button-text {
+    color: white;
+    font-weight: bold;
+    flex: 1;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -3.00px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: white;
+}
+
+.button:hover .button-text {
+    color: #1D2088;
+    z-index: 1;
+}
+
+.csa_box{
+    margin-bottom: 20%;
+}
