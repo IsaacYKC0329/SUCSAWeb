@@ -293,21 +293,18 @@
 /*商业组织 box*/
 
 .coop-btn{
-    /*align-items: center;*/
+    align-items: flex-start;
     border: 3px solid;
     border-color: var(--jacksons-purple);
     border-radius: 32px;
     display: flex;
     gap: 40px;
-    padding: 1%;
+    padding: 15px;
     background-color: var(--jacksons-purple);
     z-index: 1;
-    width: 10%;
-    margin-left: 46%;
+    width: 37%;
+    /*margin-left: 22%;*/
 
-}
-.coop-btn-text{
-    text-align: center;
 }
 
 .coop-btn a{

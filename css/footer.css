@@ -36,7 +36,7 @@ body{
 }
 #footer{
 
-    padding: 5% 1% 1%;
+    padding: 2% 1% 1%;
 
     background-color: #1D2088;
     z-index: 10;
@@ -54,6 +54,7 @@ body{
 .col-md-3 .footer-about{
     margin-bottom: 5%;
     width: 150%;
+    font-size: var(--font-size-s);
 }
 
 
@@ -168,7 +169,6 @@ a{
     border-color: var(--white);
     border-radius: 32px;
     display: flex;
-    gap: 40px;
     left: 0;
     padding: 14px 29px;
     width: 182px;
@@ -198,11 +198,15 @@ a{
 .footer-btn:hover .footer-btn-text {
     color: #1D2088;
 }
+
+
 :root {
     --black: #000000;
     --white: #ffffff;
 
+
     --font-size-m: 20px;
+    --font-size-s: 16px;
 
     --font-family-microsoft_yahei-bold: "Microsoft YaHei-Bold", Helvetica;
     --font-family-microsoft_yahei-regular: "Microsoft YaHei-Regular", Helvetica;
@@ -217,7 +221,7 @@ a{
     font-weight: 400;
 }
 
-.microsoftyahei-regular-normal-white-20px {
+.microsoftyahei-regular-normal-white-16px {
     color: var(--white);
     font-family: var(--font-family-microsoft_yahei-regular);
     font-size: var(--font-size-m);

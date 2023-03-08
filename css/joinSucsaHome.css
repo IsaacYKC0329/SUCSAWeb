@@ -71,8 +71,8 @@
     font-weight: 700;
 }
 
-.button {
-    margin-top: 20px;
+.button11 {
+    margin-top: 10%;
     /*align-items: flex-start;*/
     border: 3px solid;
     border-color: var(--blue);
@@ -88,7 +88,7 @@
     z-index: -1;
 }
 
-.button-text {
+.button11-text {
     color: #1d2088;
     font-weight: bold;
     flex: 1;
@@ -100,27 +100,23 @@
     z-index: -1;
 }
 
-.button:hover {
+.button11:hover {
     background-color: #1d2088;
 }
 
-.button:hover .button-text {
+.button11:hover .button11-text {
     color: #ffffff;
     z-index: 1;
 }
 
-
-.title1{
+.title{
+    font-size: 40px;
     text-align: center;
+    color: #1d2088;
     font-weight: bold;
     margin-top: 10%;
-    margin-bottom: 2%;
-    color: var(--jacksons-purple);
-    font-family: var(--font-family-microsoft_yahei-bold);
-    font-size: var(--font-size-xl);
-
+    margin-bottom: 100px;
 }
-
 
 .poster1{
     height: 450px;
