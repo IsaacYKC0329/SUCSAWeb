@@ -27,20 +27,12 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    gap: 5%;
+    /*padding: 1%;*/
     z-index: 10;
-    line-height: 1.5;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 
 }
 
-/*.nav img {*/
-/*    margin-top: 1%;*/
-/*    margin-bottom: 1%;*/
-/*    width: 10%;*/
-/*    height: 5%;*/
-/*    margin-left: 8%;*/
-/*}*/
 
 .navlogo{
     width: 30%;
@@ -62,8 +54,9 @@
     text-decoration: none;
     font-size: var(--font-size-s);
     font-weight: bold;
-    /*text-decoration: none;*/
-    /*margin-right: -50%;*/
+    /*padding: 1%;*/
+    /*margin: 0 5%;*/
+    /*flex-basis: 15%;*/
 
 }
 
@@ -92,17 +85,17 @@
     display: none;
 }
 
-@media screen and (max-width: 900px) {
-    .nav a:not(:first-child) {display: none;}
-    .nav a.icon {
-        float: right;
-        display: block;
-    }
-    .nav img {
-        width: 250px;
-        height: 100px;
-    }
-}
+/*@media screen and (max-width: 900px) {*/
+/*    .nav a:not(:first-child) {display: none;}*/
+/*    .nav a.icon {*/
+/*        float: right;*/
+/*        display: block;*/
+/*    }*/
+/*    .nav img {*/
+/*        width: 250px;*/
+/*        height: 100px;*/
+/*    }*/
+/*}*/
 
 .dropbtn {
     background-color: white;
@@ -160,23 +153,23 @@
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
-@media screen and (max-width: 1000px) {
-    .nav.responsive {position: relative;}
-    .nav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    .nav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-    /*.nav .responsive .img {*/
-    /*    width: 40px;*/
-    /*    height: 40px;*/
-    /*}*/
-}
+/*@media screen and (max-width: 1000px) {*/
+/*    .nav.responsive {position: relative;}*/
+/*    .nav.responsive .icon {*/
+/*        position: absolute;*/
+/*        right: 0;*/
+/*        top: 0;*/
+/*    }*/
+/*    .nav.responsive a {*/
+/*        float: none;*/
+/*        display: block;*/
+/*        text-align: left;*/
+/*    }*/
+/*    !*.nav .responsive .img {*!*/
+/*    !*    width: 40px;*!*/
+/*    !*    height: 40px;*!*/
+/*    !*}*!*/
+/*}*/
 
 :root {
     --allports: #006fb530;
