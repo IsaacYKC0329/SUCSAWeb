@@ -28,32 +28,37 @@
 .body{
     margin:auto;
 }
+.title1{
+    font-size: 40px;
+    text-align: center;
+    /*font-weight: bold;*/
+    margin-top: 10%;
+    /*margin-bottom: 50px;*/
+    color: var(--jacksons-purple);
+    font-family: var(--font-family-microsoft_yahei-bold);
+
+}
 
 .history {
-    align-items: flex-end;
+    align-items: center;
     background-color: var(--white);
-    border: 1px none;
+    /*border: 1px none;*/
     display: flex;
     flex-direction: column;
     /*gap: 50px;*/
     width: 100%;
     position: relative;
-    z-index: -1;
-    margin-top: 1%;
-    margin-bottom: 20%;
+    /*z-index: -1;*/
+    /*margin-top: 1%;*/
+    margin-bottom: 100px;
     /*margin-left: 3%;*/
 }
 
 .history .intro {
-    align-items: flex-start;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    gap: 50px;
-    padding: 15%;
-    /*position: relative;*/
-    /*width: fit-content;*/
-    margin-top: -6%;
-    margin-bottom: -30%;
+    width: 70%;
 }
 
 .history .his-box {
@@ -61,99 +66,89 @@
     width: fit-content;
 }
 
-.history .subtitle1 {
-    color: var(--jacksons-purple);
-    font-family: var(--font-family-microsoft_yahei-bold);
-    font-size: var(--font-size-xl);
-    font-weight: 700;
-    height: 40px;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -1.00px;
-    width: 100%;
+.history .intro .his-box .sucsa-intro{
+    font-size: 16px;
+    font-family: var(--font-family-microsoft_yahei-regular);
+
 }
 
-.history .sucsa-intro {
-    letter-spacing: 0;
-    line-height: 47.1px;
-
-    margin-top: 20px;
-    width: 100%;
-}
-
-
-.history .table-container {
+.table-container {
     align-items: flex-start;
     display: flex;
     flex-direction: column;
     height: 50%;
     width: 100%;
-    margin-top: 20%;
+    /*margin-top: 20%;*/
+
 }
 
-table {
+.table-container .his-table table{
     border-collapse: collapse;
     border-spacing: 0;
-    width: 70%;
+    width: 85%;
     border: 1px solid #ddd;
-    margin-left: 15%;
-}
-
-.manage-table h1{
-    color: var(--black);
-    font-family: var(--font-family-microsoft_yahei-bold);
-    font-size: var(--font-size-xl);
-    font-weight: 700;
-    height: 40px;
+    height: 100px;
     letter-spacing: 0;
-    line-height: normal;
-    margin-top: -1.00px;
-
-    width: 100%;
-    margin-bottom: 50px;
-    margin-left: 15%;
-
-
-}
-th, td {
-    text-align: left;
-    padding: 8px;
 }
 
-.manage-table{
-    border-collapse: collapse;
-    border-spacing: 0;
-    width: 100%;
-
-}
-.honor-table{
-    border-collapse: collapse;
-    border-spacing: 0;
-    width: 100%;
-
-    margin-top: 8%;
-}
-
-.honor-table h1{
-    color: var(--black);
+.table-container h2{
+    font-size: 32px;
     font-family: var(--font-family-microsoft_yahei-bold);
-    font-size: var(--font-size-xl);
-    font-weight: 700;
-    height: 40px;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -1.00px;
-
-    width: 100%;
     margin-bottom: 50px;
     margin-left: 15%;
 }
 
+.history .sucsa-intro {
+    letter-spacing: 0;
+    line-height: 1.5;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.his-table{
+    /*align-items: center;*/
+    background-color: var(--white);
+    /*border: 1px none;*/
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    /*width: 100%;*/
+    position: relative;
+    margin-left: 15%;
+    margin-bottom: 100px;
+
+}
+
+.his-table th{
+    font-size: 16px;
+    padding-top: 5px;
+    height: 30px;
+    font-family: var(--font-family-microsoft_yahei-bold);
+    padding-left: 5px;
+}
+
+.his-table td{
+    font-size: 16px;
+    height: 80px;
+    font-family: var(--font-family-microsoft_yahei-regular);
+    /*text-align: center;*/
+    /*width:500px;*/
+    padding-top: 5px;
+    line-height: 1.5;
+    padding-left: 5px;
+}
+
+
+
+
+
+
+/*report*/
 .report{
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
-    margin-top: -10%;
+
     margin-bottom: 20%;
     /*margin-left: 1%;*/
     z-index: -1;
@@ -161,7 +156,7 @@ th, td {
 .report h1{
     color: var(--black);
     font-family: var(--font-family-microsoft_yahei-bold);
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-l);
     font-weight: 700;
     height: 40px;
     letter-spacing: 0;
@@ -172,7 +167,6 @@ th, td {
     margin-bottom: 50px;
     margin-left: 15%;
 }
-
 .report-btn1 {
     margin-top: 20px;
     align-items: flex-start;
@@ -229,6 +223,7 @@ tr:nth-child(odd){background-color: var(--allports)}
     --font-size-l: 32px;
     --font-size-m: 20px;
     --font-size-xl: 40px;
+    --font-size-s: 16px;
 
     --font-family-microsoft_yahei-bold: "Microsoft YaHei-Bold", Helvetica;
     --font-family-microsoft_yahei-regular: "Microsoft YaHei-Regular", Helvetica;
@@ -236,7 +231,7 @@ tr:nth-child(odd){background-color: var(--allports)}
 .microsoftyahei-regular-normal-black-20px {
     color: var(--black);
     font-family: var(--font-family-microsoft_yahei-regular);
-    font-size: var(--font-size-m);
+    font-size: var(--font-size-s);
     font-style: normal;
     font-weight: 400;
 }
@@ -265,10 +260,10 @@ tr:nth-child(odd){background-color: var(--allports)}
     font-weight: 700;
 }
 
-.microsoftyahei-bold-black-15px {
+.microsoftyahei-bold-black-16px {
     color: var(--black);
     font-family: var(--font-family-microsoft_yahei-bold);
-    font-size: var(--font-size-m);
+    font-size: var(--font-size-s);
     font-style: normal;
     font-weight: 700;
 }

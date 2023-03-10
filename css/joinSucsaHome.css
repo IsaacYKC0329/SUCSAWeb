@@ -26,15 +26,16 @@
     --font-size-l: 32px;
     --font-size-m: 20px;
     --font-size-xl: 40px;
+    --font-size-s: 16px;
 
     --font-family-microsoft_yahei-bold: "Microsoft YaHei-Bold", Helvetica;
     --font-family-microsoft_yahei-regular: "Microsoft YaHei-Regular", Helvetica;
 }
 
-.microsoftyahei-regular-normal-black-20px {
+.microsoftyahei-regular-normal-black-16px {
     color: var(--black);
     font-family: var(--font-family-microsoft_yahei-regular);
-    font-size: var(--font-size-m);
+    font-size: var(--font-size-s);
     font-style: normal;
     font-weight: 400;
 }
@@ -72,7 +73,7 @@
 }
 
 .button11 {
-    margin-top: 10%;
+    margin-top: 20px;
     /*align-items: flex-start;*/
     border: 3px solid;
     border-color: var(--blue);
@@ -90,7 +91,8 @@
 
 .button11-text {
     color: #1d2088;
-    font-weight: bold;
+    font-weight: normal;
+    font-size: 16px;
     flex: 1;
     letter-spacing: 0;
     line-height: normal;
@@ -98,6 +100,7 @@
     position: relative;
     text-align: center;
     z-index: -1;
+    font-family: var(--font-family-microsoft_yahei-bold);
 }
 
 .button11:hover {
@@ -109,13 +112,56 @@
     z-index: 1;
 }
 
-.title{
+
+.button22 {
+    margin-top: 10px;
+    /*align-items: flex-start;*/
+    border: 3px solid;
+    border-color: var(--blue);
+    border-radius: 32px;
+    display: flex;
+    /*gap: 40px;*/
+    left: 0;
+    padding: 14px 29px;
+    /*position: absolute;*/
+    /*top: 195px;*/
+    width: 182px;
+    text-decoration: none;
+    z-index: -1;
+
+}
+
+.button22-text {
+    color: #1d2088;
+    font-weight: normal;
+    font-size: 16px;
+    flex: 1;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -3.00px;
+    position: relative;
+    text-align: center;
+    z-index: -1;
+    font-family: var(--font-family-microsoft_yahei-bold);
+}
+
+.button22:hover {
+    background-color: #1d2088;
+}
+
+.button22:hover .button22-text {
+    color: #ffffff;
+    z-index: 1;
+}
+.title1{
     font-size: 40px;
     text-align: center;
-    color: #1d2088;
-    font-weight: bold;
+    /*font-weight: bold;*/
     margin-top: 10%;
     margin-bottom: 100px;
+    color: var(--jacksons-purple);
+    font-family: var(--font-family-microsoft_yahei-bold);
+
 }
 
 .poster1{
@@ -135,12 +181,18 @@
 .script1{
     line-height: 1.5;
     max-width: 450px;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: justify;
 }
 
 
 .script2{
     line-height: 1.5;
     max-width: 450px;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: justify;
 }
 
 .button1{
@@ -184,6 +236,8 @@
     margin-right: 15%;
     line-height: 1.5;
     margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: normal;
 }
 
 .button3{

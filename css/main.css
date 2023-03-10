@@ -12,10 +12,41 @@
     src: url("../fonts/msyh.ttf") format("truetype");
 }
 
+:root {
+    --allports: #006fb530;
+    --black: #000000;
+    --jacksons-purple: #1d2088;
+    --white: #ffffff;
+
+    --font-size-l: 32px;
+    --font-size-m: 20px;
+    --font-size-xl: 40px;
+    --font-size-s: 16px;
+
+    --font-family-microsoft_yahei-bold: "Microsoft YaHei-Bold", Helvetica;
+    --font-family-microsoft_yahei-regular: "Microsoft YaHei-Regular", Helvetica;
+}
+
 .microsoftyahei-bold-white-20px {
     color: var(--white);
     font-family: var(--font-family-microsoft_yahei-bold);
     font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 700;
+}
+.microsoftyahei-bold-white-16px {
+    color: var(--white);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+.microsoftyahei-bold-white-32px {
+    color: var(--white);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-l);
     font-style: normal;
     font-weight: 700;
 }
@@ -30,8 +61,8 @@
 
 .microsoftyahei-bold-blue-20px {
     color: #1D2088;
-    font-family: var(--font-family-microsoft_yahei-regular);
-    font-size: 60px;
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-xl);
     font-style: normal;
     font-weight: 700;
 }
@@ -51,6 +82,7 @@
     font-size: 80pt;
     font-style: normal;
     font-weight: 700;
+    line-height: 1.5;
 }
 
 .microsoftyahei-bold-black-20px {

@@ -73,9 +73,7 @@ img {vertical-align: middle;}
     transition: background-color 0.6s ease;
 }
 
-.active {
-    background-color: #717171;
-}
+
 
 /* Fading animation */
 .fade {
@@ -93,6 +91,8 @@ img {vertical-align: middle;}
     --font-size-l: 32px;
     --font-size-m: 20px;
     --font-size-xl: 40px;
+    --font-size-s: 16px;
+    --font-size-xs: 14px;
 
     --font-family-microsoft_yahei-bold: "Microsoft YaHei-Bold", Helvetica;
     --font-family-microsoft_yahei-regular: "Microsoft YaHei-Regular", Helvetica;
@@ -106,6 +106,8 @@ img {vertical-align: middle;}
     justify-content: center;
     align-items: center;
 }
+
+
 
 .microsoftyahei-bold-blue-20px {
     color: var(--jacksons-purple);
@@ -301,7 +303,8 @@ img {vertical-align: middle;}
     margin-left: 20px;
     color: var(--white);
     text-align: left;
-    font-size: 13px;
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-xs);
 }
 
 .poster-big-intro{
@@ -309,30 +312,41 @@ img {vertical-align: middle;}
     margin-left: 20px;
     color: black;
     text-align: left;
-    font-size: 20px;
+
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-s);
 }
 
-.block3 table{
 
-    margin-left: 26%;
-    /*margin-right: 15%;*/
+.block3{
+    width: 70%;
+    height: 60%;
+    /*border:1px solid black;*/
+    display: flex;
+    flex-direction: row;
     margin-bottom: 100px;
-}
-
-.block3 table tr{
-    height: 50px;
+    margin-left: 25%;
+    overflow:scroll;
 
 }
 
-.block3 table td{
-    /*width: 200px;*/
-    text-align: center;
-    font-size: var(--font-size-m);
-    font-weight: bold;
+
+.block3 .left, .block3 .right {
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+
+}
+
+.block3 .left{
+    margin-right: 100px;
+}
+
+.block3 .left a, .block3 .right a{
     color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-regular);
 }
 
-.block3 table a{
-
-    color: black;
+.block3 .right{
+    margin-left: 100px;
 }

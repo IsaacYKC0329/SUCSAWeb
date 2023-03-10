@@ -25,20 +25,22 @@ eduPie.on('mousemove',function (params) {
 
 
     if(clickedData.name == "硕士研究生"){
-        eduText.style.width = 20+"%"
-        eduText.style.top = 270+"%"
-        eduText.style.left = 3+"%"
-        eduText.innerText = "学历-"+clickedData.name+"："+clickedData.value+"%"
+        eduText.style.width = 15+"%"
+        eduText.style.top = 258+"%"
+        eduText.style.left = 6+"%"
+        eduText.innerText = clickedData.name+"："+clickedData.value+"%"
         eduText.style.visibility = "visible"
     }else if(clickedData.name == "本科"){
-        eduText.style.top = 256+"%"
-        eduText.style.left = 45+"%"
-        eduText.innerText = "学历-"+clickedData.name+"："+clickedData.value+"%"
+        eduText.style.top = 245+"%"
+        eduText.style.left = 40+"%"
+        eduText.style.width = 12+"%"
+        eduText.innerText = clickedData.name+"："+clickedData.value+"%"
         eduText.style.visibility = "visible"
     }else if(clickedData.name == "博士"){
-        eduText.style.top = 238+"%"
-        eduText.style.left = 15+"%"
-        eduText.innerText = "学历-"+clickedData.name+"："+clickedData.value+"%"
+        eduText.style.top = 240+"%"
+        eduText.style.left = 12+"%"
+        eduText.style.width = 12+"%"
+        eduText.innerText = clickedData.name+"："+clickedData.value+"%"
         eduText.style.visibility = "visible"
     }
 })
@@ -48,7 +50,6 @@ eduPie.on('mouseout',function (params) {
     if(clickedData.name == "本科"){
         eduText.style.visibility = "hidden"
     }else if(clickedData.name == "硕士研究生"){
-        eduText.style.width = 15+"%"
         eduText.style.visibility = "hidden"
     }else if(clickedData.name == "博士"){
         eduText.style.visibility = "hidden"
@@ -88,45 +89,51 @@ facultyPie.on('mousemove',function (params) {
     let clickedData = params.data;
     if(clickedData.name == "工程学院"){
         facultyText.style.top = 240+"%"
-        facultyText.style.left = 78+"%"
-        facultyText.innerText = "院系-"+clickedData.name+"："+clickedData.value+"%"
+        facultyText.style.left = 74+"%"
+        facultyText.style.width = 12+"%"
+        facultyText.innerText = clickedData.name+"："+clickedData.value+"%"
         facultyText.style.visibility = "visible"
     }else if(clickedData.name == "商学院"){
-        facultyText.style.top = 255+"%"
-        facultyText.style.left = 84+"%"
-        facultyText.innerText = "院系-"+clickedData.name+"："+clickedData.value+"%"
+        facultyText.style.top = 244+"%"
+        facultyText.style.left = 79+"%"
+        facultyText.style.width = 12+"%"
+        facultyText.innerText = clickedData.name+"："+clickedData.value+"%"
         facultyText.style.visibility = "visible"
     }else if(clickedData.name == "理学院"){
-        facultyText.style.top = 278+"%"
-        facultyText.style.left = 78+"%"
-        facultyText.innerText = "院系-"+clickedData.name+"："+clickedData.value+"%"
+        facultyText.style.top = 262+"%"
+        facultyText.style.left = 74+"%"
+        facultyText.style.width = 12+"%"
+        facultyText.innerText = clickedData.name+"："+clickedData.value+"%"
         facultyText.style.visibility = "visible"
     }else if(clickedData.name == "人文社科学院"){
-        facultyText.style.top = 278+"%"
-        facultyText.style.left = 45+"%"
-        facultyText.style.width = 20+"%"
-        facultyText.innerText = "院系-"+clickedData.name+"："+clickedData.value+"%"
+        facultyText.style.top = 260+"%"
+        facultyText.style.left = 46+"%"
+        facultyText.style.width = 15+"%"
+        facultyText.innerText = clickedData.name+"："+clickedData.value+"%"
         facultyText.style.visibility = "visible"
     }else if(clickedData.name == "建筑设计规划学院"){
-        facultyText.style.top = 269+"%"
-        facultyText.style.left = 43+"%"
-        facultyText.style.width = 20+"%"
-        facultyText.innerText = "院系-"+clickedData.name+"："+clickedData.value+"%"
+        facultyText.style.top = 246+"%"
+        facultyText.style.left = 40+"%"
+        facultyText.style.width = 17+"%"
+        facultyText.innerText = clickedData.name+"："+clickedData.value+"%"
         facultyText.style.visibility = "visible"
     }else if(clickedData.name == "健康医学院"){
-        facultyText.style.top = 250+"%"
-        facultyText.style.left = 46+"%"
-        facultyText.innerText = "院系-"+clickedData.name+"："+clickedData.value+"%"
+        facultyText.style.top = 245+"%"
+        facultyText.style.left = 43+"%"
+        facultyText.style.width = 15+"%"
+        facultyText.innerText = clickedData.name+"："+clickedData.value+"%"
         facultyText.style.visibility = "visible"
     }else if(clickedData.name == "法学院"){
         facultyText.style.top = 240+"%"
         facultyText.style.left = 50+"%"
-        facultyText.innerText = "院系-"+clickedData.name+"："+clickedData.value+"%"
+        facultyText.style.width = 12+"%"
+        facultyText.innerText = clickedData.name+"："+clickedData.value+"%"
         facultyText.style.visibility = "visible"
     }else if(clickedData.name == "音乐学院"){
-        facultyText.style.top = 237+"%"
-        facultyText.style.left = 53+"%"
-        facultyText.innerText = "院系-"+clickedData.name+"："+clickedData.value+"%"
+        facultyText.style.top = 240+"%"
+        facultyText.style.left = 52+"%"
+        facultyText.style.width = 12+"%"
+        facultyText.innerText = clickedData.name+"："+clickedData.value+"%"
         facultyText.style.visibility = "visible"
     }
 })
@@ -140,10 +147,8 @@ facultyPie.on('mouseout',function (params) {
     }else if(clickedData.name == "理学院"){
         facultyText.style.visibility = "hidden"
     }else if(clickedData.name == "人文社科学院"){
-        facultyText.style.width = 15+"%"
         facultyText.style.visibility = "hidden"
     }else if(clickedData.name == "建筑设计规划学院"){
-        facultyText.style.width = 15+"%"
         facultyText.style.visibility = "hidden"
     }else if(clickedData.name == "健康医学院"){
         facultyText.style.visibility = "hidden"
@@ -188,33 +193,38 @@ industryPie.on('mousemove',function (params) {
 
     if(clickedData.name == "高等教育"){
         industryText.style.top = 290+"%"
-        industryText.style.left = 38+"%"
+        industryText.style.left = 35+"%"
+        industryText.style.width = 15+"%"
         industryText.innerText = clickedData.name+"："+clickedData.value+"%"
         industryText.style.visibility = "visible"
     }else if(clickedData.name == "研究"){
-        industryText.style.top = 295+"%"
-        industryText.style.left = 42+"%"
+        industryText.style.top = 299+"%"
+        industryText.style.left = 39+"%"
+        industryText.style.width = 12+"%"
         industryText.innerText = clickedData.name+"："+clickedData.value+"%"
         industryText.style.visibility = "visible"
     }else if(clickedData.name == "医院和医疗保健"){
-        industryText.style.top = 300+"%"
-        industryText.style.left = 44+"%"
-        industryText.style.width = 20+"%"
+        industryText.style.top = 310+"%"
+        industryText.style.left = 41+"%"
+        industryText.style.width = 17+"%"
         industryText.innerText = clickedData.name+"："+clickedData.value+"%"
         industryText.style.visibility = "visible"
     }else if(clickedData.name == "金融服务"){
-        industryText.style.top = 332+"%"
-        industryText.style.left = 40+"%"
+        industryText.style.top = 325+"%"
+        industryText.style.left = 35+"%"
+        industryText.style.width = 15+"%"
         industryText.innerText = clickedData.name+"："+clickedData.value+"%"
         industryText.style.visibility = "visible"
     }else if(clickedData.name == "信息技术服务"){
-        industryText.style.top = 325+"%"
-        industryText.style.left = 9+"%"
+        industryText.style.top = 306+"%"
+        industryText.style.left = 5+"%"
+        industryText.style.width = 15+"%"
         industryText.innerText = clickedData.name+"："+clickedData.value+"%"
         industryText.style.visibility = "visible"
     }else if(clickedData.name == "其他"){
-        industryText.style.top = 295+"%"
-        industryText.style.left = 12+"%"
+        industryText.style.top = 300+"%"
+        industryText.style.left = 9+"%"
+        industryText.style.width = 12+"%"
         industryText.innerText = clickedData.name+"："+clickedData.value+"%"
         industryText.style.visibility = "visible"
     }
@@ -273,33 +283,39 @@ functionPie.on('mousemove',function (params) {
     let clickedData = params.data;
 
     if(clickedData.name == "运营"){
-        functionText.style.top = 292+"%"
-        functionText.style.left = 78+"%"
+        functionText.style.top = 299+"%"
+        functionText.style.left = 75+"%"
+        functionText.style.width = 12+"%"
         functionText.innerText = clickedData.name+"："+clickedData.value+"%"
         functionText.style.visibility = "visible"
     }else if(clickedData.name == "教育"){
-        functionText.style.top = 302+"%"
-        functionText.style.left = 82+"%"
+        functionText.style.top = 310+"%"
+        functionText.style.left = 79+"%"
+        functionText.style.width = 12+"%"
         functionText.innerText = clickedData.name+"："+clickedData.value+"%"
         functionText.style.visibility = "visible"
     }else if(clickedData.name == "医疗保健服务"){
         functionText.style.top = 315+"%"
-        functionText.style.left = 84+"%"
+        functionText.style.left = 79+"%"
+        functionText.style.width = 17+"%"
         functionText.innerText = clickedData.name+"："+clickedData.value+"%"
         functionText.style.visibility = "visible"
     }else if(clickedData.name == "研究"){
-        functionText.style.top = 330+"%"
-        functionText.style.left = 80+"%"
+        functionText.style.top = 340+"%"
+        functionText.style.left = 76+"%"
+        functionText.style.width = 12+"%"
         functionText.innerText = clickedData.name+"："+clickedData.value+"%"
         functionText.style.visibility = "visible"
     }else if(clickedData.name == "其他"){
         functionText.style.top = 330+"%"
-        functionText.style.left = 50+"%"
+        functionText.style.left = 44+"%"
+        functionText.style.width = 12+"%"
         functionText.innerText = clickedData.name+"："+clickedData.value+"%"
         functionText.style.visibility = "visible"
     }else if(clickedData.name == "工程"){
-        functionText.style.top = 294+"%"
+        functionText.style.top = 299+"%"
         functionText.style.left = 50+"%"
+        functionText.style.width = 12+"%"
         functionText.innerText = clickedData.name+"："+clickedData.value+"%"
         functionText.style.visibility = "visible"
     }

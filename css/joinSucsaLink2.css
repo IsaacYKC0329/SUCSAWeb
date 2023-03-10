@@ -89,7 +89,7 @@
 
 .button-text {
     color: white;
-    font-weight: bold;
+    font-weight:normal;
     flex: 1;
     letter-spacing: 0;
     line-height: normal;
@@ -97,6 +97,7 @@
     position: relative;
     text-align: center;
     text-decoration: none;
+    font-family: var(--font-family-microsoft_yahei-bold);
 }
 
 .button:hover {
@@ -148,22 +149,24 @@
     flex: 1;
     letter-spacing: 0;
     position: relative;
-    /*z-index: 1;*/
     margin-left: 5%;
     right: 5%;
+    font-size: var(--font-size-l);
+    font-family: var(--font-family-microsoft_yahei-regular);
 }
 
 .small-text{
-
-    margin-top: 30px;
-    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: -25px;
+    font-size: 16px;
     text-align: center;
     display: inline-block;
     z-index: 1;
+    font-family: var(--font-family-microsoft_yahei-regular);
 }
 
 .big-text{
-    font-size: 32px;
+    font-size: 40px;
     z-index: 1;
 }
 
@@ -179,14 +182,17 @@
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 50px;
+    font-family: var(--font-family-microsoft_yahei-bold);
 }
 
 .sentence{
     max-width: 600px;
-    font-size: 20px;
-    font-weight: normal;
     line-height: 2;
     margin-bottom: 50px;
+    z-index: 5;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: var(--font-family-microsoft_yahei-regular);
 }
 
 
@@ -207,7 +213,9 @@
     margin-left: 20px;
     color: black;
     text-align: left;
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: var(--font-family-microsoft_yahei-regular);
 }
 
 .poster-big-intro{
@@ -215,5 +223,6 @@
     margin-left: 20px;
     color: black;
     text-align: left;
-    font-size: 20px;
+    font-size: 16px;
+    font-family: var(--font-family-microsoft_yahei-bold);
 }

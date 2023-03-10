@@ -19,13 +19,13 @@ image.addEventListener("mousemove", function(event) {
     }
 
 
-    if(x > 600 && x<665 && y>310 && y<435){    //山西
+    if(x > 600 && x<655 && y>325 && y<420){    //山西
         shanxi.style.visibility = "visible";
     }else {
         shanxi.style.visibility = "hidden";
     }
 
-    if(x > 415 && x<525 && y>450 && y<590){    //成都
+    if(x > 473 && x<510 && y>497 && y<523){    //成都
         chengdu.style.visibility = "visible";
     }else {
         chengdu.style.visibility = "hidden";
@@ -72,13 +72,13 @@ image.addEventListener("mousemove", function(event) {
         hangzhou.style.visibility = "hidden";
     }
 
-    if(x > 742 && x<841 && y>270 && y<340){    //沈阳
+    if(x > 738 && x<842 && y>265 && y<340){    //沈阳
         shenyang.style.visibility = "visible";
     }else {
         shenyang.style.visibility = "hidden";
     }
 
-    if(x > 559 && x<599 && y>368 && y<465){    //西安
+    if(x > 559 && x<590 && y>428 && y<449){    //西安
         xian.style.visibility = "visible";
     }else {
         xian.style.visibility = "hidden";

@@ -5,13 +5,13 @@
     <title>活动</title>
     <link rel="stylesheet" href = "css/main.css">
     <link rel="stylesheet" href = "css/event.css">
-    <link rel = "stylesheet" href = "css/navbar.css">
     <link rel = "icon" type = "image/x-icon" href = "favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel = "stylesheet" href = "css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href = "css/eventfunc.css">
+    <link rel="stylesheet" href = "css/testnav.css">
 
     <style>
         /* RESET CSS */
@@ -85,7 +85,7 @@
         }
 
         .carousel ul li div a {color: white; display: inline-block; padding: 8px 13px;
-            font-size: 13px; text-decoration: none; border-radius: 30px; border: white;
+            font-size: 12px; font-family: var(--font-family-microsoft_yahei-regular); text-decoration: none; border-radius: 30px; border: white;
             margin-top: 35px; background: #1D2088; margin-left: 65px; margin-right: -30px;} /*了解更多背景*/
 
         .carousel div b{
@@ -129,30 +129,28 @@
 
 
 
-<div class = "container">
-    <div class = "nav" id = "topNav">
-        <div class="navlogo">
-            <img src="img/-----20230215020424-1@2x.png" alt = "logo">
+<header>
+    <nav>
+        <div class="logo">
+            <img src="img/-----20230215020424-1@2x.png" alt="Logo">
         </div>
-        <a href = "main.html">主页</a>
-        <a class = "active" href = "event.html">活动</a>
-        <a href = "joinSucsa3.0.html">加入学联</a>
-        <a href = "join2.html">加入校友会</a>
-        <a href = "cooperation1.html">合作方</a>
-        <div class="dropdown">
-            <button onclick="dropdownFunc()" class="dropbtn">关于学联</button>
-            <div id="dropdown" class="dropdown-content">
-                <a href="history.html">学联历史</a>
-                <a href="introduction.html">学联介绍</a>
-
-            </div>
-        </div>
-        <a href = "contact.html">联系方式</a>
-        <a href="javascript:void(0);" class="icon" onclick="navFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
-</div>
+        <ul>
+            <li><a href="main.html">主页</a></li>
+            <li><a href="event.html" class = "active">活动</a></li>
+            <li><a href="joinSucsa3.0.html">加入学联</a></li>
+            <li><a href="join2.html">加入校友会</a></li>
+            <li><a href="cooperation1.html" >合作方</a></li>
+            <li class="dropdown">
+                <a>关于学联 <i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-menu">
+                    <li><a href="history.html">学联历史</a></li>
+                    <li><a href="introduction.html">学联简介</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">联系我们</a></li>
+        </ul>
+    </nav>
+</header>
 
 
 
@@ -186,9 +184,9 @@
 
 <!--往期活动滑动功能-->
 <div class = "block2">
-<div class="blackTitle " style="text-align: center;">—— 往期活动 ——</div>
+    <div class="blackTitle " style="text-align: center;">—— 往期活动 ——</div>
 
-<div class="carousel" duration="1000">
+    <div class="carousel" duration="1000">
         <ul tabindex="0">
             <li id="c1_slide1"><div>
                 <div>
@@ -228,52 +226,24 @@
 <!---->
 
 <!--往年活动滑动-->
+<div class="blackTitle" style="text-align: center; ">—— 往年活动 ——</div>
 <div class = "block3">
-<div class="blackTitle" style="text-align: center;">—— 往年活动 ——</div>
 
-    <table>
-        <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
+    <div class = "left">
+        <a href = "https://mp.weixin.qq.com/s/5cQTvfLlfLpJHKjE7m1ENA"> 2022 澳新高校秋季招聘会</a>
+        <a href = "https://mp.weixin.qq.com/s/D20kk5SO0Gscn9Emi7RyaQ"> 2022 新州中国学联壬寅年国庆中秋晚会</a>
+        <a href = "https://mp.weixin.qq.com/s/_eSA7OMu-pLdWN5PHVkmkw"> 2022 运动 Workshop 之 射箭</a>
+        <a href = "https://mp.weixin.qq.com/s/8Uqiw551DK1D7nA9PSVUmw"> 2022 Vivid Sydney Plog & Vlog大赛</a>
+        <a href = "https://mp.weixin.qq.com/s/re0gAHnVUjkVDm8RJcoooA"> 2022 端午节晚宴</a>
+    </div>
+    <div class = "right">
+        <a href = "https://mp.weixin.qq.com/s/gl2CmNcSZFFpY35A6gG5xQ"> 2021 3V3 悉尼两岸四地中华学子友谊赛</a>
+        <a href = "https://mp.weixin.qq.com/s/qgpLWp84pG55wGqsK-THNA"> 2021 全澳高校校友见面会</a>
+        <a href = "https://mp.weixin.qq.com/s/306cM93pg0QyQrlKnvaBAg"> 2021 新州学联星火杯知识竞赛</a>
+        <a href = "https://mp.weixin.qq.com/s/-w8LfldGdydoeZXlwYiXIA"> 2021 “你配吗”配音大赛</a>
+        <a href = "https://mp.weixin.qq.com/s/tIaDa0BzgRLgoKaPmbuvlA"> 2021 “过年天天乐”</a>
+    </div>
 
-        <tr>
-            <td><a href = "https://mp.weixin.qq.com/s/5cQTvfLlfLpJHKjE7m1ENA">2022澳新高校秋季招聘会</a></td>
-            <td></td>
-            <td><a href = "https://mp.weixin.qq.com/s/D20kk5SO0Gscn9Emi7RyaQ">2022新州中国学联壬寅年国庆中秋晚会</a></td>
-        </tr>
-
-        <tr>
-            <td><a href = "https://mp.weixin.qq.com/s/_eSA7OMu-pLdWN5PHVkmkw">2022 运动 Workshop 之 射箭</a></td>
-            <td></td>
-            <td><a href = "https://mp.weixin.qq.com/s/8Uqiw551DK1D7nA9PSVUmw">2022 Vivid Sydney Plog & Vlog大赛</a></td>
-        </tr>
-
-        <tr>
-            <td><a href = "https://mp.weixin.qq.com/s/re0gAHnVUjkVDm8RJcoooA">2022端午节晚宴</a></td>
-            <td></td>
-            <td><a href = "https://mp.weixin.qq.com/s/5cQTvfLlfLpJHKjE7m1ENA">2022澳新高校秋季招聘会</a></td>
-        </tr>
-
-        <tr>
-            <td><a href = "https://mp.weixin.qq.com/s/gl2CmNcSZFFpY35A6gG5xQ">2021 3V3 悉尼两岸四地中华学子友谊赛</a></td>
-            <td></td>
-            <td><a href = "https://mp.weixin.qq.com/s/qgpLWp84pG55wGqsK-THNA">2021 全澳高校校友见面会</a></td>
-        </tr>
-
-        <tr>
-            <td><a href = "https://mp.weixin.qq.com/s/306cM93pg0QyQrlKnvaBAg">2021 新州学联星火杯知识竞赛</a></td>
-            <td></td>
-            <td><a href = "https://mp.weixin.qq.com/s/5cQTvfLlfLpJHKjE7m1ENA">2021 “你配吗”配音大赛</a></td>
-        </tr>
-
-        <tr>
-            <td><a href = "https://mp.weixin.qq.com/s/tIaDa0BzgRLgoKaPmbuvlA">2021年“过年天天乐”</a></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>
 </div>
 <!---->
 
@@ -472,16 +442,19 @@
             <div class="col-md-3">
                 <div class="address">
                     <h2 class = "microsoftyahei-bold-white-20px">联系方式</h2>
-                    <div class="address-links">
-                        <li><a class = "microsoftyahei-regular-normal-white-20px"><i class="fa-solid fa-envelope "></i> sydneyunicsa@gmail.com</a></li>
+                    <div class="address-links" >
+                        <li><a class = "microsoftyahei-regular-normal-white-20px" href = "mailto:sydneyunicsa@gmail.com"><i class="fa-solid fa-envelope "></i>sydneyunicsa@gmail.com</a></li>
                     </div>
                     <h2 class = "microsoftyahei-bold-white-20px">关注我们</h2>
-                    <li style="display:inline-block; padding-right: 10px;"><a href = "#" class = "microsoftyahei-regular-normal-white-20px"><i class = "fa-brands fa fa-weixin" style="font-size: 40px;"></i></a></li>
-                    <li style="display:inline-block; padding-right: 10px;"><a href = "https://instagram.com/usydsucsa?igshid=YmMyMTA2M2Y=" class = "microsoftyahei-regular-normal-white-20px"><i class = "fa-brands fa-instagram" style="font-size: 40px;"></i></a></li>
-                    <li style="display:inline-block; padding-right: 10px;"><a href = "https://www.linkedin.com/company/sucsa/" class = "microsoftyahei-regular-normal-white-20px"><i class = "fa-brands fa fa-linkedin" style="font-size: 40px;"></i></a></li>
-                    <li style="display:inline-block; padding-right: 10px;"><a href = "https://m.weibo.cn/u/2264262765?uid=2264262765&luicode=10000011&lfid=100103type%3D1%26q%3D%E6%82%89%E5%B0%BC%E5%A4%A7%E5%AD%A6%E4%B8%AD%E5%9B%BD%E5%AD%A6%E7%94%9F%E5%AD%A6%E8%80%85%E8%81%94%E5%90%88%E4%BC%9A" class = "microsoftyahei-regular-normal-white-20px"><i class = "fa-brands fa fa-weibo" style="font-size: 40px;"></i></a></li>
-                    <li style="display:inline-block; padding-right: 10px;"><a href = "https://v.douyin.com/SJ9jjgR/" class = "microsoftyahei-regular-normal-white-20px"><i class = "fa-brands fa-tiktok" style="font-size: 40px;"></i></a></li>
-                    <li style="display:inline-block; padding-right: 10px;"><a href = "https://www.xiaohongshu.com/user/profile/5ebe58a8000000000101d766?xhsshare=CopyLink&appuid=5eb51bbe00000000010071eb&apptime=1677242668" class = "microsoftyahei-regular-normal-white-20px"><i class = "fa-brands fa fa-little-red-book" style="font-size: 40px";><img src="img/-------icon-ixintu1-1@2x.png" class="xhs"></i></a></li>
+                    <li style="display:inline-block; padding-right: 15px;"><a href = "contact.html" class = "microsoftyahei-regular-normal-white-20px"><svg t="1678370370217" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="10882" width="30" height="40"><path d="M664.250054 368.541681c10.015098 0 19.892049 0.732687 29.67281 1.795902-26.647917-122.810047-159.358451-214.077703-310.826188-214.077703-169.353083 0-308.085774 114.232694-308.085774 259.274068 0 83.708494 46.165436 152.460344 123.281791 205.78483l-30.80868 91.730191 107.688651-53.455469c38.558178 7.53665 69.459978 15.308661 107.924012 15.308661 9.66308 0 19.230993-0.470721 28.752858-1.225921-6.025227-20.36584-9.521864-41.723264-9.521864-63.862493C402.328693 476.632491 517.908058 368.541681 664.250054 368.541681zM498.62897 285.87389c23.200398 0 38.557154 15.120372 38.557154 38.061874 0 22.846334-15.356756 38.156018-38.557154 38.156018-23.107277 0-46.260603-15.309684-46.260603-38.156018C452.368366 300.994262 475.522716 285.87389 498.62897 285.87389zM283.016307 362.090758c-23.107277 0-46.402843-15.309684-46.402843-38.156018 0-22.941502 23.295566-38.061874 46.402843-38.061874 23.081695 0 38.46301 15.120372 38.46301 38.061874C321.479317 346.782098 306.098002 362.090758 283.016307 362.090758zM945.448458 606.151333c0-121.888048-123.258255-221.236753-261.683954-221.236753-146.57838 0-262.015505 99.348706-262.015505 221.236753 0 122.06508 115.437126 221.200938 262.015505 221.200938 30.66644 0 61.617359-7.609305 92.423993-15.262612l84.513836 45.786813-23.178909-76.17082C899.379213 735.776599 945.448458 674.90216 945.448458 606.151333zM598.803483 567.994292c-15.332197 0-30.807656-15.096836-30.807656-30.501688 0-15.190981 15.47546-30.477129 30.807656-30.477129 23.295566 0 38.558178 15.286148 38.558178 30.477129C637.361661 552.897456 622.099049 567.994292 598.803483 567.994292zM768.25071 567.994292c-15.213493 0-30.594809-15.096836-30.594809-30.501688 0-15.190981 15.381315-30.477129 30.594809-30.477129 23.107277 0 38.558178 15.286148 38.558178 30.477129C806.808888 552.897456 791.357987 567.994292 768.25071 567.994292z" fill="#ffffff" p-id="10883"></path></svg></a></li>
+                    <li style="display:inline-block; padding-right: 15px;"><a href = "https://www.xiaohongshu.com/user/profile/5ebe58a8000000000101d766?xhsshare=CopyLink&appuid=5eb51bbe00000000010071eb&apptime=1677242668" class = "microsoftyahei-regular-normal-white-20px"><svg t="1678369095939" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4368" width="25" height="30"><path d="M996.152 56.513c-7.986-10.852-17.61-20.885-28.871-28.87C944.143 10.442 916.09 0 885.377 0H138.419c-30.715 0-59.176 10.443-82.314 27.642-10.852 7.986-20.885 17.61-28.87 28.87C10.444 79.448 0.001 107.703 0.001 138.623V885.58c0 30.715 10.442 59.176 27.641 81.905 7.986 10.852 17.61 20.885 28.871 28.87 23.138 17.2 51.19 27.643 81.904 27.643h746.959c30.714 0 59.175-10.443 81.904-27.642 10.852-7.986 20.885-17.61 28.87-28.87 17.2-23.139 27.643-51.19 27.643-81.905V138.622c0-30.92-10.852-59.175-27.642-82.11z m-629.633 410.54c16.38-36.241 34.81-71.87 52.213-107.497h59.995c-14.743 29.28-31.124 57.947-41.566 85.794 24.366-1.433 46.48-2.662 72.484-4.095-13.923 27.847-26.209 52.623-38.494 77.398-1.639 3.276-3.277 6.757-4.915 10.033-12.9 25.8-12.9 26.004 15.767 26.62 3.071 0 5.938 0.41 11.466 1.022-7.985 15.767-15.152 30.1-22.728 44.228-1.229 2.253-4.71 4.915-6.962 4.915-21.09 0-42.385 0.614-63.475-1.639-15.152-1.638-21.09-13.309-15.152-27.642 7.166-17.814 15.766-35.219 23.752-52.828 2.662-6.143 5.528-12.08 9.42-21.09-11.673 0-20.272 0.206-28.872 0-24.776-1.023-33.17-12.285-22.933-35.218zM76.171 658.299c-12.695-22.114-24.16-42.59-35.832-63.065 0-2.458 22.933-72.485 17.814-151.726h63.065s2.253 148.45-45.047 214.791z m147.222-7.985c0.614 37.061-24.98 37.061-24.98 37.061H162.17l-38.085-50.37h39.928v-277.45h59.994c0 90.915-0.204 199.846-0.614 290.76z m87.227 4.71c-28.666-25.186-44.227-100.333-43.818-211.925h59.175c-4.504 58.765 14.538 137.187 14.538 137.187s-17.404 38.495-29.895 74.737z m129.817 26.004c-1.638 3.071-6.757 5.938-10.443 6.142-27.847 0.41-55.9 0.205-87.842 0.205 12.081-24.16 22.114-43.818 30.92-61.018h95.621c-10.647 20.885-19.042 38.085-28.256 54.67z m244.481 6.552h-215.2c10.442-20.68 29.075-57.537 29.075-57.537h61.428V441.87h-38.29v-58.766h138.622v57.947h-37.88v189.196h62.245v57.333z m284.615-43.409c0 43.409-42.385 42.18-42.385 42.18h-55.285l-23.138-49.756 59.995 0.205s0.614-45.047 0-60.609c-0.41-13.105-7.576-21.5-20.886-21.704-26.618-0.615-53.442-0.205-82.722-0.205v132.274h-59.38V555.1h-59.995v-61.222h58.356v-51.804h-38.7v-57.947h39.315v-24.571h59.994l0.41 24.57h47.708s44.024-1.023 44.228 41.77c0.205 12.697 0.41 54.263 0.41 68.187 50.575-0.205 72.075 10.033 72.075 45.25V644.17z m-25.39-200.46H912.2v-30.507c0-11.057 5.528-21.295 14.947-27.233 10.647-6.757 25.39-11.057 39.314 2.252 0.614 0.41 1.024 1.024 1.433 1.638 19.247 20.27 4.095 53.852-23.752 53.852z" fill="#ffffff" p-id="4369"></path><path d="M805.521 493.878h39.723v-52.01h-40.132z" fill="#ffffff" p-id="4370"></path></svg></a></li>
+                    <li style="display:inline-block; padding-right: 10px;"><a href = "https://instagram.com/usydsucsa?igshid=YmMyMTA2M2Y=" class = "microsoftyahei-regular-normal-white-20px"><svg t="1678370436546" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="12009" width="30" height="40"><path d="M512 306.9c-113.5 0-205.1 91.6-205.1 205.1S398.5 717.1 512 717.1 717.1 625.5 717.1 512 625.5 306.9 512 306.9z m0 338.4c-73.4 0-133.3-59.9-133.3-133.3S438.6 378.7 512 378.7 645.3 438.6 645.3 512 585.4 645.3 512 645.3zM725.5 250.7c-26.5 0-47.9 21.4-47.9 47.9s21.4 47.9 47.9 47.9 47.9-21.3 47.9-47.9c-0.1-26.6-21.4-47.9-47.9-47.9z" p-id="12010" fill="#ffffff"></path><path d="M911.8 512c0-55.2 0.5-109.9-2.6-165-3.1-64-17.7-120.8-64.5-167.6-46.9-46.9-103.6-61.4-167.6-64.5-55.2-3.1-109.9-2.6-165-2.6-55.2 0-109.9-0.5-165 2.6-64 3.1-120.8 17.7-167.6 64.5C132.6 226.3 118.1 283 115 347c-3.1 55.2-2.6 109.9-2.6 165s-0.5 109.9 2.6 165c3.1 64 17.7 120.8 64.5 167.6 46.9 46.9 103.6 61.4 167.6 64.5 55.2 3.1 109.9 2.6 165 2.6 55.2 0 109.9 0.5 165-2.6 64-3.1 120.8-17.7 167.6-64.5 46.9-46.9 61.4-103.6 64.5-167.6 3.2-55.1 2.6-109.8 2.6-165z m-88 235.8c-7.3 18.2-16.1 31.8-30.2 45.8-14.1 14.1-27.6 22.9-45.8 30.2C695.2 844.7 570.3 840 512 840c-58.3 0-183.3 4.7-235.9-16.1-18.2-7.3-31.8-16.1-45.8-30.2-14.1-14.1-22.9-27.6-30.2-45.8C179.3 695.2 184 570.3 184 512c0-58.3-4.7-183.3 16.1-235.9 7.3-18.2 16.1-31.8 30.2-45.8s27.6-22.9 45.8-30.2C328.7 179.3 453.7 184 512 184s183.3-4.7 235.9 16.1c18.2 7.3 31.8 16.1 45.8 30.2 14.1 14.1 22.9 27.6 30.2 45.8C844.7 328.7 840 453.7 840 512c0 58.3 4.7 183.2-16.2 235.8z" p-id="12011" fill="#ffffff"></path></svg></a></li>
+                    </br>
+                    <li style="display:inline-block; padding-right: 13px; padding-top: 10px;"><a href = "https://m.weibo.cn/u/2264262765?uid=2264262765&luicode=10000011&lfid=100103type%3D1%26q%3D%E6%82%89%E5%B0%BC%E5%A4%A7%E5%AD%A6%E4%B8%AD%E5%9B%BD%E5%AD%A6%E7%94%9F%E5%AD%A6%E8%80%85%E8%81%94%E5%90%88%E4%BC%9A" class = "microsoftyahei-regular-normal-white-20px"><svg t="1678370482588" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="13019" width="30" height="40"><path d="M457.3 543c-68.1-17.7-145 16.2-174.6 76.2-30.1 61.2-1 129.1 67.8 151.3 71.2 23 155.2-12.2 184.4-78.3 28.7-64.6-7.2-131-77.6-149.2z m-52 156.2c-13.8 22.1-43.5 31.7-65.8 21.6-22-10-28.5-35.7-14.6-57.2 13.7-21.4 42.3-31 64.4-21.7 22.4 9.5 29.6 35 16 57.3z m45.5-58.5c-5 8.6-16.1 12.7-24.7 9.1-8.5-3.5-11.2-13.1-6.4-21.5 5-8.4 15.6-12.4 24.1-9.1 8.7 3.2 11.8 12.9 7 21.5zM785.3 443.5c15 4.8 31-3.4 35.9-18.3 11.8-36.6 4.4-78.4-23.2-109-27.6-30.6-68.4-42.3-106-34.3-15.4 3.3-25.2 18.4-21.9 33.8 3.3 15.3 18.4 25.2 33.8 21.8 18.4-3.9 38.3 1.8 51.9 16.7 13.5 15 17.2 35.4 11.3 53.3-4.9 15.1 3.2 31.1 18.2 36z" p-id="13020" fill="#ffffff"></path><path d="M885.1 237.5c-56.7-62.9-140.4-86.9-217.7-70.5-17.9 3.8-29.3 21.4-25.4 39.3 3.8 17.9 21.4 29.3 39.3 25.5 55-11.7 114.4 5.4 154.8 50.1 40.3 44.7 51.2 105.7 34 159.1-5.6 17.4 3.9 36 21.3 41.7 17.4 5.6 36-3.9 41.6-21.2v-0.1c24.1-75.4 8.9-161.1-47.9-223.9zM729 499c-12.2-3.6-20.5-6.1-14.1-22.1 13.8-34.7 15.2-64.7 0.3-86-28-40.1-104.8-37.9-192.8-1.1 0 0-27.6 12.1-20.6-9.8 13.5-43.5 11.5-79.9-9.6-101-47.7-47.8-174.6 1.8-283.5 110.6C127.3 471.1 80 557.5 80 632.2 80 775.1 263.2 862 442.5 862c235 0 391.3-136.5 391.3-245 0-65.5-55.2-102.6-104.8-118zM443 810.8c-143 14.1-266.5-50.5-275.8-144.5-9.3-93.9 99.2-181.5 242.2-195.6 143-14.2 266.5 50.5 275.8 144.4C694.4 709 586 796.6 443 810.8z" p-id="13021" fill="#ffffff"></path></svg></a></li>
+                    <li style="display:inline-block; padding-right: 13px;"><a href = "https://v.douyin.com/SJ9jjgR/" class = "microsoftyahei-regular-normal-white-20px"><svg t="1678370553746" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="13528" width="30" height="40"><path d="M618.666667 149.333333h-85.333334v512a128 128 0 1 1-85.333333-120.533333V452.266667a217.6 217.6 0 0 0-42.666667-4.266667 213.333333 213.333333 0 1 0 213.333334 213.333333V358.186667A298.666667 298.666667 0 0 0 832 448v-85.333333A213.333333 213.333333 0 0 1 618.666667 149.333333z" p-id="13529" fill="#ffffff"></path></svg></a></li>
+                    <li style="display:inline-block; padding-right: 10px;"><a href = "https://instagram.com/usydsucsa?igshid=YmMyMTA2M2Y=" class = "microsoftyahei-regular-normal-white-20px"><svg t="1678370597633" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="13793" width="30" height="40"><path d="M847.7 112H176.3c-35.5 0-64.3 28.8-64.3 64.3v671.4c0 35.5 28.8 64.3 64.3 64.3h671.4c35.5 0 64.3-28.8 64.3-64.3V176.3c0-35.5-28.8-64.3-64.3-64.3z m0 736c-447.8-0.1-671.7-0.2-671.7-0.3 0.1-447.8 0.2-671.7 0.3-671.7 447.8 0.1 671.7 0.2 671.7 0.3-0.1 447.8-0.2 671.7-0.3 671.7zM230.6 411.9h118.7v381.8H230.6z m59.4-52.2c37.9 0 68.8-30.8 68.8-68.8 0-37.9-30.8-68.8-68.8-68.8s-68.8 30.8-68.8 68.8c-0.1 38 30.7 68.8 68.8 68.8z m252.3 245.1c0-49.8 9.5-98 71.2-98 60.8 0 61.7 56.9 61.7 101.2v185.7h118.6V584.3c0-102.8-22.2-181.9-142.3-181.9-57.7 0-96.4 31.7-112.3 61.7h-1.6v-52.2H423.7v381.8h118.6V604.8z" p-id="13794" fill="#ffffff"></path></svg></a></li>
+
+
                 </div>
             </div>
 

@@ -100,7 +100,7 @@
     margin-top: 10%;
     margin-bottom: 3%;
 
-    z-index: -1;
+    /*z-index: -1;*/
 }
 
 .table-frame {
@@ -114,8 +114,10 @@
     margin-top: 50px;
     margin-bottom: 3%;
 
-    z-index: -1;
+    /*z-index: -1;*/
 }
+
+tr:nth-child(odd){background-color: var(--allports)}
 
 .fframe contact-btn{
     align-items: flex-start;
@@ -126,7 +128,7 @@
     gap: 40px;
     padding: 8px;
     background-color: var(--jacksons-purple);
-    z-index: 1;
+    /*z-index: 1;*/
     width: 280px;
 }
 
@@ -176,7 +178,7 @@
     margin-right: 500px;
     position: relative;
     width: auto ;
-    z-index: -1;
+    /*z-index: -1;*/
 }
 
 .fframe2 {
@@ -275,7 +277,7 @@
     margin-right: 500px;
     position: relative;
     width: auto ;
-    z-index: -1;
+    /*z-index: -1;*/
 }
 
 .title-text{
@@ -327,7 +329,6 @@
 .line {
     height: 5px;
     left: 0;
-    right: 0;
     position: absolute;
     top: 22px;
     width: 125px;
@@ -371,3 +372,13 @@
 .join-btn:hover .btn-text {
     color: #1D2088;
 }
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:var(--font-family-microsoft_yahei-regular);font-size:16px;
+    overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:var(--font-family-microsoft_yahei-regular);font-size:16px;
+    font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-mw1e{background-color:white;border-color:inherit;color:#000000;font-family:var(--font-family-microsoft_yahei-regular);text-align:center;
+    vertical-align:top}
+.tg .tg-bx1q{background-color:white;border-color:inherit;font-family:var(--font-family-microsoft_yahei-regular);text-align:center;vertical-align:top}
+.tg .tg-p8sp{border-color:inherit;font-family:var(--font-family-microsoft_yahei-regular);font-size:16px;text-align:center;vertical-align:top}

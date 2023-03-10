@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Microsoft YaHei-Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/msyhbd.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Microsoft YaHei-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/msyh.ttf") format("truetype");
+}
+
+:root {
+    --allports: #006fb530;
+    --black: #000000;
+    --jacksons-purple: #1d2088;
+    --white: #ffffff;
+
+    --font-size-l: 32px;
+    --font-size-m: 20px;
+    --font-size-xl: 40px;
+    --font-size-s: 16px;
+    --font-size-ms: 25px;
+
+    --font-family-microsoft_yahei-bold: "Microsoft YaHei-Bold", Helvetica;
+    --font-family-microsoft_yahei-regular: "Microsoft YaHei-Regular", Helvetica;
+}
+
+.microsoftyahei-bold-black-25px {
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-ms);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.microsoftyahei-bold-blue-40px{
+    color: var(--jacksons-purple);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.body_img .body_img1 img, .body_img .body_img2 img, .body_img .body_img3 img, .body_img .body_img4 img{
+    width: 80%;
+    padding: 20px 10px;
+    margin-left: 10%;
+}
+
+
+
+.body_img{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+
+
+.body_img p{
+    font-size: 16px;
+    text-align: center;
+    /*color: var(--jacksons-purple);*/
+    font-family: var(--font-family-microsoft_yahei-regular);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    /*margin-left: 2%;*/
+    /*margin-right: 2%;*/
+}
+
+.title1{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    color: var(--jacksons-purple);
+    font-family: var(--font-family-microsoft_yahei-bold);
+
+}
+
+.title2{
+    text-align: center;
+
+    /*margin-top: 10%;*/
+    margin-bottom: 2%;
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-l);
+
+
+}
+
+
+
+
+

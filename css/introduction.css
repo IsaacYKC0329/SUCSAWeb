@@ -24,7 +24,7 @@
     --font-size-l: 32px;
     --font-size-m: 20px;
     --font-size-xl: 40px;
-    --font-size-nml: 20px;
+    --font-size-nml: 16px;
     --font-size-ct: 16px;
 
     --font-family-microsoft_yahei-bold: "Microsoft YaHei-Bold", Helvetica;
@@ -56,20 +56,21 @@
     margin-left: 85%;
 }
 
-.intro text{
+.intro .text{
     color: var(--black);
     font-family: var(--font-family-microsoft_yahei-regular);
     font-size: var(--font-size-nml);
     font-style: normal;
     font-weight: 400;
-    margin-top: 50px;
     width: 100%;
+    line-height: 1.5;
+    text-align: justify;
 }
 
 .content h2{
     color: var(--black);
     font-family: var(--font-family-microsoft_yahei-bold);
-    font-size: var(--font-size-ct);
+    font-size: var(--font-size-m);
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -98,6 +99,7 @@
     padding: 3px;
     margin-left: 10%;
     font-size: var(--font-size-ct);
+    line-height: 1.5;
 
 }
 
@@ -116,7 +118,7 @@
 .manage-graph h1{
     color: var(--black);
     font-family: var(--font-family-microsoft_yahei-bold);
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-l);
     font-weight: 700;
     letter-spacing: 0;
     line-height: normal;
@@ -133,7 +135,7 @@
 .depart-intro h1{
     color: var(--black);
     font-family: var(--font-family-microsoft_yahei-bold);
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-l);
     font-weight: 700;
     letter-spacing: 0;
     line-height: normal;
@@ -142,7 +144,7 @@
 .depart-intro h2{
     color: var(--black);
     font-family: var(--font-family-microsoft_yahei-bold);
-    font-size: var(--font-size-l);
+    font-size: var(--font-size-m);
     font-weight: 700;
     letter-spacing: 0;
     line-height: normal;
@@ -161,14 +163,27 @@
     width: 65%;
     margin-top: 2%;
     margin-bottom: 2%;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.depart-intro .finance-Department u, .secretary u, .Hr u, .marketing u, .design-d u, .new-media u, .entertain u, .communicate u, .career u, .art u{
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-ct);
+    font-style: normal;
+    font-weight: 700;
+    width: 50%;
+    border-bottom: 2px black;
+
 }
 
 
 
-.depart-intro .parent .art2 h3,.depart-intro .parent .art3 h3{
+.depart-intro .parent .art2 u,.depart-intro .parent .art3 u{
     color: var(--black);
     font-family: var(--font-family-microsoft_yahei-bold);
-    font-size: var(--font-size-m);
+    font-size: var(--font-size-ct);
     font-style: normal;
     font-weight: 700;
     width: 50%;
@@ -176,14 +191,20 @@
 
 }
 
-.depart-intro .parent .art2,.depart-intro .parent .art3{
-    display: flex;
+.depart-intro .parent .art2{
     flex-direction: column;
-    /*justify-content: left;*/
-    /*align-items: center;*/
-    width: 40%;
+    width: 55%;
+    margin-left: 2%;
+    line-height: 1.5;
+
 }
 
+.depart-intro .parent .art3{
+    flex-direction: column;
+    width: 55%;
+    margin-left: -20%;
+    line-height: 1.5;
+}
 
 
 .depart-intro .parent .art2 .text-d, .art3 .text-d{
@@ -234,13 +255,19 @@
 .avatar-text1 {
     font-size: var(--font-size-ct);
     font-family: var(--font-family-microsoft_yahei-bold);
+    line-height: 1.5;
+}
 
+.avatar-text{
+    font-size: var(--font-size-ct);
+    font-family: var(--font-family-microsoft_yahei-regular);
+    line-height: 1.5;
 }
 
 .current-manage h1{
     color: var(--black);
     font-family: var(--font-family-microsoft_yahei-bold);
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-l);
     font-weight: 700;
     letter-spacing: 0;
     line-height: normal;
@@ -259,7 +286,7 @@
 .current-honor h1{
     color: var(--black);
     font-family: var(--font-family-microsoft_yahei-bold);
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-l);
     font-weight: 700;
     letter-spacing: 0;
     line-height: normal;
@@ -280,7 +307,7 @@
 .alumini h1{
     color: var(--black);
     font-family: var(--font-family-microsoft_yahei-bold);
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-l);
     font-weight: 700;
     letter-spacing: 0;
     line-height: normal;
@@ -298,16 +325,29 @@
     width: 40%;
     margin-top: 2%;
     margin-bottom: 2%;
+    line-height: 1.5;
+}
+
+.alumini .text-al1{
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-regular);
+    font-size: var(--font-size-nml);
+    font-style: normal;
+    font-weight: 400;
+    width: 60%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    line-height: 1.5;
+    text-align: justify;
 }
 
 .alumini-logo img{
     float: right;
     display: flex;
     flex-wrap: wrap;
-    gap: 2%;
-    /*margin-left: 5%;*/
+    gap: 1%;
     width: 30%;
-    margin-right: 30%;
+    margin-right: 40%;
 }
 /*alumini end*/
 
@@ -316,6 +356,18 @@
     margin-left: 15%;
     margin-top: 5%;
     margin-bottom: 5%;
+}
+
+.mascot-intro h1{
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-l);
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
 }
 
 .mascot-logo img{
@@ -336,6 +388,13 @@
     width: 40%;
     margin-top: 2%;
     margin-bottom: 2%;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.mascot-intro a{
+    font-family: var(--font-family-microsoft_yahei-regular);
+    font-size: var(--font-size-ct);
 }
 
 /*mascot end*/
@@ -351,7 +410,7 @@
 .web-group-intro h1{
     color: var(--black);
     font-family: var(--font-family-microsoft_yahei-bold);
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-l);
     font-weight: 700;
     letter-spacing: 0;
     line-height: normal;
@@ -365,14 +424,31 @@
     font-size: var(--font-size-nml);
     font-style: normal;
     font-weight: 400;
-    margin-top: 50px;
+    margin-top: 20px;
     width: 40%;
+}
+
+.coordinating th, .technical th, .design th, .editing th{
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-bold);
+
 }
 
 .coordinating a, .technical a, .design a, .editing a{
     text-decoration: none;
     color: var(--black);
 }
+
+th{
+    height: 30px;
+
+}
+
+td{
+    width: 300px;
+    height: 30px;
+}
+
 
 tr:nth-child(odd){background-color: var(--white)}
 

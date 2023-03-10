@@ -21,7 +21,7 @@
     --font-size-l: 32px;
     --font-size-m: 20px;
     --font-size-xl: 40px;
-    --font-size-s: 15px;
+    --font-size-s: 16px;
 
     --font-family-microsoft_yahei-bold: "Microsoft YaHei-Bold", Helvetica;
     --font-family-microsoft_yahei-regular: "Microsoft YaHei-Regular", Helvetica;
@@ -39,6 +39,22 @@
     color: var(--jacksons-purple);
     font-family: var(--font-family-microsoft_yahei-bold);
     font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.microsoftyahei-regular-normal-black-16px{
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-regular);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.microsoftyahei-bold-black-16px{
+    color: var(--black);
+    font-family: var(--font-family-microsoft_yahei-bold);
+    font-size: var(--font-size-s);
     font-style: normal;
     font-weight: 700;
 }
@@ -129,35 +145,52 @@
 .phrases{
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 10px;
 }
 
-.button {
-    margin-top: 20px;
-    background-color: #1D2088;
+
+.entrance .main-button1 {
     /*align-items: flex-start;*/
     border: 3px solid;
-    border-color: var(--blue);
+    border-color: var(--jacksons-purple);
     border-radius: 32px;
     display: flex;
-    left: 0;
-    padding: 14px 29px;
-    /*position: absolute;*/
-    /*top: 195px;*/
-    width: 180px;
-    text-decoration: none;
+    gap: 40px;
+    padding: 15px;
+    background-color: var(--jacksons-purple);
+    z-index: 1;
+    width: 200px;
+    /*margin-left: 5%;*/
+    margin-top: 20px;
 }
 
-.button-text {
+.entrance .main-button1-text{
+    padding-left: 48px;
+}
+
+.entrance a {
     color: white;
     font-weight: bold;
     flex: 1;
     letter-spacing: 0;
     line-height: normal;
     margin-top: -3.00px;
-    position: relative;
-    text-align: center;
+    /*position: relative;*/
+    /*text-align: center;*/
     text-decoration: none;
 }
+
+.entrance .main-button1:hover {
+    background-color: white;
+}
+
+.entrance .main-button1:hover .main-button1-text {
+    color: #1D2088;
+
+}
+
+
+
 .join__page{
     margin-left: 15%;
     margin-right: 15%;
@@ -197,15 +230,22 @@
     display: flex;
 }
 
+.l__iholder:hover .join__group{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.r__iholder:hover .join__group{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .join__group{
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: 10px;
 
 }
 
-.iholder .join__group:hover{
-    border-bottom: 5px solid #1d2088;
-}
 
 .arrow{
     max-width: 50px;
@@ -237,7 +277,7 @@
 .text__holder{
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .content__text{
@@ -258,7 +298,7 @@
 }
 
 .book__name{
-    margin-left: 280px;
+    margin-left: 35%;
     transform: translateY(-500%);
 }
 
@@ -273,9 +313,13 @@
     border: 3px solid;
     border-color: var(--white);
     border-radius: 32px;
-    margin-top: -20%;
+    margin-top: 2%;
     display: flex;
-    padding: 0% 10%;
+    /*padding: 0% 10%;*/
+    width: 180px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 7.5%;
 }
 
 .inclusive__holder a{
